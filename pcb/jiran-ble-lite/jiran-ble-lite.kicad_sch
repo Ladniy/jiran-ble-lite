@@ -2301,7 +2301,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 149.86 151.511 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061138070)
-    (property "Reference" "#FLG01" (id 0) (at 149.86 149.606 0)
+    (property "Reference" "#FLG02" (id 0) (at 149.86 149.606 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 149.86 147.1168 0))
@@ -2317,7 +2317,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 157.48 131.191 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061103d58)
-    (property "Reference" "#FLG02" (id 0) (at 157.48 129.286 0)
+    (property "Reference" "#FLG01" (id 0) (at 157.48 129.286 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 157.48 126.7968 0)
@@ -2335,7 +2335,7 @@
   (symbol (lib_id "power:GND") (at 38.1 36.83 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006068f821)
-    (property "Reference" "#PWR04" (id 0) (at 31.75 36.83 0)
+    (property "Reference" "#PWR01" (id 0) (at 31.75 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 34.29 38.735 0)
@@ -2353,7 +2353,7 @@
   (symbol (lib_id "power:GND") (at 46.736 145.161 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e908c24)
-    (property "Reference" "#PWR07" (id 0) (at 46.736 138.811 0)
+    (property "Reference" "#PWR08" (id 0) (at 46.736 138.811 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 46.736 141.351 0))
@@ -2369,7 +2369,7 @@
   (symbol (lib_id "power:GND") (at 49.657 126.111 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e991365)
-    (property "Reference" "#PWR03" (id 0) (at 56.007 126.111 0)
+    (property "Reference" "#PWR04" (id 0) (at 56.007 126.111 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 53.467 126.111 0))
@@ -2385,7 +2385,7 @@
   (symbol (lib_id "power:GND") (at 76.962 144.399 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000602e5398)
-    (property "Reference" "#PWR02" (id 0) (at 70.612 144.399 0)
+    (property "Reference" "#PWR07" (id 0) (at 70.612 144.399 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 73.152 144.399 0))
@@ -2401,7 +2401,7 @@
   (symbol (lib_id "power:GND") (at 86.36 36.83 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000606910c5)
-    (property "Reference" "#PWR05" (id 0) (at 92.71 36.83 0)
+    (property "Reference" "#PWR02" (id 0) (at 92.71 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 90.17 34.925 0)
@@ -2419,7 +2419,7 @@
   (symbol (lib_id "power:GND") (at 86.36 67.31 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060692613)
-    (property "Reference" "#PWR09" (id 0) (at 92.71 67.31 0)
+    (property "Reference" "#PWR03" (id 0) (at 92.71 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 90.17 65.405 0)
@@ -2437,7 +2437,7 @@
   (symbol (lib_id "power:GND") (at 102.362 126.111 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e81e121)
-    (property "Reference" "#PWR08" (id 0) (at 108.712 126.111 0)
+    (property "Reference" "#PWR05" (id 0) (at 108.712 126.111 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 106.172 126.111 0))
@@ -2453,7 +2453,7 @@
   (symbol (lib_id "power:GND") (at 149.86 151.511 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061136e96)
-    (property "Reference" "#PWR01" (id 0) (at 149.86 157.861 0)
+    (property "Reference" "#PWR09" (id 0) (at 149.86 157.861 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 149.987 155.9052 0))
@@ -2469,7 +2469,7 @@
   (symbol (lib_id "power:GND") (at 167.005 141.351 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f7552d5)
-    (property "Reference" "#PWR014" (id 0) (at 167.005 147.701 0)
+    (property "Reference" "#PWR06" (id 0) (at 167.005 147.701 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 167.005 145.161 0))
@@ -2485,7 +2485,7 @@
   (symbol (lib_id "Device:R_Small") (at 97.282 126.111 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060dd5462)
-    (property "Reference" "R4" (id 0) (at 97.282 121.1326 90))
+    (property "Reference" "R1" (id 0) (at 97.282 121.1326 90))
     (property "Value" "1k" (id 1) (at 97.282 123.444 90))
     (property "Footprint" "jiran-ble:R_0402" (id 2) (at 97.282 126.111 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2500,7 +2500,7 @@
   (symbol (lib_id "Device:D_Small") (at 129.413 32.131 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dacbec8)
-    (property "Reference" "D2" (id 0) (at 131.1402 32.131 90)
+    (property "Reference" "D1" (id 0) (at 131.1402 32.131 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 131.1402 33.274 90)
@@ -2519,7 +2519,7 @@
   (symbol (lib_id "Device:D_Small") (at 129.413 42.291 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad32aa)
-    (property "Reference" "D8" (id 0) (at 131.1402 42.291 90)
+    (property "Reference" "D7" (id 0) (at 131.1402 42.291 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 131.1402 43.434 90)
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "Device:D_Small") (at 129.413 52.451 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad50df)
-    (property "Reference" "D14" (id 0) (at 131.1402 52.451 90)
+    (property "Reference" "D13" (id 0) (at 131.1402 52.451 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 131.1402 53.594 90)
@@ -2557,7 +2557,7 @@
   (symbol (lib_id "Device:D_Small") (at 129.413 62.611 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad62ce)
-    (property "Reference" "D20" (id 0) (at 131.1402 62.611 90)
+    (property "Reference" "D19" (id 0) (at 131.1402 62.611 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 131.1402 63.754 90)
@@ -2576,7 +2576,7 @@
   (symbol (lib_id "Device:D_Small") (at 129.413 72.771 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad7eb7)
-    (property "Reference" "D26" (id 0) (at 131.1402 72.771 90)
+    (property "Reference" "D25" (id 0) (at 131.1402 72.771 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 131.1402 73.914 90)
@@ -2595,7 +2595,7 @@
   (symbol (lib_id "Device:D_Small") (at 144.653 32.131 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005daccfb7)
-    (property "Reference" "D3" (id 0) (at 146.3802 32.131 90)
+    (property "Reference" "D2" (id 0) (at 146.3802 32.131 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 146.3802 33.274 90)
@@ -2614,7 +2614,7 @@
   (symbol (lib_id "Device:D_Small") (at 144.653 42.291 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad32b0)
-    (property "Reference" "D9" (id 0) (at 146.3802 42.291 90)
+    (property "Reference" "D8" (id 0) (at 146.3802 42.291 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 146.3802 43.434 90)
@@ -2633,7 +2633,7 @@
   (symbol (lib_id "Device:D_Small") (at 144.653 52.451 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad50e5)
-    (property "Reference" "D15" (id 0) (at 146.3802 52.451 90)
+    (property "Reference" "D14" (id 0) (at 146.3802 52.451 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 146.3802 53.594 90)
@@ -2652,7 +2652,7 @@
   (symbol (lib_id "Device:D_Small") (at 144.653 62.611 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad62d4)
-    (property "Reference" "D21" (id 0) (at 146.3802 62.611 90)
+    (property "Reference" "D20" (id 0) (at 146.3802 62.611 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 146.3802 63.754 90)
@@ -2671,7 +2671,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 154.94 126.111 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005b158495)
-    (property "Reference" "D1" (id 0) (at 148.9964 126.111 0))
+    (property "Reference" "D29" (id 0) (at 148.9964 126.111 0))
     (property "Value" "B5819W" (id 1) (at 151.765 126.111 0))
     (property "Footprint" "jiran-ble:D_SOD-123" (id 2) (at 159.385 126.111 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2686,7 +2686,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.893 32.131 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dacdb06)
-    (property "Reference" "D4" (id 0) (at 161.6202 32.131 90)
+    (property "Reference" "D3" (id 0) (at 161.6202 32.131 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 161.6202 33.274 90)
@@ -2705,7 +2705,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.893 42.291 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad32b6)
-    (property "Reference" "D10" (id 0) (at 161.6202 42.291 90)
+    (property "Reference" "D9" (id 0) (at 161.6202 42.291 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 161.6202 43.434 90)
@@ -2724,7 +2724,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.893 52.451 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad50eb)
-    (property "Reference" "D16" (id 0) (at 161.6202 52.451 90)
+    (property "Reference" "D15" (id 0) (at 161.6202 52.451 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 161.6202 53.594 90)
@@ -2743,7 +2743,7 @@
   (symbol (lib_id "Device:D_Small") (at 159.893 62.611 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad62da)
-    (property "Reference" "D22" (id 0) (at 161.6202 62.611 90)
+    (property "Reference" "D21" (id 0) (at 161.6202 62.611 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 161.6202 63.754 90)
@@ -2762,7 +2762,7 @@
   (symbol (lib_id "Device:D_Small") (at 175.133 32.131 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dace326)
-    (property "Reference" "D5" (id 0) (at 176.8602 32.131 90)
+    (property "Reference" "D4" (id 0) (at 176.8602 32.131 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 176.8602 33.274 90)
@@ -2781,7 +2781,7 @@
   (symbol (lib_id "Device:D_Small") (at 175.133 42.291 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad32bc)
-    (property "Reference" "D11" (id 0) (at 176.8602 42.291 90)
+    (property "Reference" "D10" (id 0) (at 176.8602 42.291 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 176.8602 43.434 90)
@@ -2800,7 +2800,7 @@
   (symbol (lib_id "Device:D_Small") (at 175.133 52.451 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad50f1)
-    (property "Reference" "D17" (id 0) (at 176.8602 52.451 90)
+    (property "Reference" "D16" (id 0) (at 176.8602 52.451 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 176.8602 53.594 90)
@@ -2819,7 +2819,7 @@
   (symbol (lib_id "Device:D_Small") (at 175.133 62.611 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad62e0)
-    (property "Reference" "D23" (id 0) (at 176.8602 62.611 90)
+    (property "Reference" "D22" (id 0) (at 176.8602 62.611 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 176.8602 63.754 90)
@@ -2838,7 +2838,7 @@
   (symbol (lib_id "Device:D_Small") (at 175.133 72.771 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad7ec9)
-    (property "Reference" "D27" (id 0) (at 176.8602 72.771 90)
+    (property "Reference" "D26" (id 0) (at 176.8602 72.771 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 176.8602 73.914 90)
@@ -2857,7 +2857,7 @@
   (symbol (lib_id "Device:D_Small") (at 190.373 32.131 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dacf0c2)
-    (property "Reference" "D6" (id 0) (at 192.1002 32.131 90)
+    (property "Reference" "D5" (id 0) (at 192.1002 32.131 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 192.1002 33.274 90)
@@ -2876,7 +2876,7 @@
   (symbol (lib_id "Device:D_Small") (at 190.373 42.291 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad32c2)
-    (property "Reference" "D12" (id 0) (at 192.1002 42.291 90)
+    (property "Reference" "D11" (id 0) (at 192.1002 42.291 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 192.1002 43.434 90)
@@ -2895,7 +2895,7 @@
   (symbol (lib_id "Device:D_Small") (at 190.373 52.451 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad50f7)
-    (property "Reference" "D18" (id 0) (at 192.1002 52.451 90)
+    (property "Reference" "D17" (id 0) (at 192.1002 52.451 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 192.1002 53.594 90)
@@ -2914,7 +2914,7 @@
   (symbol (lib_id "Device:D_Small") (at 190.373 62.611 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad62e6)
-    (property "Reference" "D24" (id 0) (at 192.1002 62.611 90)
+    (property "Reference" "D23" (id 0) (at 192.1002 62.611 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 192.1002 63.754 90)
@@ -2933,7 +2933,7 @@
   (symbol (lib_id "Device:D_Small") (at 190.373 72.771 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad7ecf)
-    (property "Reference" "D28" (id 0) (at 192.1002 72.771 90)
+    (property "Reference" "D27" (id 0) (at 192.1002 72.771 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 192.1002 73.914 90)
@@ -2952,7 +2952,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.613 32.131 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dacf9c3)
-    (property "Reference" "D7" (id 0) (at 207.3402 32.131 90)
+    (property "Reference" "D6" (id 0) (at 207.3402 32.131 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 207.3402 33.274 90)
@@ -2971,7 +2971,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.613 42.291 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad32c8)
-    (property "Reference" "D13" (id 0) (at 207.3402 42.291 90)
+    (property "Reference" "D12" (id 0) (at 207.3402 42.291 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 207.3402 43.434 90)
@@ -2990,7 +2990,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.613 52.451 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad50fd)
-    (property "Reference" "D19" (id 0) (at 207.3402 52.451 90)
+    (property "Reference" "D18" (id 0) (at 207.3402 52.451 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 207.3402 53.594 90)
@@ -3009,7 +3009,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.613 62.611 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad62ec)
-    (property "Reference" "D25" (id 0) (at 207.3402 62.611 90)
+    (property "Reference" "D24" (id 0) (at 207.3402 62.611 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 207.3402 63.754 90)
@@ -3028,7 +3028,7 @@
   (symbol (lib_id "Device:D_Small") (at 205.613 72.771 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dad7ed5)
-    (property "Reference" "D29" (id 0) (at 207.3402 72.771 90)
+    (property "Reference" "D28" (id 0) (at 207.3402 72.771 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N5819" (id 1) (at 207.3402 73.914 90)
@@ -3166,7 +3166,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 42.037 126.111 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dc86d0da-0f20-467e-a7e3-62aa396e175e)
-    (property "Reference" "SW1" (id 0) (at 42.037 119.761 0))
+    (property "Reference" "SWT1" (id 0) (at 42.037 119.761 0))
     (property "Value" "SW_Push" (id 1) (at 42.037 122.301 0))
     (property "Footprint" "jiran-ble:TS-1086E" (id 2) (at 42.037 121.031 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3181,7 +3181,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 134.493 29.591 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005daae5c1)
-    (property "Reference" "SW2" (id 0) (at 134.493 25.654 0))
+    (property "Reference" "SW1" (id 0) (at 134.493 25.654 0))
     (property "Value" "SW_Push" (id 1) (at 134.493 24.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3198,7 +3198,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 134.493 39.751 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dabcf73)
-    (property "Reference" "SW8" (id 0) (at 134.493 35.814 0))
+    (property "Reference" "SW7" (id 0) (at 134.493 35.814 0))
     (property "Value" "SW_Push" (id 1) (at 134.493 34.8234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3215,7 +3215,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 134.493 49.911 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac0c7b)
-    (property "Reference" "SW14" (id 0) (at 134.493 45.974 0))
+    (property "Reference" "SW13" (id 0) (at 134.493 45.974 0))
     (property "Value" "SW_Push" (id 1) (at 134.493 44.9834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3232,7 +3232,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 134.493 60.071 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac4a60)
-    (property "Reference" "SW20" (id 0) (at 134.493 56.134 0))
+    (property "Reference" "SW19" (id 0) (at 134.493 56.134 0))
     (property "Value" "SW_Push" (id 1) (at 134.493 55.1434 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3249,7 +3249,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 134.493 70.231 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac93d4)
-    (property "Reference" "SW26" (id 0) (at 134.493 66.294 0))
+    (property "Reference" "SW25" (id 0) (at 134.493 66.294 0))
     (property "Value" "SW_Push" (id 1) (at 134.493 65.3034 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3266,7 +3266,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.733 29.591 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dab46e1)
-    (property "Reference" "SW3" (id 0) (at 149.733 25.654 0))
+    (property "Reference" "SW2" (id 0) (at 149.733 25.654 0))
     (property "Value" "SW_Push" (id 1) (at 149.733 24.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3283,7 +3283,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.733 39.751 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dabcf79)
-    (property "Reference" "SW9" (id 0) (at 149.733 35.814 0))
+    (property "Reference" "SW8" (id 0) (at 149.733 35.814 0))
     (property "Value" "SW_Push" (id 1) (at 149.733 34.8234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3300,7 +3300,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.733 49.911 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac0c81)
-    (property "Reference" "SW15" (id 0) (at 149.733 45.974 0))
+    (property "Reference" "SW14" (id 0) (at 149.733 45.974 0))
     (property "Value" "SW_Push" (id 1) (at 149.733 44.9834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3317,7 +3317,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 149.733 60.071 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac4a66)
-    (property "Reference" "SW21" (id 0) (at 149.733 56.134 0))
+    (property "Reference" "SW20" (id 0) (at 149.733 56.134 0))
     (property "Value" "SW_Push" (id 1) (at 149.733 55.1434 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3334,7 +3334,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 164.973 29.591 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dab4ec8)
-    (property "Reference" "SW4" (id 0) (at 164.973 25.654 0))
+    (property "Reference" "SW3" (id 0) (at 164.973 25.654 0))
     (property "Value" "SW_Push" (id 1) (at 164.973 24.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3351,7 +3351,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 164.973 39.751 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dabcf7f)
-    (property "Reference" "SW10" (id 0) (at 164.973 35.814 0))
+    (property "Reference" "SW9" (id 0) (at 164.973 35.814 0))
     (property "Value" "SW_Push" (id 1) (at 164.973 34.8234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3368,7 +3368,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 164.973 49.911 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac0c87)
-    (property "Reference" "SW16" (id 0) (at 164.973 45.974 0))
+    (property "Reference" "SW15" (id 0) (at 164.973 45.974 0))
     (property "Value" "SW_Push" (id 1) (at 164.973 44.9834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3385,7 +3385,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 164.973 60.071 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac4a6c)
-    (property "Reference" "SW22" (id 0) (at 164.973 56.134 0))
+    (property "Reference" "SW21" (id 0) (at 164.973 56.134 0))
     (property "Value" "SW_Push" (id 1) (at 164.973 55.1434 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3402,7 +3402,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 180.213 29.591 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dab836d)
-    (property "Reference" "SW5" (id 0) (at 180.213 25.654 0))
+    (property "Reference" "SW4" (id 0) (at 180.213 25.654 0))
     (property "Value" "SW_Push" (id 1) (at 180.213 24.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3419,7 +3419,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 180.213 39.751 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dabcf85)
-    (property "Reference" "SW11" (id 0) (at 180.213 35.814 0))
+    (property "Reference" "SW10" (id 0) (at 180.213 35.814 0))
     (property "Value" "SW_Push" (id 1) (at 180.213 34.8234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3436,7 +3436,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 180.213 49.911 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac0c8d)
-    (property "Reference" "SW17" (id 0) (at 180.213 45.974 0))
+    (property "Reference" "SW16" (id 0) (at 180.213 45.974 0))
     (property "Value" "SW_Push" (id 1) (at 180.213 44.9834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3453,7 +3453,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 180.213 60.071 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac4a72)
-    (property "Reference" "SW23" (id 0) (at 180.213 56.134 0))
+    (property "Reference" "SW22" (id 0) (at 180.213 56.134 0))
     (property "Value" "SW_Push" (id 1) (at 180.213 55.1434 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3470,7 +3470,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 180.213 70.231 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac93e6)
-    (property "Reference" "SW27" (id 0) (at 180.213 66.294 0))
+    (property "Reference" "SW26" (id 0) (at 180.213 66.294 0))
     (property "Value" "SW_Push" (id 1) (at 180.213 65.3034 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3487,7 +3487,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 195.453 29.591 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dab8373)
-    (property "Reference" "SW6" (id 0) (at 195.453 25.654 0))
+    (property "Reference" "SW5" (id 0) (at 195.453 25.654 0))
     (property "Value" "SW_Push" (id 1) (at 195.453 24.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3504,7 +3504,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 195.453 39.751 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dabcf8b)
-    (property "Reference" "SW12" (id 0) (at 195.453 35.814 0))
+    (property "Reference" "SW11" (id 0) (at 195.453 35.814 0))
     (property "Value" "SW_Push" (id 1) (at 195.453 34.8234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3521,7 +3521,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 195.453 49.911 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac0c93)
-    (property "Reference" "SW18" (id 0) (at 195.453 45.974 0))
+    (property "Reference" "SW17" (id 0) (at 195.453 45.974 0))
     (property "Value" "SW_Push" (id 1) (at 195.453 44.9834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3538,7 +3538,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 195.453 60.071 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac4a78)
-    (property "Reference" "SW24" (id 0) (at 195.453 56.134 0))
+    (property "Reference" "SW23" (id 0) (at 195.453 56.134 0))
     (property "Value" "SW_Push" (id 1) (at 195.453 55.1434 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3555,7 +3555,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 195.453 70.231 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac93ec)
-    (property "Reference" "SW28" (id 0) (at 195.453 66.294 0))
+    (property "Reference" "SW27" (id 0) (at 195.453 66.294 0))
     (property "Value" "SW_Push" (id 1) (at 195.453 65.3034 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3572,7 +3572,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.693 29.591 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dab8379)
-    (property "Reference" "SW7" (id 0) (at 210.693 25.654 0))
+    (property "Reference" "SW6" (id 0) (at 210.693 25.654 0))
     (property "Value" "SW_Push" (id 1) (at 210.693 24.6634 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3589,7 +3589,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.693 39.751 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dabcf91)
-    (property "Reference" "SW13" (id 0) (at 210.693 35.814 0))
+    (property "Reference" "SW12" (id 0) (at 210.693 35.814 0))
     (property "Value" "SW_Push" (id 1) (at 210.693 34.8234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3606,7 +3606,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.693 49.911 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac0c99)
-    (property "Reference" "SW19" (id 0) (at 210.693 45.974 0))
+    (property "Reference" "SW18" (id 0) (at 210.693 45.974 0))
     (property "Value" "SW_Push" (id 1) (at 210.693 44.9834 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3623,7 +3623,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.693 60.071 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac4a7e)
-    (property "Reference" "SW25" (id 0) (at 210.693 56.134 0))
+    (property "Reference" "SW24" (id 0) (at 210.693 56.134 0))
     (property "Value" "SW_Push" (id 1) (at 210.693 55.1434 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3640,7 +3640,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 210.693 70.231 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005dac93f2)
-    (property "Reference" "SW29" (id 0) (at 210.693 66.294 0))
+    (property "Reference" "SW28" (id 0) (at 210.693 66.294 0))
     (property "Value" "SW_Push" (id 1) (at 210.693 65.3034 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3657,7 +3657,7 @@
   (symbol (lib_id "jiran-ble:SW_DPDT") (at 160.655 119.126 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 38d8c9b4-9e55-43e5-be47-f1b8fce67c86)
-    (property "Reference" "SW30" (id 0) (at 161.925 110.871 0))
+    (property "Reference" "SW29" (id 0) (at 161.925 110.871 0))
     (property "Value" "SW_DPDT" (id 1) (at 161.925 113.411 0))
     (property "Footprint" "jiran-ble:MSK-12C02" (id 2) (at 160.02 111.506 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3673,7 +3673,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 51.816 147.701 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e8fc792)
-    (property "Reference" "J3" (id 0) (at 53.721 145.796 0)
+    (property "Reference" "J2" (id 0) (at 53.721 145.796 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SWD" (id 1) (at 53.721 149.606 0)
@@ -3794,125 +3794,125 @@
   )
 
   (symbol_instances
-    (path "/00000000-0000-0000-0000-000061138070"
+    (path "/00000000-0000-0000-0000-000061103d58"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061103d58"
+    (path "/00000000-0000-0000-0000-000061138070"
       (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061136e96"
+    (path "/00000000-0000-0000-0000-00006068f821"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000602e5398"
+    (path "/00000000-0000-0000-0000-0000606910c5"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005e991365"
+    (path "/00000000-0000-0000-0000-000060692613"
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006068f821"
+    (path "/00000000-0000-0000-0000-00005e991365"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000606910c5"
+    (path "/00000000-0000-0000-0000-00005e81e121"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005e908c24"
+    (path "/00000000-0000-0000-0000-00005f7552d5"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000602e5398"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005e81e121"
+    (path "/00000000-0000-0000-0000-00005e908c24"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060692613"
+    (path "/00000000-0000-0000-0000-000061136e96"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f7552d5"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005b158495"
-      (reference "D1") (unit 1) (value "B5819W") (footprint "jiran-ble:D_SOD-123")
-    )
     (path "/00000000-0000-0000-0000-00005dacbec8"
-      (reference "D2") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D1") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005daccfb7"
-      (reference "D3") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D2") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dacdb06"
-      (reference "D4") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D3") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dace326"
-      (reference "D5") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D4") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dacf0c2"
-      (reference "D6") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D5") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dacf9c3"
-      (reference "D7") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D6") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad32aa"
-      (reference "D8") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D7") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad32b0"
-      (reference "D9") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D8") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad32b6"
-      (reference "D10") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D9") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad32bc"
-      (reference "D11") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D10") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad32c2"
-      (reference "D12") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D11") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad32c8"
-      (reference "D13") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D12") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad50df"
-      (reference "D14") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D13") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad50e5"
-      (reference "D15") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D14") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad50eb"
-      (reference "D16") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D15") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad50f1"
-      (reference "D17") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D16") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad50f7"
-      (reference "D18") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D17") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad50fd"
-      (reference "D19") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D18") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad62ce"
-      (reference "D20") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D19") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad62d4"
-      (reference "D21") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D20") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad62da"
-      (reference "D22") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D21") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad62e0"
-      (reference "D23") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D22") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad62e6"
-      (reference "D24") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D23") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad62ec"
-      (reference "D25") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D24") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad7eb7"
-      (reference "D26") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D25") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad7ec9"
-      (reference "D27") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D26") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad7ecf"
-      (reference "D28") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D27") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005dad7ed5"
-      (reference "D29") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+      (reference "D28") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00005b158495"
+      (reference "D29") (unit 1) (value "B5819W") (footprint "jiran-ble:D_SOD-123")
     )
     (path "/145c09bd-0a8b-46ab-b739-b971b2f7df8e"
       (reference "G1") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble:logotype")
@@ -3936,103 +3936,103 @@
       (reference "J1") (unit 1) (value "BATT") (footprint "jiran-ble:JST_ZH_1x2_P1.5")
     )
     (path "/00000000-0000-0000-0000-00005e8fc792"
-      (reference "J3") (unit 1) (value "SWD") (footprint "jiran-ble:Connector_THT_1x4_2.54")
+      (reference "J2") (unit 1) (value "SWD") (footprint "jiran-ble:Connector_THT_1x4_2.54")
     )
     (path "/00000000-0000-0000-0000-00005e81e127"
       (reference "LED1") (unit 1) (value "BT") (footprint "jiran-ble:LED_0603")
     )
     (path "/00000000-0000-0000-0000-000060dd5462"
-      (reference "R4") (unit 1) (value "1k") (footprint "jiran-ble:R_0402")
-    )
-    (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "jiran-ble:TS-1086E")
+      (reference "R1") (unit 1) (value "1k") (footprint "jiran-ble:R_0402")
     )
     (path "/00000000-0000-0000-0000-00005daae5c1"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dab46e1"
-      (reference "SW3") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dab4ec8"
-      (reference "SW4") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW3") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dab836d"
-      (reference "SW5") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW4") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dab8373"
-      (reference "SW6") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW5") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dab8379"
-      (reference "SW7") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW6") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dabcf73"
-      (reference "SW8") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW7") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dabcf79"
-      (reference "SW9") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW8") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dabcf7f"
-      (reference "SW10") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW9") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dabcf85"
-      (reference "SW11") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW10") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dabcf8b"
-      (reference "SW12") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW11") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dabcf91"
-      (reference "SW13") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW12") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac0c7b"
-      (reference "SW14") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW13") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac0c81"
-      (reference "SW15") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW14") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac0c87"
-      (reference "SW16") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW15") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac0c8d"
-      (reference "SW17") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW16") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac0c93"
-      (reference "SW18") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW17") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac0c99"
-      (reference "SW19") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW18") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac4a60"
-      (reference "SW20") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW19") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac4a66"
-      (reference "SW21") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW20") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac4a6c"
-      (reference "SW22") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW21") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac4a72"
-      (reference "SW23") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW22") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac4a78"
-      (reference "SW24") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW23") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac4a7e"
-      (reference "SW25") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW24") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac93d4"
-      (reference "SW26") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW25") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac93e6"
-      (reference "SW27") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW26") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac93ec"
-      (reference "SW28") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW27") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/00000000-0000-0000-0000-00005dac93f2"
-      (reference "SW29") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+      (reference "SW28") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
     (path "/38d8c9b4-9e55-43e5-be47-f1b8fce67c86"
-      (reference "SW30") (unit 1) (value "SW_DPDT") (footprint "jiran-ble:MSK-12C02")
+      (reference "SW29") (unit 1) (value "SW_DPDT") (footprint "jiran-ble:MSK-12C02")
+    )
+    (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e"
+      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble:TS-1086E")
     )
     (path "/9bb03cbf-b0fd-4d1b-942b-1b255fa93554"
       (reference "U1") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble:Holyiot-18010-nRF52840")
@@ -4040,245 +4040,245 @@
     (path "/fd846b4f-553c-4d89-997f-fee3d90f690e"
       (reference "U2") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble:SOT-23-5")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/16f5e11f-6aca-4529-bf92-96aba035666e"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2f44c5b1-cdb1-4d11-8427-0c109c761a05"
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0ec0f98c-2d18-43e8-a051-6099ed0394ac"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/28445dbd-3552-4de4-8c8d-52b89de55993"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0fc91314-224a-49eb-9f10-be0366f3cad7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b1f35214-0e44-4db5-a847-a288608b6d07"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4d6f0060-7f94-4a84-af14-e33c4c7f60a5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5c7f00e6-6fd7-4c3a-afb5-db1a12c7b875"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/66a1fe3c-a8e7-47a8-ba9c-4b7f481c7e40"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f042f0c6-8151-411a-b139-0234f249d247"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/71312206-46c3-444c-9e5c-dbe2b3917f92"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/793e6e55-bc6f-4953-b4a7-073af5dab3ca"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/8e5db24e-bedd-44a4-ae1b-bd5a9efcabaa"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/561f5ee5-7b7c-49b0-ad63-879ec996a194"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bc69c41d-d4e9-4f87-945b-337c65a7fc0e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/dd1ba440-d81b-4688-8d95-b46b3a5aff35"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f994cac7-2a5c-4460-ab93-6398ac694be8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/11247ccc-7458-44bb-b440-f49dedcfcc89"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/06eded20-3c8e-49f0-86e2-79079575c349"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f743c190-5c9c-4961-a826-534b45246a73"
+      (reference "D30") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/07c99b74-a9b3-4482-8383-6c57140acf1c"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d82b69e5-2d82-4c3a-95e9-00f365cd2eb4"
+      (reference "D31") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/13772736-fda2-4a17-84ef-a904ac773b87"
-      (reference "D?") (unit 1) (value "B5819W") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0f336e9c-4fa7-4096-a045-29b62bda7090"
+      (reference "D32") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1b0659e5-6b6d-4cb8-a931-39499af5c9db"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/696bf893-bb93-482b-8b6c-6c5f0ff04020"
+      (reference "D33") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2dc09a0d-7902-41bb-a4ff-cb30f33d29e6"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6223c2b3-5a0d-47b4-be6f-0d4cea90c9c4"
+      (reference "D34") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2e3f0d37-54f1-4040-b81f-a5703a8d7271"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e4227f91-7f95-4226-84a4-d396c636be2c"
+      (reference "D35") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/31c35a3f-fdf4-44c5-8739-22e6289dd711"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d8f3cf9c-2c4f-4f3d-a866-4b31a00d06dd"
+      (reference "D36") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3968fa94-a335-4a22-8914-7f0360ad295e"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0266ac2b-836b-497b-9c04-06d7a58f072a"
+      (reference "D37") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4885740d-fc24-41c1-90ca-68bf7fcb5633"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/94d31d1e-7d94-4914-aa90-d3dfc5ca3138"
+      (reference "D38") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4ad57658-3c97-494f-93ea-73e12b460793"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9958a998-b1ba-441d-9c16-56ef15784b13"
+      (reference "D39") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/52c2ed7d-2b5b-49cb-a308-afe68e13c531"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5c0d9e24-b6fb-4ad9-9551-4fb25b029d1d"
+      (reference "D40") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5d49f20f-defb-4d03-a61a-72076dcafe49"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e736c5f5-3206-4a7e-b261-5e2a2830deee"
+      (reference "D41") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7d96a072-e6f3-4bd6-84ad-f7b749d82f98"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ff177010-99e2-41ef-927d-f194dca22f6e"
+      (reference "D42") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/8f9f1628-8742-4405-b958-d73fd94d5f7b"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b8956de8-33bd-415e-8bb6-f0c3d2a41e31"
+      (reference "D43") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/91f13b60-63fd-4ae4-93f1-9ba10c8bb85e"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/49b06034-bf65-4c70-abc2-9f0f11b8303e"
+      (reference "D44") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/930bf54d-6e51-4780-8951-9945d1ab631c"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/02c755cc-d638-463b-95cb-6bbea3e707f6"
+      (reference "D45") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9978c215-d15b-410a-ba33-e140d48c3038"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ad966221-ada1-48c0-bfa3-5eb810f1e7a9"
+      (reference "D46") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/99888788-5374-4a9c-9bd9-75cb34f35859"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/27eef84f-3867-4df4-bfa5-32dc9ffa16be"
+      (reference "D47") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9ab6aeec-9465-4804-9e7e-046d9c5b7f35"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d9f5a607-b2b1-4fe6-807a-3b70daf21b06"
+      (reference "D48") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9c2df3c7-79a7-4803-ae61-0c25950d3552"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a0325c0c-c217-4b75-86fa-e8f402915def"
+      (reference "D49") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c0adb543-ce1b-45bb-a637-0b508a4f93df"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/8b0c2159-b8bf-458c-aaa6-a7db9bcfc3e1"
+      (reference "D50") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c3e14a2f-a62f-4385-8142-4146d083ff4c"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a6f412cc-9cca-4df7-b4aa-e6733538c4b4"
+      (reference "D51") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c77eec7a-2585-416b-86e3-7d610ca9276b"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/125487da-ed70-431a-9057-c6c4564f4026"
+      (reference "D52") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/cb0b8658-37b9-4c62-8c7f-36286981aa1d"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d4b26462-2a5f-4733-8194-6a8a94c3b9a8"
+      (reference "D53") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d4ff39b0-0c21-4738-aedf-cbb1bdeafb1c"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bf346f3f-b435-4ff4-a951-aa3dc29dfc60"
+      (reference "D54") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e340c442-89c2-43f3-a523-308e81d599ea"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3a03f1d3-3f8f-4999-86b5-36e6d5b3a3ac"
+      (reference "D55") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f61ab45f-8d08-4343-a632-6558a4210c9a"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/edba9903-a91e-4ce8-b43b-cd952074eb8d"
+      (reference "D56") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/fe80f1e6-f632-4c7c-ba9b-24429d1b218e"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/fc73a84c-1e18-4a12-ab39-537db32e2554"
+      (reference "D57") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/feafb699-910e-4069-804e-4200b8d6cb5c"
-      (reference "D?") (unit 1) (value "1N5819") (footprint "jiran-ble:D_SOD-123")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bded2d88-7832-446e-bd5e-9c7c3f0eb04f"
+      (reference "D58") (unit 1) (value "B5819W") (footprint "jiran-ble:D_SOD-123")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/27537f85-9131-46e4-9b8c-415747a155e1"
-      (reference "G?") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble:logotype")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/880fecd9-4052-4125-963c-32550a82edcb"
+      (reference "G2") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble:logotype")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/01eb8369-30ad-43d0-94dd-94f9071c1ac7"
-      (reference "HM?") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/421757e6-8ddf-4f10-9947-765c46fd3873"
+      (reference "HM6") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0de0b1d6-3ca0-4640-9304-680965bb6441"
-      (reference "HM?") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/348f278d-8527-4f68-895f-9a89e0faba77"
+      (reference "HM7") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/302e89a5-e632-418d-92ee-02484e0853ef"
-      (reference "HM?") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/96c8d3b4-133c-474c-86c6-a8170abd03cd"
+      (reference "HM8") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/8a1f4207-952e-454c-a450-cc28dba5ef29"
-      (reference "HM?") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/725636cd-4715-4b3e-a150-04fcda16eba0"
+      (reference "HM9") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/8e32cf5f-dd36-42ce-993d-c185274a42d9"
-      (reference "HM?") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0e9ab6f8-e263-4a50-9043-92f52d8b1cdd"
+      (reference "HM10") (unit 1) (value "CaseHole") (footprint "jiran-ble:Hole_Mount_M4")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5c03ca96-2ee8-4413-a3c1-5bd9762d36f7"
-      (reference "J?") (unit 1) (value "BATT") (footprint "jiran-ble:JST_ZH_1x2_P1.5")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/259efcfd-3a2d-464d-8be0-01577182e9a8"
+      (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble:JST_ZH_1x2_P1.5")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f1c28d6e-6485-4d2b-b9ec-c8306d599b0a"
-      (reference "J?") (unit 1) (value "SWD") (footprint "jiran-ble:Connector_THT_1x4_2.54")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b48de130-94ad-41a7-924e-bb0ebd959646"
+      (reference "J4") (unit 1) (value "SWD") (footprint "jiran-ble:Connector_THT_1x4_2.54")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/acf160f8-5124-445e-9110-f25075974552"
-      (reference "LED?") (unit 1) (value "BT") (footprint "jiran-ble:LED_0603")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d756220b-a64e-4ce5-917b-ad8321b65e75"
+      (reference "LED2") (unit 1) (value "BT") (footprint "jiran-ble:LED_0603")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/56c9bfaf-d494-41c4-bcd4-f2293d14a001"
-      (reference "R?") (unit 1) (value "1k") (footprint "jiran-ble:R_0402")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/95a95001-6746-4a91-936c-1651baf77053"
+      (reference "R2") (unit 1) (value "1k") (footprint "jiran-ble:R_0402")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/00e4a520-00c9-4063-bd9d-a7bdaf10ee85"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/45ef5881-9c17-41bd-bb5e-6d2cb9a409e6"
+      (reference "SW30") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1421bf9b-d0af-49ba-a32c-cd72b781f10e"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/78a8d57d-7e35-4452-9a12-dbb6db450274"
+      (reference "SW31") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/34ee558c-81f3-4ac4-92fb-d9c3bce6ce38"
-      (reference "SW?") (unit 1) (value "SW_DPDT") (footprint "jiran-ble:MSK-12C02")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/cfbbeff7-9ef5-42fd-8496-054375212e5b"
+      (reference "SW32") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/382d6364-2fe8-4bd0-9e3f-abad4762b49c"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ee958ac1-e3da-45e3-8324-f6720041cd26"
+      (reference "SW33") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3c537078-f57a-4c28-9852-760eba7b79fa"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0df63549-af7c-4d93-bcfb-96e25cd5482f"
+      (reference "SW34") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/44a67c1d-42d2-4e63-84f8-328bd938ea84"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d6dcaad8-07a0-486b-b571-a3d5ad9603ca"
+      (reference "SW35") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/58d8e835-4c37-420f-b839-d4f763da222a"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c62cf5f2-c86c-40cd-9778-046f1d3de917"
+      (reference "SW36") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5d104a9b-b18a-47f6-9cd4-decb030d8741"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9d8eda84-cac0-4d31-95e2-4bec64ec9d2e"
+      (reference "SW37") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/64fb7c66-04d3-4d75-981f-86b971b9372c"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/66b390a3-0d30-4106-9b78-1dabbcc76917"
+      (reference "SW38") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6bf8ce44-3de7-476d-a9ac-ec5fbb6bdc2e"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/177aae21-457b-4e3d-aaf2-9a6b2b291bee"
+      (reference "SW39") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6f781f98-1d52-416c-8ee8-17ff70ece2c7"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:TS-1086E")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/fb51f4f6-890d-47a0-afb1-b32994cfe844"
+      (reference "SW40") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7af8f075-3ab9-4e78-8317-400b516eb487"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/18f7c757-a722-4889-9f94-864d2a207b25"
+      (reference "SW41") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7d79c8f0-14ed-44ef-91ac-352f4648114a"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7249db77-b2d3-44bc-ba84-21aba4b28bd5"
+      (reference "SW42") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/91446a99-00ef-4f99-835a-57cb8724a7c3"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2bdfa2c8-59af-40fe-a43c-38f6a490e427"
+      (reference "SW43") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a5c5927f-7535-4376-bd91-d021fa8cc750"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a694155b-3769-407f-a772-2126751d3731"
+      (reference "SW44") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a9678e82-8ae5-4b39-afb4-ecc749327971"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2dd30964-e8aa-4f2a-bb51-761cb3ba1793"
+      (reference "SW45") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/abcb1f6d-d942-4e72-b080-c378c01f10bd"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a3766573-a715-464e-9748-698d0aaf9c72"
+      (reference "SW46") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/accf7500-92ac-4277-a4f7-66dd70bb4cac"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6b60bb43-02fd-4b89-870f-997509c4224d"
+      (reference "SW47") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b42a0788-cdde-4344-88e5-4aebc1495769"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/53d30ec8-36ca-409e-a97a-a9c2588ac2c8"
+      (reference "SW48") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b52b3fc4-c064-4e84-99e3-0d89f552e5c1"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/11d330cc-cd9e-436c-b5ac-32d2f1ac4782"
+      (reference "SW49") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bffee3d9-7260-4dc4-aa83-391f134a4e33"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/aa35f8ab-c1c9-4d90-bacb-1e15f237d710"
+      (reference "SW50") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d75e304c-62aa-4df1-97c4-bc7a2ccd7e86"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/59d76e72-ef05-438a-8b86-1e227eaf319a"
+      (reference "SW51") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/db95bdd5-8d16-401d-9e7c-f4804c6f3d3b"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ccaaa348-fb8b-4a9e-b5f7-be060e10bf9a"
+      (reference "SW52") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ddf0dfa6-e62d-4650-a056-c60d832066cb"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/616a2999-8703-4767-a166-94e99f0bbe11"
+      (reference "SW53") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e8269a69-82f6-405a-869a-6100a65c55d5"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a08961de-6417-4724-b2aa-d64c6e72269c"
+      (reference "SW54") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ee256cfb-f4b0-4f0d-a971-dc5f7e08cee0"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d0bd07e3-57eb-4eb6-9989-e65704bf11b7"
+      (reference "SW55") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f2928f6d-5dbf-4e22-996f-13c44577a655"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d3c65e8e-cf0d-45ab-87a9-b23d130845b0"
+      (reference "SW56") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f73fc598-72f8-463b-be7e-32d9586f63e0"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f0cf9f13-eff0-42dc-9aa2-a82ff9519ae1"
+      (reference "SW57") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f9eadec6-215f-4698-be7a-cc9a4bb6ff84"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/38445fff-8b0c-4469-9be6-00b969e2dd6d"
+      (reference "SW58") (unit 1) (value "SW_DPDT") (footprint "jiran-ble:MSK-12C02")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ffdf2c56-549a-415e-bf04-7fef0c32ff86"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "jiran-ble:Switch_Mx_Hotswap_1u")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/72c1c99d-844e-480e-aa7c-c149da6ecc08"
+      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble:TS-1086E")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6f42c33f-88c7-4718-801d-51570c46eed6"
-      (reference "U?") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble:Holyiot-18010-nRF52840")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c0225c4b-dc7f-413e-99c7-971511ad071d"
+      (reference "U3") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble:Holyiot-18010-nRF52840")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c20fc6d8-4ee0-4c46-93d3-fb463025f28d"
-      (reference "U?") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble:SOT-23-5")
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/70b8bfef-58ff-4915-9efe-4407a1774623"
+      (reference "U4") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble:SOT-23-5")
     )
   )
 )
