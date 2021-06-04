@@ -1523,6 +1523,7 @@
     )
   )
 
+
   (junction (at 128.143 33.655) (diameter 1.016) (color 0 0 0 0))
   (junction (at 128.143 43.815) (diameter 1.016) (color 0 0 0 0))
   (junction (at 128.143 53.975) (diameter 1.016) (color 0 0 0 0))
@@ -3990,9 +3991,6 @@
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9cb84cca-f05b-4e08-900c-cf3261b0d777"
       (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/fc1e111f-9733-4831-87d9-484d104c4a43"
-      (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a1eabcc4-6f2b-4986-a401-92da6d17f53d"
       (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
@@ -4013,9 +4011,6 @@
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f5bc5487-145d-4741-aebe-8cf218f0b741"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/188b5690-52b5-4b85-9e5e-be638c1f46e5"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7e7e6c90-bd1d-43de-86c0-72ea06ef8a84"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
