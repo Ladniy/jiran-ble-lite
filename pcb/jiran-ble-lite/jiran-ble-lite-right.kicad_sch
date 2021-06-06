@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 4e01d5b3-8a87-4f90-98ce-b6137a7227b5)
 
   (paper "A4")
 
@@ -3084,7 +3086,7 @@
     (uuid cc142e0e-efeb-4fc0-9d7c-1bd5bea23b2b)
     (property "Reference" "SWT2" (id 0) (at 44.577 122.047 0))
     (property "Value" "SW_Push" (id 1) (at 44.577 124.587 0))
-    (property "Footprint" "jiran-ble-lite:TS-1086E" (id 2) (at 44.577 123.317 0)
+    (property "Footprint" "jiran-ble-lite:K2-1187SQ" (id 2) (at 44.577 123.317 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 44.577 123.317 0)

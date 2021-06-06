@@ -1,4 +1,6 @@
-(kicad_sch (version 20210126) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 4da37d81-d669-4f75-b47f-66bd48b63a84)
 
   (paper "A4")
 
@@ -3115,7 +3117,7 @@
     (uuid dc86d0da-0f20-467e-a7e3-62aa396e175e)
     (property "Reference" "SWT1" (id 0) (at 40.64 121.412 0))
     (property "Value" "SW_Push" (id 1) (at 40.64 123.952 0))
-    (property "Footprint" "jiran-ble-lite:TS-1086E" (id 2) (at 40.64 122.682 0)
+    (property "Footprint" "jiran-ble-lite:K2-1187SQ" (id 2) (at 40.64 122.682 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 40.64 122.682 0)
@@ -3737,7 +3739,7 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/" (page "2"))
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89" (page "2"))
   )
 
   (symbol_instances
@@ -3746,6 +3748,9 @@
     )
     (path "/00000000-0000-0000-0000-000061138070"
       (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9cb84cca-f05b-4e08-900c-cf3261b0d777"
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006068f821"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
@@ -3773,6 +3778,30 @@
     )
     (path "/00000000-0000-0000-0000-0000602e5398"
       (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a1eabcc4-6f2b-4986-a401-92da6d17f53d"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d6619757-0433-42f0-a057-3ead5a4cc7ee"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/376ee61d-d589-4cae-8307-0689aa296be6"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0e1ada59-929b-4438-9c2a-51198eef2182"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3cc1a367-19e4-40cf-bb61-dcc4a65909b2"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bc36234a-e79a-4aea-9ee1-80e24e45d0f8"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f5bc5487-145d-4741-aebe-8cf218f0b741"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7e7e6c90-bd1d-43de-86c0-72ea06ef8a84"
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005dacbec8"
       (reference "D1") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
@@ -3861,8 +3890,98 @@
     (path "/00000000-0000-0000-0000-00005b158495"
       (reference "D29") (unit 1) (value "B5819W") (footprint "jiran-ble-lite:D_SOD-123")
     )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2f89a4da-0404-4c7d-8594-1ad14aa50095"
+      (reference "D30") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7e39b4aa-d06b-4ade-bb03-2dab7805f885"
+      (reference "D31") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c7d28d4d-dc87-4a6f-a527-1222bb1720fa"
+      (reference "D32") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/91815768-29e3-44c9-90ff-5ffed69ebc5f"
+      (reference "D33") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/796e9127-13ac-458d-9024-6ad28c8c2ca7"
+      (reference "D34") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/05e164e7-d8bb-44d1-abc4-43b3079639c0"
+      (reference "D35") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/57a301f3-0b1a-4ec3-ac1b-6abb0e6efaae"
+      (reference "D36") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4d7e3aaa-7018-4624-a37b-108271acc1fd"
+      (reference "D37") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2ae68909-a5e3-4d75-9eae-dcb1f4eec364"
+      (reference "D38") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/461d631a-9b0e-4bed-9984-3b587b5d8c62"
+      (reference "D39") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c963f53a-4912-4232-80ab-bf3e192a78e5"
+      (reference "D40") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c5697438-e616-43ba-8c13-bc54b158008c"
+      (reference "D41") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c67b40c1-e0c7-406a-bff5-56c87dc5ead5"
+      (reference "D42") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4c178f3b-326e-42b5-aef3-6be5381693ed"
+      (reference "D43") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/27abbbac-57eb-4f6a-8850-4c4bf6a3ed6d"
+      (reference "D44") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c1a33435-6c0f-422d-aba0-d31658b24382"
+      (reference "D45") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2236cced-7826-48ff-bd51-5ecb5443a157"
+      (reference "D46") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/dfcbd318-0c86-4da4-9844-3cf38b293dc5"
+      (reference "D47") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9dfbcf7c-6508-48bd-b169-d179b5f88d00"
+      (reference "D48") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/213e9f9c-5a19-481d-b27d-901ad93b9807"
+      (reference "D49") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/70e2f363-36bd-4a99-9313-083d6b341479"
+      (reference "D50") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/80d378e8-1724-4e85-ae92-2601e7fe833b"
+      (reference "D51") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/77d5f9b7-e892-4c8d-90a0-fc82f199005c"
+      (reference "D52") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/275c8c34-76ed-4abf-bd86-4db93549b1da"
+      (reference "D53") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b41ab99a-4f30-4652-92df-91c83c3b3582"
+      (reference "D54") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/86439cb8-729a-44e5-9843-da9126e36d4f"
+      (reference "D55") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1e28abc3-2bba-4ce8-a2e6-cb30d820a2b0"
+      (reference "D56") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a1de9d2a-b9aa-41a7-a663-1ba1e0ee4038"
+      (reference "D57") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/be0b6d8d-2af3-45ba-839f-b4fcf22624c4"
+      (reference "D58") (unit 1) (value "B5819W") (footprint "jiran-ble-lite:D_SOD-123")
+    )
     (path "/145c09bd-0a8b-46ab-b739-b971b2f7df8e"
       (reference "G1") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:logotype")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e1e851c3-bd0a-4633-9cb5-f7eb8611f8ae"
+      (reference "G2") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:logotype")
     )
     (path "/00000000-0000-0000-0000-00005dc03d38"
       (reference "HM1") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
@@ -3879,17 +3998,44 @@
     (path "/00000000-0000-0000-0000-00005dc1bc76"
       (reference "HM5") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
     )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a57c34c1-a1d4-43ac-9c84-6561d2f76542"
+      (reference "HM6") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d5c55632-b6e7-4ef3-b771-193891e22f49"
+      (reference "HM7") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/57d7eb4d-9de5-4df4-b227-78afbb5b1a2e"
+      (reference "HM8") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3d271826-b01f-4b98-ad8d-b660dfc1148d"
+      (reference "HM9") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bda930c6-f7de-4008-8210-94c96bc9185a"
+      (reference "HM10") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
+    )
     (path "/00000000-0000-0000-0000-0000602e539e"
       (reference "J1") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_CR123A")
     )
     (path "/00000000-0000-0000-0000-00005e8fc792"
       (reference "J2") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
     )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7182cf82-8005-47a5-b61e-f92017186985"
+      (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_CR123A")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/00c781ee-999a-44e0-987e-42723d0a4b90"
+      (reference "J4") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
+    )
     (path "/00000000-0000-0000-0000-00005e81e127"
       (reference "LED1") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0603")
     )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/55a9eb32-7dfb-4c75-942f-7441830cc98f"
+      (reference "LED2") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0603")
+    )
     (path "/00000000-0000-0000-0000-000060dd5462"
       (reference "R1") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0603")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d18cacf1-df5e-4073-a0f6-c7b1ab7f25cb"
+      (reference "R2") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/00000000-0000-0000-0000-00005daae5c1"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:Switch_Mx_Hotswap_1u")
@@ -3978,159 +4124,6 @@
     (path "/38d8c9b4-9e55-43e5-be47-f1b8fce67c86"
       (reference "SW29") (unit 1) (value "SW_DPDT") (footprint "jiran-ble-lite:MSK-12C02")
     )
-    (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e"
-      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:TS-1086E")
-    )
-    (path "/9bb03cbf-b0fd-4d1b-942b-1b255fa93554"
-      (reference "U1") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840")
-    )
-    (path "/fd846b4f-553c-4d89-997f-fee3d90f690e"
-      (reference "U2") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble-lite:SOT-23-5")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9cb84cca-f05b-4e08-900c-cf3261b0d777"
-      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a1eabcc4-6f2b-4986-a401-92da6d17f53d"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d6619757-0433-42f0-a057-3ead5a4cc7ee"
-      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/376ee61d-d589-4cae-8307-0689aa296be6"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0e1ada59-929b-4438-9c2a-51198eef2182"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3cc1a367-19e4-40cf-bb61-dcc4a65909b2"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bc36234a-e79a-4aea-9ee1-80e24e45d0f8"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f5bc5487-145d-4741-aebe-8cf218f0b741"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7e7e6c90-bd1d-43de-86c0-72ea06ef8a84"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2f89a4da-0404-4c7d-8594-1ad14aa50095"
-      (reference "D30") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7e39b4aa-d06b-4ade-bb03-2dab7805f885"
-      (reference "D31") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c7d28d4d-dc87-4a6f-a527-1222bb1720fa"
-      (reference "D32") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/91815768-29e3-44c9-90ff-5ffed69ebc5f"
-      (reference "D33") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/796e9127-13ac-458d-9024-6ad28c8c2ca7"
-      (reference "D34") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/05e164e7-d8bb-44d1-abc4-43b3079639c0"
-      (reference "D35") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/57a301f3-0b1a-4ec3-ac1b-6abb0e6efaae"
-      (reference "D36") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4d7e3aaa-7018-4624-a37b-108271acc1fd"
-      (reference "D37") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2ae68909-a5e3-4d75-9eae-dcb1f4eec364"
-      (reference "D38") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/461d631a-9b0e-4bed-9984-3b587b5d8c62"
-      (reference "D39") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c963f53a-4912-4232-80ab-bf3e192a78e5"
-      (reference "D40") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c5697438-e616-43ba-8c13-bc54b158008c"
-      (reference "D41") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c67b40c1-e0c7-406a-bff5-56c87dc5ead5"
-      (reference "D42") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4c178f3b-326e-42b5-aef3-6be5381693ed"
-      (reference "D43") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/27abbbac-57eb-4f6a-8850-4c4bf6a3ed6d"
-      (reference "D44") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c1a33435-6c0f-422d-aba0-d31658b24382"
-      (reference "D45") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2236cced-7826-48ff-bd51-5ecb5443a157"
-      (reference "D46") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/dfcbd318-0c86-4da4-9844-3cf38b293dc5"
-      (reference "D47") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/9dfbcf7c-6508-48bd-b169-d179b5f88d00"
-      (reference "D48") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/213e9f9c-5a19-481d-b27d-901ad93b9807"
-      (reference "D49") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/70e2f363-36bd-4a99-9313-083d6b341479"
-      (reference "D50") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/80d378e8-1724-4e85-ae92-2601e7fe833b"
-      (reference "D51") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/77d5f9b7-e892-4c8d-90a0-fc82f199005c"
-      (reference "D52") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/275c8c34-76ed-4abf-bd86-4db93549b1da"
-      (reference "D53") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/b41ab99a-4f30-4652-92df-91c83c3b3582"
-      (reference "D54") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/86439cb8-729a-44e5-9843-da9126e36d4f"
-      (reference "D55") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1e28abc3-2bba-4ce8-a2e6-cb30d820a2b0"
-      (reference "D56") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a1de9d2a-b9aa-41a7-a663-1ba1e0ee4038"
-      (reference "D57") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/be0b6d8d-2af3-45ba-839f-b4fcf22624c4"
-      (reference "D58") (unit 1) (value "B5819W") (footprint "jiran-ble-lite:D_SOD-123")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e1e851c3-bd0a-4633-9cb5-f7eb8611f8ae"
-      (reference "G2") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:logotype")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a57c34c1-a1d4-43ac-9c84-6561d2f76542"
-      (reference "HM6") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d5c55632-b6e7-4ef3-b771-193891e22f49"
-      (reference "HM7") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/57d7eb4d-9de5-4df4-b227-78afbb5b1a2e"
-      (reference "HM8") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3d271826-b01f-4b98-ad8d-b660dfc1148d"
-      (reference "HM9") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/bda930c6-f7de-4008-8210-94c96bc9185a"
-      (reference "HM10") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7182cf82-8005-47a5-b61e-f92017186985"
-      (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_CR123A")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/00c781ee-999a-44e0-987e-42723d0a4b90"
-      (reference "J4") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/55a9eb32-7dfb-4c75-942f-7441830cc98f"
-      (reference "LED2") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0603")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d18cacf1-df5e-4073-a0f6-c7b1ab7f25cb"
-      (reference "R2") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0603")
-    )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a6eae19c-4fda-4c27-b21c-d1e938a10906"
       (reference "SW30") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:Switch_Mx_Hotswap_1u")
     )
@@ -4218,8 +4211,17 @@
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/013b18a3-be83-454e-87cb-ca907aed14a5"
       (reference "SW58") (unit 1) (value "SW_DPDT") (footprint "jiran-ble-lite:MSK-12C02")
     )
+    (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e"
+      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:K2-1187SQ")
+    )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/cc142e0e-efeb-4fc0-9d7c-1bd5bea23b2b"
-      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:TS-1086E")
+      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:K2-1187SQ")
+    )
+    (path "/9bb03cbf-b0fd-4d1b-942b-1b255fa93554"
+      (reference "U1") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840")
+    )
+    (path "/fd846b4f-553c-4d89-997f-fee3d90f690e"
+      (reference "U2") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble-lite:SOT-23-5")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2d89c084-927b-406c-a470-f108fe5ae522"
       (reference "U3") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840")
