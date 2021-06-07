@@ -2436,7 +2436,7 @@
     (uuid 00000000-0000-0000-0000-000060dd5462)
     (property "Reference" "R1" (id 0) (at 93.218 122.2756 90))
     (property "Value" "1k" (id 1) (at 93.218 124.587 90))
-    (property "Footprint" "jiran-ble-lite:R_0603" (id 2) (at 93.218 127.254 0)
+    (property "Footprint" "jiran-ble-lite:R_0805" (id 2) (at 93.218 127.254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.218 127.254 0)
@@ -3083,7 +3083,7 @@
     (uuid 00000000-0000-0000-0000-00005e81e127)
     (property "Reference" "LED1" (id 0) (at 84.328 120.904 0))
     (property "Value" "BT" (id 1) (at 84.328 123.444 0))
-    (property "Footprint" "jiran-ble-lite:LED_0603" (id 2) (at 84.328 127.254 0)
+    (property "Footprint" "jiran-ble-lite:LED_0805" (id 2) (at 84.328 127.254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 84.328 127.254 0)
@@ -4026,16 +4026,16 @@
       (reference "J4") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
     )
     (path "/00000000-0000-0000-0000-00005e81e127"
-      (reference "LED1") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0603")
+      (reference "LED1") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0805")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/55a9eb32-7dfb-4c75-942f-7441830cc98f"
-      (reference "LED2") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0603")
+      (reference "LED2") (unit 1) (value "BT") (footprint "jiran-ble-lite:LED_0805")
     )
     (path "/00000000-0000-0000-0000-000060dd5462"
-      (reference "R1") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0603")
+      (reference "R1") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0805")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d18cacf1-df5e-4073-a0f6-c7b1ab7f25cb"
-      (reference "R2") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0603")
+      (reference "R2") (unit 1) (value "1k") (footprint "jiran-ble-lite:R_0805")
     )
     (path "/00000000-0000-0000-0000-00005daae5c1"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:Switch_Mx_Hotswap_1u")
