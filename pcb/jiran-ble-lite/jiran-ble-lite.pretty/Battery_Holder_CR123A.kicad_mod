@@ -1,5 +1,5 @@
 (footprint "Battery_Holder_CR123A" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60BC744D)
+  (tedit 60C20AF5)
   (fp_text reference "REF**" (at 0 -8.7 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3b953ad8-aa5a-4771-88c4-f371523a168b)
@@ -22,7 +22,7 @@
   (fp_line (start -9 -21.2) (end -9 21.2) (layer "F.Fab") (width 0.1) (tstamp c57301be-a118-4376-800c-7fabd3afc9a3))
   (pad "" np_thru_hole circle (at 8.2 -19) (size 1.6 1.6) (drill 1.6) (layers F&B.Cu *.Mask) (tstamp 80e8e62d-3a89-41b9-9c15-f9a8af411db9))
   (pad "1" thru_hole circle (at 0 -19) (size 3 3) (drill 1.4) (layers *.Cu *.Mask) (tstamp 70456f1a-7029-41cb-ab07-b7b6892443b2))
-  (pad "2" thru_hole circle (at 0 19) (size 3 3) (drill 1.4) (layers *.Cu *.Mask) (tstamp 733c8db9-c349-40a1-a9be-2a092fda31ee))
+  (pad "2" thru_hole roundrect (at 0 19) (size 3 3) (drill 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 733c8db9-c349-40a1-a9be-2a092fda31ee))
   (model "${KIPRJMOD}/jiran-ble-lite.3dshapes/CR123A Battery Holder.step"
     (offset (xyz -9.11 -20.9 0))
     (scale (xyz 0.965 1 1))
