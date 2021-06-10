@@ -17504,7 +17504,7 @@
 
   (footprint "jiran-ble-lite:K2-1187SQ" (layer "B.Cu")
     (tedit 60BCDEC4) (tstamp e0901b08-bd4e-49be-aff8-16c3d3872749)
-    (at 185.674 120.142 -90)
+    (at 197.358 109.982 -90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e")
