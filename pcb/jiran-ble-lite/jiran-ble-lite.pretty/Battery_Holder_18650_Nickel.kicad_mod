@@ -1,5 +1,5 @@
 (footprint "Battery_Holder_18650_Nickel" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C3494C)
+  (tedit 60C3834B)
   (fp_text reference "REF**" (at -1.016 0 90 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 09676477-faa0-4345-be22-3f83b98b6cf8)
@@ -27,4 +27,14 @@
   (pad "2" thru_hole circle (at -2.45 24) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp 43b17226-859b-4872-a050-72419703e671))
   (pad "2" thru_hole circle (at 2.54 24) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp 6c7d8894-c303-4adb-b393-82a3eec5a025))
   (pad "2" thru_hole circle (at 0 31.62) (size 3 3) (drill 1.8) (layers *.Cu *.Mask) (tstamp e4011ba8-968b-420c-9113-1a42b7507d10))
+  (model "${KIPRJMOD}/jiran-ble-lite.3dshapes/Battery_Holder_18650_Nickel.step"
+    (offset (xyz 0 27.7 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/jiran-ble-lite.3dshapes/Battery_Holder_18650_Nickel.step"
+    (offset (xyz 0 -27.77 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
