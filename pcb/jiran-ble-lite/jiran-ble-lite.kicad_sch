@@ -3102,7 +3102,7 @@
     (property "Value" "BATT" (id 1) (at 90.678 149.8346 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jiran-ble-lite:Battery_Holder_CR123A" (id 2) (at 88.646 147.32 0)
+    (property "Footprint" "jiran-ble-lite:Battery_Holder_18650_Nickel" (id 2) (at 88.646 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 88.646 147.32 0)
@@ -4014,13 +4014,13 @@
       (reference "HM10") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
     )
     (path "/00000000-0000-0000-0000-0000602e539e"
-      (reference "J1") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_CR123A")
+      (reference "J1") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel")
     )
     (path "/00000000-0000-0000-0000-00005e8fc792"
       (reference "J2") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7182cf82-8005-47a5-b61e-f92017186985"
-      (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_CR123A")
+      (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/00c781ee-999a-44e0-987e-42723d0a4b90"
       (reference "J4") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")

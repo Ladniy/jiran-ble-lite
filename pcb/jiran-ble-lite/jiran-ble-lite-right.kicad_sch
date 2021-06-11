@@ -3071,7 +3071,7 @@
     (property "Value" "BATT" (id 1) (at 94.615 150.4696 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "jiran-ble-lite:Battery_Holder_CR123A" (id 2) (at 92.583 147.955 0)
+    (property "Footprint" "jiran-ble-lite:Battery_Holder_18650_Nickel" (id 2) (at 92.583 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.583 147.955 0)
