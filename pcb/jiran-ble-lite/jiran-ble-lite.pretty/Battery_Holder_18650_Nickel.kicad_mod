@@ -1,5 +1,5 @@
 (footprint "Battery_Holder_18650_Nickel" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C3834B)
+  (tedit 60C457EE)
   (fp_text reference "REF**" (at -1.016 0 90 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 09676477-faa0-4345-be22-3f83b98b6cf8)
@@ -36,5 +36,10 @@
     (offset (xyz 0 -27.77 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
+  )
+  (model "${KIPRJMOD}/jiran-ble-lite.3dshapes/Battery_18650.stp"
+    (offset (xyz 0 -32.5 10))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 90 0))
   )
 )
