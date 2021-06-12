@@ -3463,7 +3463,7 @@
     (property "Value" "Logo-Jiran-BLE" (id 1) (at 252.857 23.5584 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "jiran-ble-lite:logotype" (id 2) (at 238.252 29.718 0)
+    (property "Footprint" "jiran-ble-lite:silk_front" (id 2) (at 238.252 29.718 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 238.252 29.718 0)
@@ -3786,7 +3786,7 @@
       (reference "D58") (unit 1) (value "B5819W") (footprint "jiran-ble-lite:D_SOD-123")
     )
     (path "/145c09bd-0a8b-46ab-b739-b971b2f7df8e"
-      (reference "G1") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:logotype")
+      (reference "G1") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:silk_front")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e1e851c3-bd0a-4633-9cb5-f7eb8611f8ae"
       (reference "G2") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:logotype")
