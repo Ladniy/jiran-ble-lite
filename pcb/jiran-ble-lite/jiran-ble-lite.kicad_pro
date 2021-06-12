@@ -363,7 +363,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "jiran-ble-lite.dsn",
       "step": "",
       "vrml": ""
     },
