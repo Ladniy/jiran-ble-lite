@@ -1,5 +1,5 @@
 (footprint "Switch_Mx_Hotswap_1u" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60BBBF27)
+  (tedit 60C60CB7)
   (fp_text reference "REF**" (at 0 -8.128) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 57fde19f-6d6b-4731-b566-afdbb0d96c27)
@@ -34,8 +34,8 @@
   (pad "" np_thru_hole circle (at 5.08 0 228.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp e90a3ace-7e1a-4e2e-a83d-dc2be17634e1))
   (pad "1" smd roundrect (at 7.085 2.54 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2) (tstamp 5aec9ce2-a1a5-48dd-a91a-85aff1a08de8))
   (pad "2" smd roundrect (at -5.842 5.08 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2) (tstamp 6527607f-8af0-4501-8ad0-117fadef361f))
-  (model "D:/Git/jiran-ble/pcb/jiran-ble.3dshapes/CON_Kailh_HS.step"
-    (offset (xyz 0.6 -4.8 -3.45))
+  (model "${KIPRJMOD}/jiran-ble-lite.3dshapes/Kailh_Socket_MX.step"
+    (offset (xyz 0.6 -4.8 -3.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
