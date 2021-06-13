@@ -6304,7 +6304,7 @@
 
   (footprint "jiran-ble-lite:K2-1187SQ" (layer "B.Cu")
     (tedit 60BCDEC4) (tstamp 1e64ddd0-e92d-4fdf-9486-ba00689921de)
-    (at 241.2922 104.013 -90)
+    (at 241.0968 104.013 -90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/cc142e0e-efeb-4fc0-9d7c-1bd5bea23b2b")
@@ -16406,7 +16406,7 @@
 
   (footprint "jiran-ble-lite:K2-1187SQ" (layer "B.Cu")
     (tedit 60BCDEC4) (tstamp e0901b08-bd4e-49be-aff8-16c3d3872749)
-    (at 185.166 104.013 -90)
+    (at 185.3692 104.013 -90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e")
