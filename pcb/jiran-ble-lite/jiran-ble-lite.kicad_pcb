@@ -1605,7 +1605,7 @@
 
   (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel" (layer "F.Cu")
     (tedit 60C457EE) (tstamp 7d90878a-8058-4333-a2fb-01d9af7148f6)
-    (at 235.1962 88.011)
+    (at 234.696 88.011)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7182cf82-8005-47a5-b61e-f92017186985")
@@ -9764,7 +9764,7 @@
 
   (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel" (layer "F.Cu")
     (tedit 60C457EE) (tstamp 8c1a283a-7393-48f1-b552-dfda4f3ad20d)
-    (at 191.262 88.011)
+    (at 191.77 88.138)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-0000602e539e")
@@ -11966,7 +11966,7 @@
 
   (footprint "jiran-ble-lite:MSK-12C02" (layer "B.Cu")
     (tedit 60BBBE2F) (tstamp 3d79db20-9a8f-42cd-991d-4eb8c9ed2af7)
-    (at 227.5762 57.912 -90)
+    (at 227.457 56.388 -90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/013b18a3-be83-454e-87cb-ca907aed14a5")
@@ -21653,7 +21653,7 @@
 
   (footprint "jiran-ble-lite:MSK-12C02" (layer "B.Cu")
     (tedit 60BBBE2F) (tstamp dd5c7a5d-0465-4f00-b616-28887efe61ce)
-    (at 198.882 57.912 90)
+    (at 199.009 56.515 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/38d8c9b4-9e55-43e5-be47-f1b8fce67c86")
