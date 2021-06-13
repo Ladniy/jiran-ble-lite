@@ -1,4 +1,4 @@
-19653947901567441
+19639359416608706
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84469,25 +84469,11 @@ logotype_rev
 0
 0
 jiran-ble-lite
-Battery_Holder_16350_Nickel
-
-
-0
-6
-2
-jiran-ble-lite
 Battery_Holder_18650_Nickel
 
 
 0
 6
-2
-jiran-ble-lite
-Battery_Holder_CR123A
-
-
-0
-2
 2
 jiran-ble-lite
 Connector_THT_1x4_2.54
@@ -84525,20 +84511,6 @@ K2-1187SQ
 4
 2
 jiran-ble-lite
-LED_0603
-
-
-0
-2
-2
-jiran-ble-lite
-LED_0805
-
-
-0
-2
-2
-jiran-ble-lite
 MSK-12C02
 
 
@@ -84553,20 +84525,6 @@ Panel_2x5
 0
 0
 jiran-ble-lite
-R_0603
-
-
-0
-2
-2
-jiran-ble-lite
-R_0805
-
-
-0
-2
-2
-jiran-ble-lite
 SOT-23-5
 
 
@@ -84580,27 +84538,6 @@ Switch_Mx_Hotswap_1u
 0
 2
 2
-jiran-ble-lite
-TS-1086E
-
-
-0
-4
-4
-jiran-ble-lite
-logotype
-
-
-0
-0
-0
-jiran-ble-lite
-logotype_rev
-
-
-0
-0
-0
 jiran-ble-lite
 silk_back
 
