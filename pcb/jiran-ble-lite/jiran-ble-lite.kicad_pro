@@ -377,7 +377,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "jiran-ble-lite.dsn",
-      "step": "",
+      "step": "jiran-ble-lite.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
