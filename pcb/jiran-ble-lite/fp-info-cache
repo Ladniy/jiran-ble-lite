@@ -1,4 +1,4 @@
-19639385939075326
+19652266234346690
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84399,20 +84399,6 @@ R_0402
 2
 2
 jiran-ble
-R_0603
-
-
-0
-2
-2
-jiran-ble
-SOT-23
-
-
-0
-3
-3
-jiran-ble
 SOT-23-5
 
 
@@ -84454,6 +84440,13 @@ USB-C-31-M-27-BACKUP
 0
 30
 25
+jiran-ble
+USB-C-C168688
+
+
+0
+16
+11
 jiran-ble
 logotype
 
@@ -84525,6 +84518,20 @@ Panel_2x5
 0
 0
 jiran-ble-lite
+R_0603
+
+
+0
+2
+2
+jiran-ble-lite
+SOT-23
+
+
+0
+3
+3
+jiran-ble-lite
 SOT-23-5
 
 
@@ -84538,6 +84545,13 @@ Switch_Mx_Hotswap_1u
 0
 2
 2
+jiran-ble-lite
+USB-C-C168688
+
+
+0
+16
+11
 jiran-ble-lite
 silk_back
 
@@ -84643,6 +84657,48 @@ nRF52840_holyiot_18010_HS_simple
 0
 37
 37
+nrfmicro
+E73-2G4M08S1C-52840
+
+
+0
+43
+43
+nrfmicro
+USB-C_C168688
+
+
+0
+30
+11
+nrfmicro
+connector_bat
+
+
+0
+2
+2
+nrfmicro
+connector_swd
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+nrfmicro
+connector_usb
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+nrfmicro
+pro_micro
+
+
+0
+24
+24
 used_footprints
 Cutout_Mx_14x14
 
