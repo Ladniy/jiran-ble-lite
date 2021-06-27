@@ -1092,7 +1092,7 @@
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/64dfdb84-f736-4145-80fb-fc6cbb5310ef")
-    (fp_text reference "J5" (at 0 -6.096) (layer "F.SilkS")
+    (fp_text reference "J5" (at 0 0 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0cfbffd-f185-4dc5-8e88-f7f7f5e26820)
     )
@@ -6163,19 +6163,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 04a943e0-dac0-4c8d-8a79-02bab84bd2d3)
-    (at 172.212 80.264 180)
+    (at 165.1 79.248 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad32c8")
-    (fp_text reference "D12" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D12" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ad8f9e09-9aaa-46c3-b3b1-be3cb86e8d7c)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e182d5a5-0fc9-4a07-a5bb-d4646c785c9b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 68e0b472-7a96-45bb-aef9-8a61217e89c3)
     )
@@ -6192,9 +6192,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 595affb5-4e9a-4bf1-a910-c9279c6e9b3c))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp cc00cd41-8c02-4441-8d9a-464e6972c7ab))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp d4e299a2-c8c4-4ce4-908b-36dea25b4ca4))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 35 "/P1.09") (pinfunction "K") (pintype "passive") (tstamp ab51ba1b-83eb-44ca-97f2-acb421f22228))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 14 "Net-(D12-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 822bd930-448b-47b3-8ec4-0ba1e2f41615))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6205,19 +6205,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 064d23fb-7e68-45ad-ad52-fb4cf1ab88a1)
-    (at 172.212 137.414 180)
+    (at 165.1 136.398 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad7ecf")
-    (fp_text reference "D27" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D27" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0401781b-8aad-496b-a2d7-b1a3088e5aec)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2c46e16d-e53a-4833-874b-292f4fac84bb)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8945cfd8-8ad9-4386-907c-93bf8aeb12c1)
     )
@@ -6234,10 +6234,10 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 4337e055-b8b1-419a-8a20-5c95100b6adf))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 77637d11-4676-443a-aaae-e82a2f962d94))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp b8df42af-6923-40b2-bce3-8d1d1ea25039))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 16 "/P0.19") (pinfunction "K") (pintype "passive") (tstamp 11923d60-9c62-443a-8da1-8f38980fe15a))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 32 "Net-(D27-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 1d93f3e3-8795-48cb-a972-ce28d1530c07))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 16 "/P0.19") (pinfunction "K") (tstamp 11923d60-9c62-443a-8da1-8f38980fe15a))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 32 "Net-(D27-Pad2)") (pinfunction "A") (tstamp 1d93f3e3-8795-48cb-a972-ce28d1530c07))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6247,19 +6247,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 084ac9da-73e3-4f75-9869-46d3e9dbdf8d)
-    (at 292.3462 73.152 180)
+    (at 285.242 72.136 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0dd5826c-c3bb-48af-a7f7-9919169d8e42")
-    (fp_text reference "D39" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D39" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bdc8164d-911f-4970-9933-8e6c64437c68)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 11ef3983-d54d-4f78-bc5a-5c665a627a34)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 3003f754-9af2-45e0-9f55-731eb816d8ed)
     )
@@ -6276,9 +6276,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 425793c7-ab22-41ba-9c75-528a1b133ff6))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 99573602-d721-4c5e-afcb-db17ea25330e))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e2e3f25d-f9da-4812-b8b2-45e7b164f338))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 105 "/jiran-ble-lite-right/P1.09") (pinfunction "K") (pintype "passive") (tstamp dd8a17ca-1b6c-4e27-9b81-c5ac142ad289))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 47 "Net-(D39-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 1acc926b-c628-4ec3-9a60-6ad7859b25f2))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6289,19 +6289,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 1d5e603c-d9b2-4bc5-8c85-32b2df26745c)
-    (at 153.162 77.978 180)
+    (at 146.05 76.962 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad32c2")
-    (fp_text reference "D11" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D11" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e583fd45-d747-43a9-a8c9-4ff950fa832c)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e4440b7c-fc0d-4345-9554-b287c6694a4c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c0545e46-b9d5-4982-b737-2c147783d06d)
     )
@@ -6318,9 +6318,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 403f2611-1f5b-4206-a1f3-a49d539b00eb))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 49041f1c-df4b-411a-8d8d-d917eb19a4dd))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 6bf9ad6d-ac7c-4ea0-9a63-3c8785a32a1e))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 35 "/P1.09") (pinfunction "K") (pintype "passive") (tstamp 272fa2b9-53b0-4e57-a4e9-4ba9de8d985d))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 13 "Net-(D11-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 5db900e6-94ab-47bf-a252-a5c14a4e50bb))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6398,7 +6398,7 @@
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f4faa0c6-97d4-4fbe-b559-d9c3ce37c240")
     (attr through_hole)
-    (fp_text reference "U3" (at 0 0 90) (layer "B.Fab")
+    (fp_text reference "U3" (at 0 0 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d0ec090c-1235-48ab-9f1f-a89e79bc7397)
     )
@@ -6526,19 +6526,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 30a19b19-6d81-460d-a426-00a2b4af4996)
-    (at 292.3462 54.102 180)
+    (at 285.242 53.086 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c7994990-e72c-4699-bae1-72b0d8962bc4")
-    (fp_text reference "D33" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D33" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 42ed4471-456f-4a7d-bbc3-344a1cee4bcc)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5212cb61-8086-4b5b-8d0b-d9e8a7da1774)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 14e82b03-a82d-4854-a3ae-926da8becb80)
     )
@@ -6555,9 +6555,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8e48891f-1228-40f8-81a4-daaa21f7e10b))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp d498999f-e6c9-4cde-b182-d53ed4605d51))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f0c84f35-bf51-4762-b162-b518eade704f))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 104 "/jiran-ble-lite-right/P0.07") (pinfunction "K") (pintype "passive") (tstamp cc41dd5f-41f8-416f-b905-688044f50f9c))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 40 "Net-(D33-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 2c9c5fe2-31f2-4f9e-b809-39aa89c8aade))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6568,19 +6568,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 36c5f386-5108-43bf-8750-c51e106d3823)
-    (at 273.2962 135.128 180)
+    (at 266.192 134.112 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6b811022-8d1a-4478-b4ee-a8edb5cb36d7")
-    (fp_text reference "D55" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D55" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4289a0b8-4af6-43e9-9429-bc9ee16d5186)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 996c3d51-2eea-4a19-8300-2bdbe5fbff21)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 85945d08-efa3-417e-9595-9414f932011a)
     )
@@ -6597,10 +6597,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8082fe75-706b-4fd0-991d-b49b8f4d9535))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 9f4f3d0a-03ff-4631-91b4-f6a9c9a1d22e))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp a9e96dd4-541f-4e83-b45f-0957829266af))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (pintype "passive") (tstamp 00896a5b-7c97-4bbb-9d0b-f22287927727))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 66 "Net-(D55-Pad2)") (pinfunction "A") (pintype "passive") (tstamp b6c54301-bea8-490e-9b2d-58fc041aec09))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (tstamp 00896a5b-7c97-4bbb-9d0b-f22287927727))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 66 "Net-(D55-Pad2)") (pinfunction "A") (tstamp b6c54301-bea8-490e-9b2d-58fc041aec09))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6610,19 +6610,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 37dfb845-787c-449a-85ec-d1744923f59f)
-    (at 76.962 106.426 180)
+    (at 69.85 105.41 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad50df")
-    (fp_text reference "D13" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D13" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e8cdba2e-78be-4edd-9abe-d26f64ffa431)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1da381e4-09ee-46b2-bce8-340ffeff4597)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 5377b60e-5c45-4aa9-b3d3-ddafda0d4986)
     )
@@ -6639,9 +6639,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp b9303a84-092e-4586-a793-031157a9ee11))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp e16523cf-8bac-4bf5-a576-ccb33e244b21))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp e5fa24e1-4049-41c8-b4c6-80f73643a065))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "/P0.23") (pinfunction "K") (pintype "passive") (tstamp 636a5a57-ed54-4d60-b49b-24309987f4f8))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 15 "Net-(D13-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 395848ef-768a-4119-890b-d74ca0708118))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6721,19 +6721,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 3c9a6970-a751-4304-818e-54508e71a4ca)
-    (at 172.212 61.214 180)
+    (at 165.1 60.198 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dacf9c3")
-    (fp_text reference "D6" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D6" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4f2d621d-00f1-470e-9d39-b18d54443720)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0f3bf457-baae-41ae-85cf-d68925c19cb8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp d7277e50-69ba-4758-861c-6d45f71eb554)
     )
@@ -6750,9 +6750,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 2c81eec2-ba4f-493b-82e5-5ff2288b7e8a))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 71b80f3b-ddb8-45cf-b6b3-b6c189cd9fa1))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp a6fb27a9-3417-4590-9b54-dd7e581ea2a9))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 34 "/P0.07") (pinfunction "K") (pintype "passive") (tstamp 9ec8dee4-16eb-4fa6-a6cc-7483ccd2cbe7))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "Net-(D6-Pad2)") (pinfunction "A") (pintype "passive") (tstamp c86212a4-b0fc-4de8-8243-960045b63033))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6767,7 +6767,7 @@
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/642ae13a-4815-4920-ae80-d78c6313626e")
-    (fp_text reference "SW58" (at 0 0 90) (layer "B.Fab")
+    (fp_text reference "SW58" (at 0 0 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9f75e47a-32ce-47cd-b739-dfee98956536)
     )
@@ -6818,19 +6818,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 3e49d583-6d21-4a79-92d5-7488bb3da8b7)
-    (at 349.4962 87.376 180)
+    (at 342.392 86.36 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c5ec3172-6206-47e3-9dc4-99ccf71c5db9")
-    (fp_text reference "D36" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D36" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9ca9ee76-7245-44ab-83a5-b7336afad0af)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 179628a1-2e97-4a5f-a8bc-4bfb1e0a14da)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 90bb99a9-a7a2-4683-ae0f-f4a1f4116c53)
     )
@@ -6847,9 +6847,9 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 63ed4a92-547d-41d1-99c6-8eae64fd9663))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 95b24984-ea5f-443d-a9b6-dea4f1427887))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp de83f534-e82c-4311-a588-c815a5c04367))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 105 "/jiran-ble-lite-right/P1.09") (pinfunction "K") (pintype "passive") (tstamp a42033a0-4109-4c7c-a715-837778102165))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 43 "Net-(D36-Pad2)") (pinfunction "A") (pintype "passive") (tstamp fd06266c-154e-44be-a925-c7fcad2fdc81))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -6860,19 +6860,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 4022c9bb-7207-4b7c-96be-cd452584a6bc)
-    (at 292.3462 111.252 180)
+    (at 285.242 110.236 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4d62fef5-8331-47cb-9c62-839bc03d3801")
-    (fp_text reference "D51" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D51" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 36e4d66e-b67b-4f01-871a-bcacdece0a8d)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2bac4037-cba9-4a0f-a222-68f14d22c6ac)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 1375bc1e-29c1-4e76-bbf2-e8b01cef5292)
     )
@@ -6889,10 +6889,10 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 2a374f52-9f9f-436e-b84d-232b473ceaae))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 99cef7f0-832a-4862-8d74-33563d320b90))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp bee72950-fdd8-4e27-8d3f-c9f695a3da62))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (pintype "passive") (tstamp 62c0594c-8da4-4a23-8735-9e8c8e44fa76))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 61 "Net-(D51-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 20174441-ad6d-4ca5-b278-758ae38f670a))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (tstamp 62c0594c-8da4-4a23-8735-9e8c8e44fa76))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 61 "Net-(D51-Pad2)") (pinfunction "A") (tstamp 20174441-ad6d-4ca5-b278-758ae38f670a))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6931,19 +6931,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 431a478d-b242-4ae8-b42e-973595a69560)
-    (at 235.1962 139.7 180)
+    (at 228.092 138.684 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/2a6a06b1-c3b5-4b22-ba12-689ae7325cad")
-    (fp_text reference "D57" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D57" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 68949e37-daa5-446a-8c72-364d837de11d)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9500f075-d40a-4c0d-9a65-52b37453270f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c7cf4151-cb5f-452c-b018-66a8d2ba9238)
     )
@@ -6960,10 +6960,10 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 4588f8f3-77b3-44bd-b6f3-587b34eb8eb7))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp bd83b198-6bf2-4aa1-9cb5-5d461ad442dd))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp feddcb61-15a8-4462-b98a-acb4f934df05))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (pintype "passive") (tstamp 0a346729-5735-4a0c-af2e-0649378be23e))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 68 "Net-(D57-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f9f4f425-e30e-49fd-98f6-ea86c16191bd))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (tstamp 0a346729-5735-4a0c-af2e-0649378be23e))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 68 "Net-(D57-Pad2)") (pinfunction "A") (tstamp f9f4f425-e30e-49fd-98f6-ea86c16191bd))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6973,19 +6973,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 46bc5ab4-2b70-4f92-845e-2c9aa6f716c8)
-    (at 153.162 58.928 180)
+    (at 146.05 57.912 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dacf0c2")
-    (fp_text reference "D5" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D5" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 273dcbb1-46d6-477e-abd1-5c86d85052c6)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f6196928-9cff-46be-9e02-32a7e6d4654c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp d7da0b8b-7265-489b-b7c2-8f60b439f088)
     )
@@ -7002,9 +7002,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 6d7461e4-8570-4d80-9041-009624fb7a30))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8873f287-d03b-454d-8aee-93ec372b2897))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ebf1af82-b37d-409e-ac63-c6b82125761c))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 34 "/P0.07") (pinfunction "K") (pintype "passive") (tstamp 2e07aaff-198b-4c07-bfca-ff30da833261))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(D5-Pad2)") (pinfunction "A") (pintype "passive") (tstamp a6eb8c04-cbf0-4b47-84f9-fa919e78059c))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -7015,19 +7015,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 47b0b6e4-1bf6-4f37-9fa5-69ac2d86b508)
-    (at 349.4962 106.426 180)
+    (at 342.392 105.41 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/4335f366-c015-40ff-a322-72d54aabe668")
-    (fp_text reference "D42" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D42" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 455b201f-a555-4ce8-9977-717328eba940)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9caf76a6-1865-49ab-8878-2169474393a9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 97a764d7-920d-4114-8fd6-1a06fb0c7c39)
     )
@@ -7044,9 +7044,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp e6e9c8aa-fb7a-46d8-8333-afda6158443a))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e7f11858-2e41-4bc0-bead-45b229be4f51))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f73f2654-5b06-447a-99d3-977d41888006))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 37 "/jiran-ble-lite-right/P0.23") (pinfunction "K") (pintype "passive") (tstamp 730376de-d231-4287-80d1-11bbc3334725))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 50 "Net-(D42-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4aa6092b-5c34-4488-85f8-ce8dbb86c126))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -7057,19 +7057,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 4874d96c-0bdf-4723-a220-4dc9b65f6704)
-    (at 115.062 77.978 180)
+    (at 107.95 76.962 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad32b6")
-    (fp_text reference "D9" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D9" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4762c4f0-38e1-44db-aede-67600c67b582)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 45039536-65bd-4fd9-895e-f7df5df88d66)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp be8aea00-2e8c-4a6c-9678-d18cb68dc487)
     )
@@ -7086,10 +7086,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 251c7a54-1287-4283-ac89-8f834cc6805f))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 3a4f3370-7ecd-4081-b334-57fa280c3cc3))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 8d4daa33-8df3-436b-8559-6e1cab57e752))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 35 "/P1.09") (pinfunction "K") (pintype "passive") (tstamp 2bbd5076-d5de-4044-b637-f5fe68da22ae))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 11 "Net-(D9-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 56893006-00bd-49fd-920b-60cb5a67228f))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 35 "/P1.09") (pinfunction "K") (tstamp 2bbd5076-d5de-4044-b637-f5fe68da22ae))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 11 "Net-(D9-Pad2)") (pinfunction "A") (tstamp 56893006-00bd-49fd-920b-60cb5a67228f))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7099,19 +7099,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 48a9fcd7-95a8-464e-85f7-39d486f02cad)
-    (at 76.962 125.476 180)
+    (at 69.85 124.46 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad62ce")
-    (fp_text reference "D19" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D19" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d7fabc43-30bc-4271-9b4f-093e5f61b464)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f8aebc42-2a2e-4fed-be7f-282a809d7023)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp bca95884-6c51-42f1-8c11-1729e5bb690f)
     )
@@ -7128,10 +7128,10 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp cf4ede2b-0da8-4c28-bf88-ae3a5bff192e))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ddf702af-059c-4fa3-8861-ee356a3e2d8e))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp df5d20bb-01bd-4a88-adb5-adf166381323))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 9 "/P0.21") (pinfunction "K") (pintype "passive") (tstamp 20f1dbaa-1326-4902-9ca6-2a1c388cc190))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 22 "Net-(D19-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 7bd4b269-ca9e-4aa1-8d78-529942e7b46c))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 9 "/P0.21") (pinfunction "K") (tstamp 20f1dbaa-1326-4902-9ca6-2a1c388cc190))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 22 "Net-(D19-Pad2)") (pinfunction "A") (tstamp 7bd4b269-ca9e-4aa1-8d78-529942e7b46c))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7141,19 +7141,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 4c266f51-f972-4cfb-b4b3-ce3c6ab52887)
-    (at 273.2962 97.028 180)
+    (at 266.192 96.012 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e8a9e6cd-1f25-4d44-8af0-2aa8978bb4d2")
-    (fp_text reference "D46" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D46" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 10c39774-5816-4205-aac3-8185ac11efe1)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp caf1f183-80fa-474e-bd2a-929d4f0b8762)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 9e15d061-98f4-47ef-b8ed-6ba95e183fe8)
     )
@@ -7170,9 +7170,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 368fa9a0-1261-414b-ac73-3544aa42ceb2))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp b9647cc9-ac6d-4cbd-8fa8-305d303d7737))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp f4400679-8a00-4b8c-95f4-f9e7fb6fcc14))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 37 "/jiran-ble-lite-right/P0.23") (pinfunction "K") (pintype "passive") (tstamp af014d6e-c278-45ed-b59b-d57ca47b33d2))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 55 "Net-(D46-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 0ad7bf45-fd0a-4703-82b5-86ffc1c8bbdb))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -9870,19 +9870,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 506dfa6a-95e4-4bc1-828e-52cf9f901fa9)
-    (at 368.5462 101.6 180)
+    (at 361.442 100.584 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/7eb77ad3-d6cb-4ac6-a08c-0a37108c756f")
-    (fp_text reference "D54" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D54" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 02d7e3f2-173a-41d1-a6b4-5e8721a31ad2)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9d695ff3-5fdd-4409-a74f-516ec9e63a20)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 4bbec191-3b11-48f6-8251-e4d73e442ccc)
     )
@@ -9899,9 +9899,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 2fe3d5c7-910e-433e-84ab-b201acd77b77))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 3afce0a3-8688-48c7-9e1d-c7ce0107ddac))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp b74d71eb-8b21-4a0e-98d2-832011b7a4c7))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (pintype "passive") (tstamp b8fc9d5d-373e-4354-bf71-017c634719f8))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 64 "Net-(D54-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 096654c2-fbde-4f88-bbb1-9997d21a07eb))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -9912,19 +9912,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 52f7cbbc-4260-4bbd-ab67-4225ec5f9453)
-    (at 134.112 54.102 180)
+    (at 127 53.086 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dace326")
-    (fp_text reference "D4" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D4" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 68707348-7d05-4a33-95e5-7829ed1e8994)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 036a96ff-d036-4ab8-b3b5-976f2caf7d8b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 55dce6ad-4748-42a0-aeba-fbdf6a9fe07f)
     )
@@ -9941,9 +9941,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 228b2ebc-fbde-4d75-93ef-63724812f6dd))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 6d1c7b36-6eda-403a-b896-5c0ca492e70e))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e17a77ce-f6ce-4b6d-b771-121660a6d9c3))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 34 "/P0.07") (pinfunction "K") (pintype "passive") (tstamp edb0574c-80f8-4250-b7be-128462ca4ea1))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 5 "Net-(D4-Pad2)") (pinfunction "A") (pintype "passive") (tstamp dcae762c-3536-4f62-80cd-9c0c1edce599))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -9954,19 +9954,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 589ffe83-61d0-4160-8367-8dd3936f1366)
-    (at 254.2462 137.414 180)
+    (at 247.142 136.398 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/86d8c062-4a11-4709-b71d-cb71eef1185a")
-    (fp_text reference "D56" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D56" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8a19e054-7435-4999-ab6b-ac69f91914cb)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d358e756-7dce-42f3-97e0-a7695a41461b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 6ab4e080-49c8-4e0d-a1cd-a12a0f87d91c)
     )
@@ -9983,10 +9983,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp b75399e1-9d2d-43a8-8a44-c31d8a06f4b3))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp be6a06d0-f8aa-4c35-881c-7de7922d5ddd))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp c2c80e8a-b4b2-4dd1-ac5f-6a35423dd2d8))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (pintype "passive") (tstamp 52656213-a847-45e1-b3ab-ee3a01d2a176))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 67 "Net-(D56-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 271aa80d-826e-47f2-a7c4-481cba513d99))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 51 "/jiran-ble-lite-right/P0.19") (pinfunction "K") (tstamp 52656213-a847-45e1-b3ab-ee3a01d2a176))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 67 "Net-(D56-Pad2)") (pinfunction "A") (tstamp 271aa80d-826e-47f2-a7c4-481cba513d99))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10053,19 +10053,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 65dcf521-9a0f-4d72-8150-d35c7f8da971)
-    (at 57.912 101.6 180)
+    (at 50.8 100.584 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad7eb7")
-    (fp_text reference "D25" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D25" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5a4c32c5-5b5e-46d8-a1b4-5a8dbd2a9373)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 18674e4e-75e4-405f-9031-ea13a4d09449)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 49863b2e-8c35-4ff6-b391-310aa5cdc85b)
     )
@@ -10082,9 +10082,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 29311b36-0882-40eb-a392-0105a3b24d7f))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 469c4a42-4b2b-423b-a2d1-84532b6909b1))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp afcfc9f5-4464-4cdc-94d2-e33eae221c43))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 16 "/P0.19") (pinfunction "K") (pintype "passive") (tstamp 39817daf-fd7a-455c-9d8e-215fca2582ba))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 29 "Net-(D25-Pad2)") (pinfunction "A") (pintype "passive") (tstamp e642225c-fa2f-46bb-965d-ab538121e10e))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10095,19 +10095,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 6b05ee5c-20cb-4de0-a1bb-1ed169ffffad)
-    (at 96.012 123.19 180)
+    (at 88.9 122.174 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad62d4")
-    (fp_text reference "D20" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D20" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 84c87dd5-b165-40f6-8a2a-b5b568f5f098)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e815ea0b-1e06-486a-8e45-dd400add1020)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp af80aab8-0460-4dba-ae9b-c87d684b1d4b)
     )
@@ -10124,10 +10124,10 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 0457a3d4-13ed-44a3-81f7-dbb57233ff83))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 480574f3-194e-4500-93ef-7482a8d14b41))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ac14873e-25a5-4f61-bd0f-1deda5fdf481))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 9 "/P0.21") (pinfunction "K") (pintype "passive") (tstamp a93abe5c-d310-4403-9645-43784e91a15a))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 24 "Net-(D20-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f0e60d31-8823-4efc-8984-b500f7369bf8))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 9 "/P0.21") (pinfunction "K") (tstamp a93abe5c-d310-4403-9645-43784e91a15a))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 24 "Net-(D20-Pad2)") (pinfunction "A") (tstamp f0e60d31-8823-4efc-8984-b500f7369bf8))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10137,19 +10137,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 6b1a55b1-dadd-42fa-847c-5bbd63abf914)
-    (at 273.2962 77.978 180)
+    (at 266.192 76.962 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/8b3152be-a804-4e42-95d4-7c5cbe4d782a")
-    (fp_text reference "D40" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D40" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 01cce94b-9ca2-4d70-b6dc-e6852756d386)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6b668cb6-99cf-4865-a010-12609afda9c4)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8de90ecf-f0fe-4fd4-ae43-6fdaa6b65cd1)
     )
@@ -10166,9 +10166,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp cfe4d9dd-3356-4112-b127-912b2a28b648))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp da8f6bad-ca7c-4a7e-b58e-3be346e1a1de))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp f2021f18-04ef-45ea-a17f-4b6d3b8c60ea))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 105 "/jiran-ble-lite-right/P1.09") (pinfunction "K") (pintype "passive") (tstamp 8e6207a1-e69d-4ac3-8853-0035d3a9d5dd))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 48 "Net-(D40-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 5497da31-eb83-4a4d-8335-be9a1356ec01))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10179,19 +10179,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 6ebfd621-ebd9-4b97-a8df-59186beb9ea1)
-    (at 134.112 73.152 180)
+    (at 127 72.136 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad32bc")
-    (fp_text reference "D10" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D10" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 564bb60a-dd71-4ad7-9621-a6edd6efb598)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ffabfa45-2acf-4020-8f74-b45e172e8f0d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp b3566644-b6b7-4a8f-9575-f80137ad9fb6)
     )
@@ -10208,9 +10208,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 750e07bc-bf4c-473e-b8da-34466d77cedc))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp da11f71b-2f9b-469c-b88e-9ef6906fd508))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ed31e2f6-096b-4661-bfec-0970a4dca73d))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 35 "/P1.09") (pinfunction "K") (pintype "passive") (tstamp 6558330a-1ff0-49c4-a87f-cf259db96e66))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 12 "Net-(D10-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 2e65edf2-b8a9-4bf9-955a-d0659be8b021))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10221,19 +10221,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 76c80b11-cb1f-41c0-8df2-89198a5985d1)
-    (at 311.3962 116.078 180)
+    (at 304.292 115.062 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/34336fad-56b1-43b8-bea9-58c046f2f23c")
-    (fp_text reference "D50" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D50" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 867f1b7e-111d-49a2-9644-b28e4a8e0da9)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 86cc6210-6692-460f-ba4d-c510f63a86cd)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp a52661de-f8e3-40b7-8a23-bf587fafe544)
     )
@@ -10250,10 +10250,10 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 409d4aa5-3e0b-4a05-9760-1f8127f3eb11))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 51916e95-2fe4-4682-8115-c1d985bdd6df))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp afcdec94-0944-43fe-94d4-468931704b71))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (pintype "passive") (tstamp b41eda72-2dd7-4cd4-84f2-b99e8bf4de8a))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 60 "Net-(D50-Pad2)") (pinfunction "A") (pintype "passive") (tstamp ff932496-f3e0-4a56-b391-28105ed8f3d5))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (tstamp b41eda72-2dd7-4cd4-84f2-b99e8bf4de8a))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 60 "Net-(D50-Pad2)") (pinfunction "A") (tstamp ff932496-f3e0-4a56-b391-28105ed8f3d5))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10306,19 +10306,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 831d0013-b059-422e-a26f-52c751c0579b)
-    (at 254.2462 118.364 180)
+    (at 247.142 117.348 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/35b3775a-cdd8-4097-bf09-94cb502dc5e2")
-    (fp_text reference "D53" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D53" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 803ad6a8-3203-4c68-b589-be4e48e3ce6d)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 091b813b-3fb9-4036-ac9f-d472f4cf363b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp cdb67fcb-0573-4d66-8bb0-718b5dd4c920)
     )
@@ -10335,9 +10335,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 7e5ce756-18b9-453c-8030-2600cdb7e940))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 8fbc4f7d-1307-4312-b28c-e722ae9603e4))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp cd3cd93f-a7c6-497f-b09e-f6c3af8cc9da))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (pintype "passive") (tstamp fbba9b38-3216-4461-8d90-fc963322309e))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 63 "Net-(D53-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 64261746-a68b-493a-9926-a38281127316))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10348,19 +10348,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 83832c76-ff64-492c-aa3d-f1c1660ae9c8)
-    (at 330.4462 123.19 180)
+    (at 323.342 122.174 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6b1af520-f19c-4994-8609-12aa04ed427f")
-    (fp_text reference "D49" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D49" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d50c997d-93b9-4156-a13b-00a8709b646d)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ef3a0ec0-44d6-441a-aa25-53ce2697936e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 52d5c4bf-fbd3-484b-8173-aa26398d3447)
     )
@@ -10377,10 +10377,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp b9639601-5676-4c92-a87b-ad11db9087af))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e5c7babb-a480-4fcf-a003-19b5fb030f08))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ee8a6ad8-22c3-4e5b-b5e1-627b1db5e1f1))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (pintype "passive") (tstamp be22b18d-665c-45fe-936a-1b920c1462fa))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 59 "Net-(D49-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 5a555af1-59bb-43fe-8610-fbe154b2c041))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (tstamp be22b18d-665c-45fe-936a-1b920c1462fa))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 59 "Net-(D49-Pad2)") (pinfunction "A") (tstamp 5a555af1-59bb-43fe-8610-fbe154b2c041))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10390,19 +10390,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 87bfd3bc-642e-43aa-be18-7349a8b36d02)
-    (at 330.4462 104.14 180)
+    (at 323.342 103.124 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6b90039c-7b72-491e-a721-1935db401451")
-    (fp_text reference "D43" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D43" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 67a18cb6-076f-4fb6-884c-e36f42ae15d5)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 0cab934c-262e-427b-ac75-5ff747e34323)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 24ea7f2e-4c8c-4b52-ae17-1252cc2e1e1c)
     )
@@ -10419,9 +10419,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 42ca3e01-1a49-403e-b5b1-ef253a5402a5))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 53a25e2e-37ee-45ad-8dfe-57922f60d38c))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp c703d830-c501-467e-b69f-f2ca17b559e6))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 37 "/jiran-ble-lite-right/P0.23") (pinfunction "K") (pintype "passive") (tstamp 9b5bdc4f-0541-434e-ad2b-563bc013ec6d))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 52 "Net-(D43-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 0b9cccb8-ed37-43ab-a870-b68179e0a573))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10432,19 +10432,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 899d7f8e-81b9-43f9-a66d-9a34700822a8)
-    (at 254.2462 80.264 180)
+    (at 247.142 79.248 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/59c4e57b-e91e-46c5-a7e7-037ec6e282f6")
-    (fp_text reference "D41" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D41" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5af88051-4869-4e3d-882f-72eb81eb53e2)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 03b9e629-5b6c-48fa-955d-6f5b225823f3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 1c7f7b5a-8dcf-48c0-bac8-5346ad674a20)
     )
@@ -10461,9 +10461,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 93ae1ea4-173a-43a9-b6a4-5e848fad7140))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp b8426e96-3b39-44b1-bdea-3f4e482e0106))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e471451e-c08d-4fa6-9fc8-6e1980e899a1))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 105 "/jiran-ble-lite-right/P1.09") (pinfunction "K") (pintype "passive") (tstamp 17085829-a133-47c4-9f04-c5fe1c8b47f3))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 49 "Net-(D41-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f587d40b-b731-49ae-9879-94cb45621a51))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10531,19 +10531,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 92dbbd45-501d-4c7d-a1cf-852a87c0f7eb)
-    (at 96.012 104.14 180)
+    (at 88.9 103.124 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad50e5")
-    (fp_text reference "D14" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D14" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp dca8b3a8-3ab1-412b-9388-4ec56104b037)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp efee0c73-4911-4c20-8116-7749a43a7a6f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 98c88874-bccd-48b0-839a-0b68c21b6b69)
     )
@@ -10560,9 +10560,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8f5fbe24-ee71-4642-b6be-a7ea7080c10e))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp b41ea85a-ffc0-4397-a9aa-a126738544bc))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ddc0f762-818b-482c-82db-05e6e0505508))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "/P0.23") (pinfunction "K") (pintype "passive") (tstamp fb5f114f-ced8-475b-9c8a-639a00fb753a))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 17 "Net-(D14-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 78686c9d-d151-49d4-810d-211e7350e976))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10602,19 +10602,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 97efd842-d1c4-4700-a0b6-11f074dea859)
-    (at 273.2962 116.078 180)
+    (at 266.192 115.062 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5ebd1dee-8aab-4bbd-b586-f5f489388382")
-    (fp_text reference "D52" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D52" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 71b9f8e1-7db4-473f-9560-cd9bd6aa83fd)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 548c1277-9ad4-4bad-aed2-e2c4614a3032)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp dc1bcb2b-a196-4f3b-9172-6eff7babec04)
     )
@@ -10631,10 +10631,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 4f8c0868-95a9-48e6-a571-c82a09388767))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp a2684c99-aab2-44e9-aba8-fe342311a0db))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp c9792ba3-e57d-490f-badd-be3abe40c99c))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (pintype "passive") (tstamp f20eb59f-12df-45e8-b8c4-4de3654f89d3))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 62 "Net-(D52-Pad2)") (pinfunction "A") (pintype "passive") (tstamp b1d75d8d-1294-4fd2-baf5-0af4f188c8c6))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (tstamp f20eb59f-12df-45e8-b8c4-4de3654f89d3))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 62 "Net-(D52-Pad2)") (pinfunction "A") (tstamp b1d75d8d-1294-4fd2-baf5-0af4f188c8c6))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10644,19 +10644,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp 9e357fbd-9f9a-4d14-b681-0a3d73e5d22c)
-    (at 273.2962 58.928 180)
+    (at 266.192 57.912 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/23dd7f68-399c-4c72-9782-37441c0a7061")
-    (fp_text reference "D34" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D34" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ca1bbe32-7b23-410f-8a47-c156fb63f7aa)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 106d0d15-6d36-4c96-96c3-856c590e9fb7)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 27da8efe-1824-4e07-b81b-4b7cac3568d4)
     )
@@ -10673,9 +10673,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 60fe7a6b-dd95-47d9-b742-be4692142bc2))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 7a264871-1457-4c87-bc97-fe4375eebd6e))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp ffdbacca-8069-4cca-a76b-51376326a23c))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 104 "/jiran-ble-lite-right/P0.07") (pinfunction "K") (pintype "passive") (tstamp 9e956cf6-5301-4582-9034-65f600c15cee))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 41 "Net-(D34-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 82830760-fa0f-4997-8b71-04e51c202479))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10686,19 +10686,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp a001b8a4-120c-4bf3-a3f2-3ccfd27487ad)
-    (at 172.212 118.364 180)
+    (at 165.1 117.348 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad62ec")
-    (fp_text reference "D24" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D24" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b7814df5-5c56-4f3a-8dbe-5583bf4c8a9e)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 24103a1b-f7ce-4990-90dd-c0945187de0d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp e4de64fa-ef0c-4e7f-9e50-034556a57db6)
     )
@@ -10715,10 +10715,10 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 1b249a89-ae59-4ba2-9938-ffd6fcce5105))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 7fdcaa01-918d-482f-a7a5-0689b3694789))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp ee48f7cb-b4b5-470d-9624-6d30e8245f56))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 9 "/P0.21") (pinfunction "K") (pintype "passive") (tstamp 93de6ff2-a2da-43f9-aba9-395b3330c045))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 28 "Net-(D24-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 9821b68f-275b-42db-aa4f-408a8655385b))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 9 "/P0.21") (pinfunction "K") (tstamp 93de6ff2-a2da-43f9-aba9-395b3330c045))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 28 "Net-(D24-Pad2)") (pinfunction "A") (tstamp 9821b68f-275b-42db-aa4f-408a8655385b))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10728,19 +10728,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp a20039d7-d28c-440e-be1b-ef64955b630f)
-    (at 311.3962 58.928 180)
+    (at 304.292 57.912 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c532ee65-5170-47e9-a0b7-c4faa1fadf90")
-    (fp_text reference "D32" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D32" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7e925358-ad4a-4639-beb8-bc4f90e3cf94)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9f17620c-1cfc-49b2-95e0-e91e7f5b235c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 57676b3c-c6c3-4564-8ce5-4cdc68f8a758)
     )
@@ -10757,9 +10757,9 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 9baded93-b0f4-4ccf-8087-93a9b488ea37))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp d4c27be9-a5f0-4adf-9320-580451dfc85c))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp ddc53fd2-7dc0-490b-b13a-873f8f1e31b7))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 104 "/jiran-ble-lite-right/P0.07") (pinfunction "K") (pintype "passive") (tstamp 12d8a14c-716a-4ed6-85ae-c938ad5a74d6))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 39 "Net-(D32-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 2169c5d6-f9ff-41f1-885b-9c164d5609d5))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10770,19 +10770,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp a8ceda4e-6895-4db8-a7be-c473ab24f42c)
-    (at 349.4962 68.326 180)
+    (at 342.392 67.31 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/813fafb7-42af-4f5b-b664-86d34b54c8b6")
-    (fp_text reference "D30" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D30" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f90299d4-569d-4a99-a701-7879bc3ad2b0)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 15b08072-be51-43c6-bdf1-3b84945758bf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 39ad7c39-a091-4e84-9f55-8c38744483d6)
     )
@@ -10799,9 +10799,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 7a45603a-cfca-42b3-a3c4-60442e60b94f))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8f7fd6d9-4d87-45c4-a05a-2daee42a346f))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e0f96a7a-87e5-417a-b889-146067cbbb3c))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 104 "/jiran-ble-lite-right/P0.07") (pinfunction "K") (pintype "passive") (tstamp 7b872fc2-8f0b-43da-b71b-dfc28069bfa0))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 36 "Net-(D30-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 6e68d515-4d91-4032-b2e1-cec241acfa60))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10812,19 +10812,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp aa9b5bb4-df66-4a25-b8c0-15b1e2c35cb7)
-    (at 115.062 58.928 180)
+    (at 107.95 57.912 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dacdb06")
-    (fp_text reference "D3" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D3" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bbf2ae69-e411-48ee-9adc-c663c65553b6)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 188a5190-6219-421b-a434-c1d5d46eb24f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c9f633fe-c671-42d6-a7b9-fc25f4730c17)
     )
@@ -10841,9 +10841,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 255e0adb-177b-4770-8f55-eaab176f2b12))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 65ac3cc2-94f9-4b8c-9e1c-d79e8d4c092f))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp c87d5f2a-10be-458c-b512-9de607226e9b))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 34 "/P0.07") (pinfunction "K") (pintype "passive") (tstamp fa67d2b2-9a90-4c51-b88b-a523fc28536e))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(D3-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f1ae7b85-5725-4b33-911c-b344c4d28fb8))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10952,19 +10952,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp b463fbfc-56e4-40c7-bfd3-65d758d31c3b)
-    (at 115.062 97.028 180)
+    (at 107.95 96.012 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad50eb")
-    (fp_text reference "D15" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D15" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d6c8248a-6f1d-451f-a936-68edd1d6d63b)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b7bcbf75-b8d7-4fa0-99d3-c3b2ea20cf65)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp d69026f2-acdd-4cf8-bd99-085e49fe633b)
     )
@@ -10981,9 +10981,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 75de8064-146a-4438-a0fc-543bfe062c20))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp c532ab65-3939-43d9-aa83-20307d2c8bad))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp c99ee5a9-8b86-4d15-abb0-f3756b5cbaa9))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "/P0.23") (pinfunction "K") (pintype "passive") (tstamp fa753256-81d1-4260-b254-60eb2aefadde))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 18 "Net-(D15-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 6f39f253-ab6e-417f-b2ff-ac45762aed28))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -10994,19 +10994,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp b67d61e7-d349-454c-ae1f-7df09bf6e0e3)
-    (at 311.3962 77.978 180)
+    (at 304.292 76.962 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/27f7962b-7e59-4e2c-a4a5-8276456432ad")
-    (fp_text reference "D38" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D38" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp bf51b73a-0d80-4f5f-a8a3-72e1dbbf7de5)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 13c434d7-7681-4fb3-b94a-eb719ed29e81)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp a90bd55c-5194-4ddc-8bb8-7b38091d5ef4)
     )
@@ -11023,9 +11023,9 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp be0151c6-211a-4cf6-afcc-540d94436cbd))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp d4ac47ef-95ad-405e-9d0d-5674f748328b))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp edc16cb5-8a6c-4104-84ac-fda3f97f3e8c))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 105 "/jiran-ble-lite-right/P1.09") (pinfunction "K") (pintype "passive") (tstamp 49c6dae5-4bf3-4007-8d62-bd3807508862))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 46 "Net-(D38-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 05a23c06-4f04-4317-828f-46248ebd2c2f))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11036,19 +11036,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp b9014866-8781-4c75-8cd9-803f5ecc3892)
-    (at 292.3462 92.202 180)
+    (at 285.242 91.186 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f46cec49-1f27-4c27-b72d-500d4c27d1bb")
-    (fp_text reference "D45" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D45" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 36a51d60-f179-4d87-ace5-cb452eebe05d)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d65ac29f-8751-4073-997e-29b253500a1b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 551d8521-e50d-4b85-9ed6-156eee674729)
     )
@@ -11065,9 +11065,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 5a2d21a3-009b-49cc-ae1e-e0e5ca7787a1))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 5b621752-2ac4-469e-a491-22f4f67fe746))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8f392bc3-e37a-4827-839c-d17c47a008f0))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 37 "/jiran-ble-lite-right/P0.23") (pinfunction "K") (pintype "passive") (tstamp c9d25100-49a0-4297-9bc4-11fb122e184e))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 54 "Net-(D45-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 469a8a27-6b41-4fa0-9ce9-bf0d94035a37))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11078,19 +11078,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp bc05b7c9-0ced-4dfc-b578-93dcab192a3f)
-    (at 115.062 116.078 180)
+    (at 107.95 115.062 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad62da")
-    (fp_text reference "D21" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D21" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c8045a36-b1dc-45a6-962f-a3e3440d4ab6)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5763ffb7-e565-4079-b4db-4475a6784de9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 21b7db59-6846-426a-bbe8-49dff07a529a)
     )
@@ -11107,10 +11107,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 4bf8922e-ed48-48e4-bdac-698e301dde9b))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp d4ce8484-1b3e-4fd9-9e86-4003a81673ae))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f9abfe9f-9614-47b9-9a91-445a25eb7477))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 9 "/P0.21") (pinfunction "K") (pintype "passive") (tstamp 42594480-5ef6-492a-86ed-a63d6105f0d9))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 25 "Net-(D21-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 653c1f8c-64c6-417a-bf6b-a40c826764cb))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 9 "/P0.21") (pinfunction "K") (tstamp 42594480-5ef6-492a-86ed-a63d6105f0d9))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 25 "Net-(D21-Pad2)") (pinfunction "A") (tstamp 653c1f8c-64c6-417a-bf6b-a40c826764cb))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11120,19 +11120,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp bdda1542-5031-45a5-8eae-db284f4ba3c4)
-    (at 330.4462 85.09 180)
+    (at 323.342 84.074 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d1ba34b6-f49b-4e49-9380-db807b57d81b")
-    (fp_text reference "D37" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D37" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3468585b-8d63-40e2-acab-179a2a777703)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2b955588-b6eb-4f9f-a3f1-8a18424cbacf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 09f8c7ce-47d3-4d52-9e5a-88bbf88ef546)
     )
@@ -11149,9 +11149,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 8f1dc9f5-a262-47bb-a91d-f1b3b74c2d98))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp b2529a41-be28-462e-b598-4ae25a016740))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp f85b836d-1c3e-4ab8-ac32-1a7a03d551d8))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 105 "/jiran-ble-lite-right/P1.09") (pinfunction "K") (pintype "passive") (tstamp 801a8b83-bd60-45ad-b1ef-110126034be9))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 45 "Net-(D37-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 168773b0-a4f8-4694-a2d3-5dd536bc7939))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11191,19 +11191,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp c32df50e-2bc9-4972-9831-48396c021f47)
-    (at 153.162 116.078 180)
+    (at 146.05 115.062 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad62e6")
-    (fp_text reference "D23" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D23" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b5e841fe-051e-45d8-9f5a-b69d2a0859cc)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cb7e8fb0-0484-401e-8c30-97304d8f935b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8735b628-a52c-4050-9b0c-01678fb2545c)
     )
@@ -11220,10 +11220,10 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 4ca85762-4b9c-4d29-86fa-adf329cd7985))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 612e211a-8a73-4375-9d2c-ceee41589ca0))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp b1dbc234-e0e5-4776-a3fa-47b3aeaffb80))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 9 "/P0.21") (pinfunction "K") (pintype "passive") (tstamp bfaed30b-2723-4012-b996-fea9a1ce9930))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 27 "Net-(D23-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d0c7d156-4f4e-48ab-948b-7c96b2586c4c))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 9 "/P0.21") (pinfunction "K") (tstamp bfaed30b-2723-4012-b996-fea9a1ce9930))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 27 "Net-(D23-Pad2)") (pinfunction "A") (tstamp d0c7d156-4f4e-48ab-948b-7c96b2586c4c))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11233,19 +11233,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp c7dca8cb-9265-4a2f-8c15-ba6803643878)
-    (at 172.212 99.314 180)
+    (at 165.1 98.298 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad50fd")
-    (fp_text reference "D18" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D18" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1f903d7a-bfc4-4c6e-ac64-4a466a88069a)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6ac4bd1b-2c9c-4ceb-a7fa-5ffcd82fd157)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8673da9a-4586-4672-a259-4aa92d47c4d6)
     )
@@ -11262,9 +11262,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 5b8f3db6-c872-4869-83d7-565120a77b8a))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8114e52c-db05-4a88-ac6c-5a1687c42923))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp bc1e2402-f090-406c-81e8-10f7b7fa57ef))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "/P0.23") (pinfunction "K") (pintype "passive") (tstamp 42757d2d-1f9e-4126-a332-3b3f838cd3e7))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 21 "Net-(D18-Pad2)") (pinfunction "A") (pintype "passive") (tstamp abef0009-67a0-4660-a864-5921529753d6))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11275,19 +11275,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp cb836cb2-f690-4558-9ed3-0c3d81fb083f)
-    (at 134.112 111.252 180)
+    (at 127 110.236 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad62e0")
-    (fp_text reference "D22" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D22" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 630e340b-456c-4830-ac2c-5920c6886bd0)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp faa24d57-d3ce-45fb-aa50-83accfa4290b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 1de7d1c0-50db-4680-a589-f556c5bb8f89)
     )
@@ -11304,10 +11304,10 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 462ac0dc-c02e-4c7c-9317-ef9485bf2b53))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 7a2505d9-f1aa-4d7a-a4f3-7726aaef032d))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 809d1bdb-2bbe-4ecb-a1a3-8e423cccd7da))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 9 "/P0.21") (pinfunction "K") (pintype "passive") (tstamp 94861344-953f-477e-9884-4e80784dcb2d))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 26 "Net-(D22-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4cccce52-3e5f-4e59-8290-db604a9a4e33))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 9 "/P0.21") (pinfunction "K") (tstamp 94861344-953f-477e-9884-4e80784dcb2d))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 26 "Net-(D22-Pad2)") (pinfunction "A") (tstamp 4cccce52-3e5f-4e59-8290-db604a9a4e33))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11317,19 +11317,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp ce76c101-c0e6-4ede-a5c8-e37ceeb31eb6)
-    (at 134.112 92.202 180)
+    (at 127 91.186 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad50f1")
-    (fp_text reference "D16" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D16" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 00c65f3a-e790-424f-8c2e-7f7811a9d726)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp df2bf412-0bc3-43e1-bbf3-af3a1677e634)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp dd20659c-8365-4503-a677-e0e339e247b6)
     )
@@ -11346,9 +11346,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 9ee1e57e-2e7f-48d4-a72d-c152c260e1e3))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp a87e96e3-5ca1-4c91-85ae-466ec3826456))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp e0f8e5a1-da0a-4c4c-a373-6f47304e2ff7))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "/P0.23") (pinfunction "K") (pintype "passive") (tstamp 6dc6d822-49af-47ad-b1ba-adc48771a8d7))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 19 "Net-(D16-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f17aace4-6c34-4a7f-ad9c-0ad90132b5b7))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11359,19 +11359,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp cf884d05-24c0-4bb9-83f0-002515f0e213)
-    (at 191.262 139.7 180)
+    (at 184.15 138.684 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad7ed5")
-    (fp_text reference "D28" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D28" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a721c8d1-2fb1-4519-a96a-be30f0d4a8c2)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fb766e69-62b9-495d-89c7-c56130cce4b6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp cf42404c-0fb2-4747-8a2d-56f8676460a6)
     )
@@ -11388,10 +11388,10 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 56867549-a4b7-452e-8b88-156fa810aefa))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 971e668a-a3d2-4a90-b374-a82133e400d4))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp a9046cb9-6bba-42b7-8e55-cb0e0f630082))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 16 "/P0.19") (pinfunction "K") (pintype "passive") (tstamp bac81b25-5442-4d30-ab07-74bca056cd6a))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 33 "Net-(D28-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 36d5a8b8-d6bf-4ee0-9398-18e09c634e4a))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 16 "/P0.19") (pinfunction "K") (tstamp bac81b25-5442-4d30-ab07-74bca056cd6a))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 33 "Net-(D28-Pad2)") (pinfunction "A") (tstamp 36d5a8b8-d6bf-4ee0-9398-18e09c634e4a))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11401,19 +11401,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp d328624d-2c38-4cc6-a93c-29691faa5791)
-    (at 254.2462 61.214 180)
+    (at 247.142 60.198 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d5b0a7ab-e070-4c66-8d7f-5fcfb3e3cd64")
-    (fp_text reference "D35" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D35" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4dd6d373-ba3d-4907-bbff-3b880cb6827a)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 68c748ed-ea59-4f7d-b79f-ed60735cf030)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 3401f4a6-3277-45b6-a957-d2e2eb59404c)
     )
@@ -11430,9 +11430,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 570b71ab-2246-4000-842c-368f92113e1c))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp cdc9c753-c134-4c77-8891-cdab5c1a5b18))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f24999fe-fa3b-47e6-ba32-17c197c70152))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 104 "/jiran-ble-lite-right/P0.07") (pinfunction "K") (pintype "passive") (tstamp b80d3987-74fa-42d6-be37-5a0b9e1cf0ce))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 42 "Net-(D35-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d632a44a-0a34-415e-99bc-098ae3862a29))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11443,19 +11443,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp d5636c01-673d-48ab-a8c1-53a270a3119b)
-    (at 311.3962 97.028 180)
+    (at 304.292 96.012 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6543cece-4ba5-4ddc-a700-d06d0017c066")
-    (fp_text reference "D44" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D44" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 421e6754-87e9-4900-a83e-fb93e65cfbd0)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 853b86e6-0b17-40ac-821b-faa5102d645e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c1a877bc-57ff-462a-9fc4-c3bf8dcf76b0)
     )
@@ -11472,9 +11472,9 @@
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 79cbdb20-8867-43da-ae1d-4a7480adc55c))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 8ace3a99-dec4-47b6-bc3b-d7eec1d02c30))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f8db4860-1db0-4d24-ad5a-f35744f5089d))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 37 "/jiran-ble-lite-right/P0.23") (pinfunction "K") (pintype "passive") (tstamp 26887ef7-7764-47a5-996b-7e63e52e4dd1))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 53 "Net-(D44-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d64d1e1d-0cbf-4e91-b783-5779570eb2fe))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11589,19 +11589,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp dbeb5188-2536-434f-950a-5c0e1158d9f6)
-    (at 330.4462 66.04 180)
+    (at 323.342 65.024 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/cffafac6-212e-401b-9435-6c9714cc562f")
-    (fp_text reference "D31" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D31" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b3e74065-a939-40e7-a12a-2d635f8cc235)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 07accbab-fafb-42c8-8406-d9f9df015dda)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp bd9412bf-2565-4177-9b48-b04eed19cb8a)
     )
@@ -11618,9 +11618,9 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 74245c58-22ab-4ce5-a460-ce06a8a2701f))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 890408b5-e7ff-4ae8-94de-4126bf146fe6))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f7ea1e50-98e8-48d1-acb3-b77665a70c05))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 104 "/jiran-ble-lite-right/P0.07") (pinfunction "K") (pintype "passive") (tstamp 8c3ed542-076b-4f69-9684-1862ac54ce0d))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 38 "Net-(D31-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 2afafb8f-ec81-4c66-ae36-5cfa5688e3af))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11635,7 +11635,7 @@
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/38d8c9b4-9e55-43e5-be47-f1b8fce67c86")
-    (fp_text reference "SW29" (at 0 0 90) (layer "B.Fab")
+    (fp_text reference "SW29" (at 0 0 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2ee989a1-2e65-4580-8fc9-aaf37b58300f)
     )
@@ -11686,19 +11686,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp de42a30a-837d-428b-8856-736334a507fe)
-    (at 96.012 85.09 180)
+    (at 88.9 84.074 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad32b0")
-    (fp_text reference "D8" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D8" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3a8a8d46-b5e7-4221-9c1e-5428ca686d42)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 869b8bae-bcec-4b27-8d0c-e6c28a111f3b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 180 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp b6062cf7-08e8-4f9f-a198-81adeac27fa7)
     )
@@ -11715,9 +11715,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 5b6f5147-a13c-44ab-a160-e5fe9567bd25))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 86df27bf-7906-4e4e-a18e-6308bdf3b597))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp a7743016-4be6-449f-a3a3-0c1f97003151))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 35 "/P1.09") (pinfunction "K") (pintype "passive") (tstamp 00bac1b9-5eb4-42e7-86e5-71ed108aaa1a))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 10 "Net-(D8-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f73ef9c4-ed5c-4f38-8b16-f07cdb176622))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11790,19 +11790,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp e2d0bdeb-24ec-4c14-a822-9afa5013b771)
-    (at 254.2462 99.314 180)
+    (at 247.142 98.298 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6e6f3e4e-7640-4cc8-9dc5-2d210ae20d00")
-    (fp_text reference "D47" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D47" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6142de91-7aa4-462a-bceb-4d3d5ac2da3a)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 34a2455b-3e3b-443b-a12d-abe69580f4c5)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 89140026-a7d4-4899-9e85-d12b8c2f402c)
     )
@@ -11819,9 +11819,9 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp b5de7b10-aa11-42f5-9447-035dc50895c6))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp c561f975-9a64-4b81-b38d-a1b42932f5c9))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp f021d200-7d50-4e61-8527-e68b4188c63f))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 37 "/jiran-ble-lite-right/P0.23") (pinfunction "K") (pintype "passive") (tstamp 454eea47-9e38-4144-992b-9b2d1d4caab1))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 56 "Net-(D47-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 4eccd9c2-6bda-44f2-979b-7631b5be9e19))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11832,19 +11832,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp e38ff6b2-9981-48e7-99c1-944fd7af29ae)
-    (at 153.162 135.128 180)
+    (at 146.05 134.112 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad7ec9")
-    (fp_text reference "D26" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D26" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4219f67f-19e9-4adc-9946-701947db1248)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8c191365-b372-4acf-806a-4d4bc2af78db)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp b9745b35-f348-467f-b9a7-ac06f5808ac7)
     )
@@ -11861,10 +11861,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 6b8278f5-a6b6-407c-90dd-f3427367dba5))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 77d33fc5-2b5d-4136-86de-f5516c72c032))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 969d65b6-504e-479d-a494-d9214d423580))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 16 "/P0.19") (pinfunction "K") (pintype "passive") (tstamp 0211215e-daaf-4947-968c-5a114b947b27))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 31 "Net-(D26-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 8426c93c-2ed4-4db2-ab39-f06966f09648))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 16 "/P0.19") (pinfunction "K") (tstamp 0211215e-daaf-4947-968c-5a114b947b27))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 31 "Net-(D26-Pad2)") (pinfunction "A") (tstamp 8426c93c-2ed4-4db2-ab39-f06966f09648))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11874,19 +11874,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp e4e70c96-4be1-4659-8eac-141f7a4964f2)
-    (at 349.4962 125.476 180)
+    (at 342.392 124.46 90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/ae6013aa-3e3a-444e-ac08-37704ad6962e")
-    (fp_text reference "D48" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D48" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d8df21f5-f1ac-424a-afd9-a534bdd50ae1)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e3ea888c-0544-4546-9535-3d2be5346bd9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 36e32be8-d085-428c-840d-3091a7da92c1)
     )
@@ -11903,10 +11903,10 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp c1e2e2cb-a1d8-4867-830a-bdf037078899))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp d673fd87-6ec7-4280-ba16-a1b315eec50f))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp e9a0f08a-b517-41bd-95a4-5acde74af92e))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (pintype "passive") (tstamp 67917170-7ec8-4a66-8ba7-54f258324ff8))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 57 "Net-(D48-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 3f262993-7d2e-4471-afdb-58febb085bf0))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 44 "/jiran-ble-lite-right/P0.21") (pinfunction "K") (tstamp 67917170-7ec8-4a66-8ba7-54f258324ff8))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 57 "Net-(D48-Pad2)") (pinfunction "A") (tstamp 3f262993-7d2e-4471-afdb-58febb085bf0))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11916,19 +11916,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp e777519c-7cb4-40c9-8c68-e19ef3d253da)
-    (at 96.012 66.04 180)
+    (at 88.9 65.024 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005daccfb7")
-    (fp_text reference "D2" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D2" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fe8b616c-17e3-4e4e-926b-33d03f9fe2ad)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp fa7b8369-5cf3-490e-a108-3fbc780561f5)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 0abb7982-2522-4e75-b27d-fdc5037df75c)
     )
@@ -11945,9 +11945,9 @@
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 35d3ed2a-6cad-45e9-8009-6fac96664967))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 3f6ab4eb-4d78-4059-939f-f8ec77594a39))
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 834ab132-a0fa-456d-b2c8-cf1a7deb7bb9))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 34 "/P0.07") (pinfunction "K") (pintype "passive") (tstamp 22d3692d-a2f7-41b7-aa98-2b784a2feff3))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "Net-(D2-Pad2)") (pinfunction "A") (pintype "passive") (tstamp ce02e880-72fa-44f4-b3ed-25e7c6db4888))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -11958,19 +11958,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp f178c4a7-0252-4b87-93fe-c2f5191d7b7c)
-    (at 153.162 97.028 180)
+    (at 146.05 96.012 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad50f7")
-    (fp_text reference "D17" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D17" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b105c0c3-bfa6-4b32-a287-5c15aa2f2a02)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1da4f448-5dcd-40d0-adc0-dcd34dae4a48)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 49583217-11d5-4404-8612-7357db226022)
     )
@@ -11987,9 +11987,9 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 676ed895-ba5c-4408-a0d3-d25fa376826d))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp daa0ba0d-8831-427f-a80a-53521eaaa40a))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp df2f346a-cba3-4e35-8bef-ee80f7c5f66f))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 2 "/P0.23") (pinfunction "K") (pintype "passive") (tstamp 761feadf-4701-432e-8701-1aa5ae121b53))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 20 "Net-(D17-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 9fa9d9a7-ac10-41c6-b3da-fc21f483a36b))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
@@ -12029,19 +12029,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp f71a5756-24c7-422d-8d59-3f9544100023)
-    (at 76.962 68.326 180)
+    (at 69.85 67.31 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dacbec8")
-    (fp_text reference "D1" (at 0 0 180) (layer "B.Fab")
+    (fp_text reference "D1" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1a7af098-7ed9-482b-9f76-7416810e858a)
     )
-    (fp_text value "1N5819" (at 0 -2.1 180) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp cac11c38-4129-48f9-8714-7a8ef6543f78)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp e6fdaf76-89f4-48e9-a2d5-4739baedcb81)
     )
@@ -12058,10 +12058,10 @@
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 2b624f6a-62b4-4106-ae40-2e2a93e9ca30))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 3512b80d-8d4b-4e66-8a24-3e2681d05ee8))
     (fp_line (start 1.4 0.911) (end 1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp 9446779f-9f2a-489a-b27e-b8615321b2e7))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 34 "/P0.07") (pinfunction "K") (pintype "passive") (tstamp acd3a0b6-aed6-4df6-9a51-8ca0b766e6c4))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
-      (net 1 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp d1db8ab4-0a3f-48fd-a6c4-3ac01b44ff45))
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 34 "/P0.07") (pinfunction "K") (tstamp acd3a0b6-aed6-4df6-9a51-8ca0b766e6c4))
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+      (net 1 "Net-(D1-Pad2)") (pinfunction "A") (tstamp d1db8ab4-0a3f-48fd-a6c4-3ac01b44ff45))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -12071,19 +12071,19 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60C60B4E) (tstamp f98fc3c2-fc9f-4ed7-b352-df82bbf54f71)
-    (at 76.962 87.376 180)
+    (at 69.85 86.36 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-00005dad32aa")
-    (fp_text reference "D7" (at 0 0) (layer "B.Fab")
+    (fp_text reference "D7" (at 0 0 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 90bbc9e6-3795-419e-9dd2-b0d43e2cf1f9)
     )
-    (fp_text value "1N5819" (at 0 -2.1) (layer "B.Fab") hide
+    (fp_text value "1N5819" (at 0 -2.1 90) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 879f84f7-e061-4451-a5e3-8d9c6d42acc8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp cd7c6040-8e2a-403d-81b1-d113b812671a)
     )
@@ -12100,9 +12100,9 @@
     (fp_line (start -1.4 0.911) (end 1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp 88a7e070-3c12-4121-accb-9e7c0aa5e33c))
     (fp_line (start -1.4 -0.889) (end -1.4 0.911) (layer "B.Fab") (width 0.1) (tstamp a68db723-fded-41f2-b430-8301e595c3b0))
     (fp_line (start 1.4 -0.889) (end -1.4 -0.889) (layer "B.Fab") (width 0.1) (tstamp fac78540-ac16-4e0d-adf8-70a1098685b3))
-    (pad "1" smd roundrect locked (at -1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect locked (at -1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 35 "/P1.09") (pinfunction "K") (pintype "passive") (tstamp aa6aca93-b00f-42c1-b439-3e872deaf401))
-    (pad "2" smd roundrect locked (at 1.65 0 180) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect locked (at 1.65 0 90) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(D7-Pad2)") (pinfunction "A") (pintype "passive") (tstamp b15dfd73-8856-454b-a940-fa60a219d11d))
     (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
