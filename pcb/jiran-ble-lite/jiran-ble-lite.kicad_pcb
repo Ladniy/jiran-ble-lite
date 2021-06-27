@@ -1905,7 +1905,7 @@
 
   (footprint "jiran-ble-lite:silk_front" (layer "F.Cu")
     (tedit 60C5B625) (tstamp 8979f941-3df9-4973-883c-cc4534d7ddf3)
-    (at 212.759121 96.702667)
+    (at 212.8012 97.8408)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/145c09bd-0a8b-46ab-b739-b971b2f7df8e")
@@ -7251,7 +7251,7 @@
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/91cfb789-8cf5-4230-8a37-2eac215447d9")
     (attr board_only exclude_from_pos_files)
-    (fp_text reference "G2" (at -5.969 0 90) (layer "B.SilkS")
+    (fp_text reference "G2" (at -5.969 0 90) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp 88e3a1ec-86a3-4eeb-9c41-971bf7ac8c30)
     )
