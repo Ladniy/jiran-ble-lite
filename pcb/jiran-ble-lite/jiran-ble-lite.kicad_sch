@@ -2810,7 +2810,7 @@
     (property "Value" "5.1k" (id 1) (at 146.05 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 144.78 144.78 0)
+    (property "Footprint" "jiran-ble-lite:R_0603" (id 2) (at 144.78 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 144.78 0)
@@ -2829,7 +2829,7 @@
     (property "Value" "5.1k" (id 1) (at 153.67 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 152.4 144.78 0)
+    (property "Footprint" "jiran-ble-lite:R_0603" (id 2) (at 152.4 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 152.4 144.78 0)
@@ -2848,7 +2848,7 @@
     (property "Value" "100k" (id 1) (at 177.165 135.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 175.895 134.62 0)
+    (property "Footprint" "jiran-ble-lite:R_0603" (id 2) (at 175.895 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 175.895 134.62 0)
@@ -3205,7 +3205,7 @@
     (uuid a51270e8-63ab-4e9a-817b-700cfc5301e8)
     (property "Reference" "D29" (id 0) (at 180.975 124.46 0))
     (property "Value" "1N5819" (id 1) (at 180.975 127 0))
-    (property "Footprint" "" (id 2) (at 180.975 129.54 90)
+    (property "Footprint" "jiran-ble-lite:D_SOD-123" (id 2) (at 180.975 129.54 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 180.975 129.54 90)
@@ -4097,7 +4097,7 @@
     (uuid c8e97717-e267-4264-a0dd-ee53378dfc0d)
     (property "Reference" "J1" (id 0) (at 132.207 98.298 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 132.207 100.838 0))
-    (property "Footprint" "" (id 2) (at 133.35 120.65 0)
+    (property "Footprint" "jiran-ble-lite:USB-C-C168688" (id 2) (at 133.35 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 133.35 120.65 0)
@@ -4359,7 +4359,7 @@
       (reference "D28") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
     )
     (path "/a51270e8-63ab-4e9a-817b-700cfc5301e8"
-      (reference "D29") (unit 1) (value "1N5819") (footprint "")
+      (reference "D29") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/813fafb7-42af-4f5b-b664-86d34b54c8b6"
       (reference "D30") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
@@ -4446,7 +4446,7 @@
       (reference "D57") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3cc4805b-ed43-4fe4-aa0f-b285da566867"
-      (reference "D58") (unit 1) (value "1N5819") (footprint "")
+      (reference "D58") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
     )
     (path "/145c09bd-0a8b-46ab-b739-b971b2f7df8e"
       (reference "G1") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:silk_front")
@@ -4485,7 +4485,7 @@
       (reference "HM10") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
     )
     (path "/c8e97717-e267-4264-a0dd-ee53378dfc0d"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "jiran-ble-lite:USB-C-C168688")
     )
     (path "/00000000-0000-0000-0000-00005e8fc792"
       (reference "J2") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
@@ -4494,7 +4494,7 @@
       (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/23b22736-8f3b-4bc2-a13d-b1ffa0e2502e"
-      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "jiran-ble-lite:USB-C-C168688")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/64dfdb84-f736-4145-80fb-fc6cbb5310ef"
       (reference "J5") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
@@ -4509,22 +4509,22 @@
       (reference "Q2") (unit 1) (value "AO3407") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/9ec14bd3-6ab2-4b29-8c3a-d692c9bbe27b"
-      (reference "R1") (unit 1) (value "100k") (footprint "")
+      (reference "R1") (unit 1) (value "100k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8d493f35-f0bf-4f20-9b17-f76368089c1b"
-      (reference "R2") (unit 1) (value "5.1k") (footprint "")
+      (reference "R2") (unit 1) (value "5.1k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/d5981c25-073b-499a-ae04-6a8b4615f4af"
-      (reference "R3") (unit 1) (value "5.1k") (footprint "")
+      (reference "R3") (unit 1) (value "5.1k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0629ecf6-5cca-432c-ab17-36f92ee80d72"
-      (reference "R4") (unit 1) (value "100k") (footprint "")
+      (reference "R4") (unit 1) (value "100k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c3010776-461e-43b7-8b26-8604ed4af801"
-      (reference "R5") (unit 1) (value "5.1k") (footprint "")
+      (reference "R5") (unit 1) (value "5.1k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/606be292-5505-4c3c-828e-f9276faac2fd"
-      (reference "R6") (unit 1) (value "5.1k") (footprint "")
+      (reference "R6") (unit 1) (value "5.1k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/00000000-0000-0000-0000-00005daae5c1"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:Switch_Mx_Hotswap_1u")
