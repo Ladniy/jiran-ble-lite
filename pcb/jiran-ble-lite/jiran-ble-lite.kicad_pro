@@ -375,7 +375,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "jiran-ble-lite.net",
       "specctra_dsn": "jiran-ble-lite.dsn",
       "step": "jiran-ble-lite.step",
       "vrml": ""
