@@ -1715,7 +1715,6 @@
     )
   )
 
-
   (junction (at 131.445 36.83) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 131.445 46.99) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 131.445 57.15) (diameter 0.9144) (color 0 0 0 0))
@@ -4033,7 +4032,7 @@
     (property "Value" "AO3407" (id 1) (at 192.405 123.8249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 192.405 123.825 0)
+    (property "Footprint" "jiran-ble-lite:SOT-23" (id 2) (at 192.405 123.825 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" (id 3) (at 187.325 121.92 0)

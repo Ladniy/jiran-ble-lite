@@ -1715,7 +1715,6 @@
     )
   )
 
-
   (junction (at 127.635 35.56) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 127.635 45.72) (diameter 0.9144) (color 0 0 0 0))
   (junction (at 127.635 55.88) (diameter 0.9144) (color 0 0 0 0))
@@ -4072,7 +4071,7 @@
     (property "Value" "AO3407" (id 1) (at 188.595 122.5549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 188.595 122.555 0)
+    (property "Footprint" "jiran-ble-lite:SOT-23" (id 2) (at 188.595 122.555 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" (id 3) (at 183.515 120.65 0)
@@ -4506,10 +4505,10 @@
       (reference "J6") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel")
     )
     (path "/50d2f4f2-f21d-4e23-b9eb-c9c44455e8da"
-      (reference "Q1") (unit 1) (value "AO3407") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "AO3407") (footprint "jiran-ble-lite:SOT-23")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6a13aaab-c8d8-42a1-8589-435bf825b1e1"
-      (reference "Q2") (unit 1) (value "AO3407") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "AO3407") (footprint "jiran-ble-lite:SOT-23")
     )
     (path "/9ec14bd3-6ab2-4b29-8c3a-d692c9bbe27b"
       (reference "R1") (unit 1) (value "100k") (footprint "jiran-ble-lite:R_0603")
