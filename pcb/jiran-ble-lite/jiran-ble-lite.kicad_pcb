@@ -6344,7 +6344,7 @@
 
   (footprint "jiran-ble-lite:SOT-23-5" (layer "B.Cu")
     (tedit 60C60BEE) (tstamp 03f880f1-8dc0-4e90-9f64-ff4ff3feb8ea)
-    (at 240.8936 76.0984)
+    (at 242.7986 76.0984)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5f817de1-4c89-4fcb-9648-31feb103db50")
@@ -6721,7 +6721,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 2d10905f-f8d8-425b-b5fc-627973d0d83a)
-    (at 240.8936 68.7324 180)
+    (at 242.7986 68.7324 180)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0629ecf6-5cca-432c-ab17-36f92ee80d72")
@@ -6876,7 +6876,7 @@
 
   (footprint "jiran-ble-lite:SOT-23" (layer "B.Cu")
     (tedit 60D82D5F) (tstamp 3a801dd6-c6c1-4feb-9db2-d94b4ef4624e)
-    (at 240.8936 71.882)
+    (at 242.7986 71.882)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/6a13aaab-c8d8-42a1-8589-435bf825b1e1")
@@ -6911,7 +6911,7 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60D8A465) (tstamp 3bfdae64-5c5f-4f33-a410-e3ab61bfb632)
-    (at 190.5 72.898 90)
+    (at 188.6336 72.898 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/a51270e8-63ab-4e9a-817b-700cfc5301e8")
@@ -7130,7 +7130,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 42eb3834-c056-4d87-82d9-9fa15bf283a9)
-    (at 235.966 77.0128)
+    (at 237.871 77.0128)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c3010776-461e-43b7-8b26-8604ed4af801")
@@ -10491,7 +10491,7 @@
 
   (footprint "jiran-ble-lite:SOT-23-5" (layer "B.Cu")
     (tedit 60C60BEE) (tstamp 7b829469-e64c-4311-9037-780b85b67095)
-    (at 185.5724 76.1134 180)
+    (at 183.706 76.1134 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/fd846b4f-553c-4d89-997f-fee3d90f690e")
@@ -10801,7 +10801,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 97437c3a-d54c-4ce2-910c-4c0a779539b1)
-    (at 190.5 68.7324 180)
+    (at 188.6336 68.7324 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/8d493f35-f0bf-4f20-9b17-f76368089c1b")
@@ -11082,7 +11082,7 @@
 
   (footprint "jiran-ble-lite:SOT-23" (layer "B.Cu")
     (tedit 60D82D5F) (tstamp aed0bcdf-30c9-4abe-9cff-28e64d400b35)
-    (at 185.5724 71.882 180)
+    (at 183.706 71.882 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/50d2f4f2-f21d-4e23-b9eb-c9c44455e8da")
@@ -11117,7 +11117,7 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60D8A465) (tstamp af422962-9132-46ef-93a7-6727350f02a1)
-    (at 235.966 72.898 -90)
+    (at 237.871 72.898 -90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3cc4805b-ed43-4fe4-aa0f-b285da566867")
@@ -11155,7 +11155,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp b06d52d2-24b7-40aa-94d9-56bea3eefbcf)
-    (at 235.966 68.7324)
+    (at 237.871 68.7324)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/606be292-5505-4c3c-828e-f9276faac2fd")
@@ -11394,7 +11394,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp c0dbcb93-fa13-4681-b461-6e7261036e31)
-    (at 190.5 77.0636 180)
+    (at 188.6336 77.0636 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/d5981c25-073b-499a-ae04-6a8b4615f4af")
@@ -12232,7 +12232,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp f3c725a2-83f4-48ac-b991-5befb183efe6)
-    (at 185.5724 68.7324 180)
+    (at 183.706 68.7324 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/9ec14bd3-6ab2-4b29-8c3a-d692c9bbe27b")
