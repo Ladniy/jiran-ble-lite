@@ -468,7 +468,7 @@
       (place SW33 292346.200000 -49276.000000 front 180.000000 (PN SW_Push))
     )
     (component "jiran-ble-lite:SOT-23-5"
-      (place U4 240893.600000 -76098.400000 back 180.000000 (PN "AP2112K-3.3"))
+      (place U4 242798.600000 -76098.400000 back 180.000000 (PN "AP2112K-3.3"))
     )
     (component "jiran-ble-lite:D_SOD-123"
       (place D12 165100.000000 -79248.000000 back 270.000000 (PN 1N5819))
@@ -489,8 +489,7 @@
       (place U3 234696.000000 -87630.000000 back 90.000000 (PN "HOLYIOT-18010-NRF52840_Simple"))
     )
     (component "jiran-ble-lite:R_0603"
-      (place R4 240893.600000 -68732.400000 back 0.000000 (PN 100k))
-      (place R1 185572.400000 -68732.400000 back 0.000000 (PN 100k))
+      (place R4 242798.600000 -68732.400000 back 0.000000 (PN 100k))
     )
     (component "jiran-ble-lite:D_SOD-123::4"
       (place D33 285242.000000 -53086.000000 back 270.000000 (PN 1N5819))
@@ -502,10 +501,10 @@
       (place D13 69850.000000 -105410.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:SOT-23"
-      (place Q2 240893.600000 -71882.000000 back 180.000000 (PN AO3407))
+      (place Q2 242798.600000 -71882.000000 back 180.000000 (PN AO3407))
     )
     (component "jiran-ble-lite:D_SOD-123::7"
-      (place D29 190500.000000 -72898.000000 back 270.000000 (PN 1N5819))
+      (place D29 188633.600000 -72898.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:D_SOD-123::8"
       (place D6 165100.000000 -60198.000000 back 270.000000 (PN 1N5819))
@@ -521,7 +520,7 @@
       (place D56 247142.000000 -136398.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:R_0603::1"
-      (place R5 235966.000000 -77012.800000 back 180.000000 (PN 5.1k))
+      (place R5 237871.000000 -77012.800000 back 180.000000 (PN 5.1k))
     )
     (component "jiran-ble-lite:D_SOD-123::11"
       (place D57 228092.000000 -138684.000000 back 270.000000 (PN 1N5819))
@@ -566,7 +565,7 @@
       (place D50 304292.000000 -115062.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:SOT-23-5::1"
-      (place U2 185572.400000 -76113.400000 back 0.000000 (PN "AP2112K-3.3"))
+      (place U2 183706.000000 -76113.400000 back 0.000000 (PN "AP2112K-3.3"))
     )
     (component "jiran-ble-lite:D_SOD-123::24"
       (place D53 247142.000000 -117348.000000 back 270.000000 (PN 1N5819))
@@ -587,7 +586,7 @@
       (place D14 88900.000000 -103124.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:R_0603::2"
-      (place R2 190500.000000 -68732.400000 back 0.000000 (PN 5.1k))
+      (place R2 188633.600000 -68732.400000 back 0.000000 (PN 5.1k))
     )
     (component "jiran-ble-lite:D_SOD-123::29"
       (place D52 266192.000000 -115062.000000 back 270.000000 (PN 1N5819))
@@ -608,13 +607,13 @@
       (place D3 107950.000000 -57912.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:SOT-23::1"
-      (place Q1 185572.400000 -71882.000000 back 0.000000 (PN AO3407))
+      (place Q1 183706.000000 -71882.000000 back 0.000000 (PN AO3407))
     )
     (component "jiran-ble-lite:D_SOD-123::35"
-      (place D58 235966.000000 -72898.000000 back 90.000000 (PN 1N5819))
+      (place D58 237871.000000 -72898.000000 back 90.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:R_0603::3"
-      (place R6 235966.000000 -68732.400000 back 180.000000 (PN 5.1k))
+      (place R6 237871.000000 -68732.400000 back 180.000000 (PN 5.1k))
     )
     (component "jiran-ble-lite:D_SOD-123::36"
       (place D15 107950.000000 -96012.000000 back 270.000000 (PN 1N5819))
@@ -632,7 +631,7 @@
       (place D37 323342.000000 -84074.000000 back 270.000000 (PN 1N5819))
     )
     (component "jiran-ble-lite:R_0603::4"
-      (place R3 190500.000000 -77063.600000 back 0.000000 (PN 5.1k))
+      (place R3 188633.600000 -77063.600000 back 0.000000 (PN 5.1k))
     )
     (component "jiran-ble-lite:D_SOD-123::41"
       (place D23 146050.000000 -115062.000000 back 270.000000 (PN 1N5819))
@@ -682,6 +681,9 @@
     )
     (component "jiran-ble-lite:D_SOD-123::53"
       (place D17 146050.000000 -96012.000000 back 270.000000 (PN 1N5819))
+    )
+    (component "jiran-ble-lite:R_0603::5"
+      (place R1 183706.000000 -68732.400000 back 0.000000 (PN 100k))
     )
     (component "jiran-ble-lite:D_SOD-123::54"
       (place D1 69850.000000 -67310.000000 back 270.000000 (PN 1N5819))
@@ -3218,18 +3220,18 @@
       (keepout "" (circle B.Cu 3000 -2540 -5080))
     )
     (image "jiran-ble-lite:SOT-23-5"
-      (outline (path signal 120  -1500 1450  -625 1450))
-      (outline (path signal 120  -1800 675  -1800 1150))
-      (outline (path signal 100  -900 900  -900 -1550))
-      (outline (path signal 100  900 1550  -250 1550))
-      (outline (path signal 100  900 -1550  -900 -1550))
-      (outline (path signal 100  -900 900  -250 1550))
       (outline (path signal 100  900 1550  900 -1550))
-      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 1 -1100 950)
-      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 2 -1100 0)
-      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 3 -1100 -950)
-      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 4 1100 -950)
+      (outline (path signal 100  -900 900  -250 1550))
+      (outline (path signal 100  900 -1550  -900 -1550))
+      (outline (path signal 100  900 1550  -250 1550))
+      (outline (path signal 100  -900 900  -900 -1550))
+      (outline (path signal 120  -1800 675  -1800 1150))
+      (outline (path signal 120  -1500 1450  -625 1450))
       (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 5 1100 950)
+      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 4 1100 -950)
+      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 3 -1100 -950)
+      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 2 -1100 0)
+      (pin RoundRect[T]Pad_1060x650_163.118_um_0.000000_0 1 -1100 950)
     )
     (image "jiran-ble-lite:D_SOD-123"
       (outline (path signal 120  -2046 800  -1270 800))
@@ -3373,12 +3375,12 @@
       (pin RoundRect[T]Pad_1350x700_175.666_um_0.000000_0 (rotate 180) 37 6750 5700)
     )
     (image "jiran-ble-lite:R_0603"
-      (outline (path signal 100  -800 -412.5  -800 412.5))
-      (outline (path signal 100  -800 412.5  800 412.5))
-      (outline (path signal 100  800 412.5  800 -412.5))
       (outline (path signal 100  800 -412.5  -800 -412.5))
-      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
+      (outline (path signal 100  800 412.5  800 -412.5))
+      (outline (path signal 100  -800 412.5  800 412.5))
+      (outline (path signal 100  -800 -412.5  -800 412.5))
       (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 2 825 0)
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
     )
     (image "jiran-ble-lite:D_SOD-123::4"
       (outline (path signal 120  -2300 546  -2300 -546))
@@ -3420,16 +3422,16 @@
       (pin Round[A]Pad_800_um 2@1 1650 0)
     )
     (image "jiran-ble-lite:SOT-23"
-      (outline (path signal 120  -1650 600  -1650 1250))
-      (outline (path signal 120  -1350 1550  -600 1550))
-      (outline (path signal 100  700 1520  700 -1520))
-      (outline (path signal 100  -700 -1520  700 -1520))
-      (outline (path signal 100  -700 950  -150 1520))
-      (outline (path signal 100  -150 1520  700 1520))
       (outline (path signal 100  -700 950  -700 -1500))
-      (pin RoundRect[T]Pad_900x800_200.761_um_0.000000_0 1 -1000 950)
-      (pin RoundRect[T]Pad_900x800_200.761_um_0.000000_0 2 -1000 -950)
+      (outline (path signal 100  -150 1520  700 1520))
+      (outline (path signal 100  -700 950  -150 1520))
+      (outline (path signal 100  -700 -1520  700 -1520))
+      (outline (path signal 100  700 1520  700 -1520))
+      (outline (path signal 120  -1350 1550  -600 1550))
+      (outline (path signal 120  -1650 600  -1650 1250))
       (pin RoundRect[T]Pad_900x800_200.761_um_0.000000_0 3 1000 0)
+      (pin RoundRect[T]Pad_900x800_200.761_um_0.000000_0 2 -1000 -950)
+      (pin RoundRect[T]Pad_900x800_200.761_um_0.000000_0 1 -1000 950)
     )
     (image "jiran-ble-lite:D_SOD-123::7"
       (outline (path signal 120  -2046 -800  -1270 -800))
@@ -3507,12 +3509,12 @@
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 2@1 1650 0)
     )
     (image "jiran-ble-lite:R_0603::1"
-      (outline (path signal 100  -800 -412.5  -800 412.5))
-      (outline (path signal 100  800 412.5  800 -412.5))
-      (outline (path signal 100  -800 412.5  800 412.5))
       (outline (path signal 100  800 -412.5  -800 -412.5))
-      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
+      (outline (path signal 100  -800 412.5  800 412.5))
+      (outline (path signal 100  800 412.5  800 -412.5))
+      (outline (path signal 100  -800 -412.5  -800 412.5))
       (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 2 825 0)
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
     )
     (image "jiran-ble-lite:D_SOD-123::11"
       (outline (path signal 120  -2300 546  -2300 -546))
@@ -3905,25 +3907,25 @@
       (pin RoundRect[T]Pad_900x800_200.761_um_0.000000_0 3 1000 0)
     )
     (image "jiran-ble-lite:D_SOD-123::35"
-      (outline (path signal 120  -2300 546  -2300 -546))
-      (outline (path signal 120  -2046 -800  -1270 -800))
-      (outline (path signal 120  -2046 800  -1270 800))
-      (outline (path signal 100  1400 -889  -1400 -889))
-      (outline (path signal 100  1400 911  1400 -889))
-      (outline (path signal 100  -1400 911  1400 911))
       (outline (path signal 100  -1400 -889  -1400 911))
-      (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 1 -1650 0)
-      (pin Round[A]Pad_800_um 1@1 -1651 0)
-      (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 2 1650 0)
-      (pin Round[A]Pad_800_um 2@1 1650 0)
+      (outline (path signal 100  -1400 911  1400 911))
+      (outline (path signal 100  1400 911  1400 -889))
+      (outline (path signal 100  1400 -889  -1400 -889))
+      (outline (path signal 120  -2046 800  -1270 800))
+      (outline (path signal 120  -2046 -800  -1270 -800))
+      (outline (path signal 120  -2300 546  -2300 -546))
+      (pin Round[A]Pad_800_um 2 1650 0)
+      (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 2@1 1650 0)
+      (pin Round[A]Pad_800_um 1 -1651 0)
+      (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 1@1 -1650 0)
     )
     (image "jiran-ble-lite:R_0603::3"
-      (outline (path signal 100  -800 -412.5  -800 412.5))
-      (outline (path signal 100  -800 412.5  800 412.5))
-      (outline (path signal 100  800 -412.5  -800 -412.5))
       (outline (path signal 100  800 412.5  800 -412.5))
-      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
+      (outline (path signal 100  800 -412.5  -800 -412.5))
+      (outline (path signal 100  -800 412.5  800 412.5))
+      (outline (path signal 100  -800 -412.5  -800 412.5))
       (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 2 825 0)
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
     )
     (image "jiran-ble-lite:D_SOD-123::36"
       (outline (path signal 120  -2046 -800  -1270 -800))
@@ -4278,6 +4280,14 @@
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 1@1 -1650 0)
       (pin Round[A]Pad_800_um 2 1650 0)
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 2@1 1650 0)
+    )
+    (image "jiran-ble-lite:R_0603::5"
+      (outline (path signal 100  -800 -412.5  -800 412.5))
+      (outline (path signal 100  -800 412.5  800 412.5))
+      (outline (path signal 100  800 412.5  800 -412.5))
+      (outline (path signal 100  800 -412.5  -800 -412.5))
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 1 -825 0)
+      (pin RoundRect[T]Pad_800x950_200.761_um_0.000000_0 2 825 0)
     )
     (image "jiran-ble-lite:D_SOD-123::54"
       (outline (path signal 120  -2046 -800  -1270 -800))
@@ -4790,7 +4800,7 @@
         D37-1 D37-1@1)
     )
     (net "Net-(D58-Pad1)"
-      (pins U4-1 U4-3 Q2-2 D58-1 D58-1@1)
+      (pins U4-3 U4-1 Q2-2 D58-1 D58-1@1)
     )
     (net "/jiran-ble-lite-right/VBUS"
       (pins U3-22 R4-1 Q2-1 J4-A4 J4-A4@1 D58-2 D58-2@1)
