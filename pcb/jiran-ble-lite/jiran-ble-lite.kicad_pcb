@@ -6399,7 +6399,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c47714f0-b557-4ee8-a361-01bdc5e1b3fd)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 68e0b472-7a96-45bb-aef9-8a61217e89c3)
     )
@@ -6441,7 +6441,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 167554e0-8a88-4240-8419-2a180503db41)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8945cfd8-8ad9-4386-907c-93bf8aeb12c1)
     )
@@ -6483,7 +6483,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 63d07f7e-d329-4c5f-b671-6e6a9b093de3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 3003f754-9af2-45e0-9f55-731eb816d8ed)
     )
@@ -6525,7 +6525,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6d09114b-e123-4dcd-9df6-7a4ab23acb86)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c0545e46-b9d5-4982-b737-2c147783d06d)
     )
@@ -6762,7 +6762,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 848aa866-d12b-4c4a-8b58-708792d6083b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 14e82b03-a82d-4854-a3ae-926da8becb80)
     )
@@ -6804,7 +6804,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 24e2b0df-7fd8-49bd-8feb-8228e5752b90)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 85945d08-efa3-417e-9595-9414f932011a)
     )
@@ -6846,7 +6846,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 080558e6-adf6-4c7f-8fe4-250219eaa593)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 5377b60e-5c45-4aa9-b3d3-ddafda0d4986)
     )
@@ -6911,7 +6911,7 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60D8A465) (tstamp 3bfdae64-5c5f-4f33-a410-e3ab61bfb632)
-    (at 188.6336 72.898 90)
+    (at 189.103 72.898 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/a51270e8-63ab-4e9a-817b-700cfc5301e8")
@@ -6961,7 +6961,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b520b0d9-7fe6-4cc0-8f5d-9725039cfd88)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp d7277e50-69ba-4758-861c-6d45f71eb554)
     )
@@ -7058,7 +7058,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5a7a967c-9714-4f08-91ce-1e03dab62d71)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 90bb99a9-a7a2-4683-ae0f-f4a1f4116c53)
     )
@@ -7100,7 +7100,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f9959f83-ea55-4a83-b96d-bcf3c40ef58a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 1375bc1e-29c1-4e76-bbf2-e8b01cef5292)
     )
@@ -7130,7 +7130,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 42eb3834-c056-4d87-82d9-9fa15bf283a9)
-    (at 237.871 77.0128)
+    (at 237.363 77.0128)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c3010776-461e-43b7-8b26-8604ed4af801")
@@ -7171,7 +7171,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3060f973-b803-4492-bb68-003168f2f6ac)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c7cf4151-cb5f-452c-b018-66a8d2ba9238)
     )
@@ -7213,7 +7213,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp df1e6d3b-4938-4ec7-ab22-5aa44daf5100)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp d7da0b8b-7265-489b-b7c2-8f60b439f088)
     )
@@ -7255,7 +7255,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4427eade-b1c0-4139-bf51-5fc5e369b7bf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 97a764d7-920d-4114-8fd6-1a06fb0c7c39)
     )
@@ -7297,7 +7297,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8ab9ec7b-7360-44d2-9c59-526b6faab8d5)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp be8aea00-2e8c-4a6c-9678-d18cb68dc487)
     )
@@ -7339,7 +7339,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f0a2c6f4-7283-4f09-a59f-65f6382fe834)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp bca95884-6c51-42f1-8c11-1729e5bb690f)
     )
@@ -7381,7 +7381,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 44d31046-1b96-48f2-963f-7b1d21c35c8b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 9e15d061-98f4-47ef-b8ed-6ba95e183fe8)
     )
@@ -10110,7 +10110,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 02e46f1d-1c3e-4243-af22-5ebc023241f6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 4bbec191-3b11-48f6-8251-e4d73e442ccc)
     )
@@ -10152,7 +10152,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f35c6b27-fc29-48c4-adcc-71744cb4a852)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 55dce6ad-4748-42a0-aeba-fbdf6a9fe07f)
     )
@@ -10194,7 +10194,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c60bf265-1d70-4014-91fa-a359c006344d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 6ab4e080-49c8-4e0d-a1cd-a12a0f87d91c)
     )
@@ -10228,11 +10228,11 @@
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/23b22736-8f3b-4bc2-a13d-b1ffa0e2502e")
-    (fp_text reference "J4" (at 0 0 -270 unlocked) (layer "B.SilkS") hide
+    (fp_text reference "J4" (at 0 0 90 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ac02ffcb-b108-48e8-a3af-b1811906c5ac)
     )
-    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 4.7244 -270 unlocked) (layer "B.Fab") hide
+    (fp_text value "USB_C_Receptacle_USB2.0" (at 0 4.7244 90 unlocked) (layer "B.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8768ce06-4c27-46be-9d39-5d7302535a49)
     )
@@ -10293,7 +10293,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp e32c5190-8384-4223-98a8-ad0240902e14)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 49863b2e-8c35-4ff6-b391-310aa5cdc85b)
     )
@@ -10335,7 +10335,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3b2c690e-7b9e-4a8e-bff7-47aee94fec16)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp af80aab8-0460-4dba-ae9b-c87d684b1d4b)
     )
@@ -10377,7 +10377,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a8f57355-6af3-4f9c-a93c-cd3574f25a28)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8de90ecf-f0fe-4fd4-ae43-6fdaa6b65cd1)
     )
@@ -10419,7 +10419,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ffad6596-3dae-463c-a55c-7ed8524f6588)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp b3566644-b6b7-4a8f-9575-f80137ad9fb6)
     )
@@ -10461,7 +10461,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 04fc367c-4a76-4750-9b66-134a474c8a0a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp a52661de-f8e3-40b7-8a23-bf587fafe544)
     )
@@ -10546,7 +10546,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 40e5f2c6-7be2-4da0-ba95-c2abd6e2d28c)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp cdb67fcb-0573-4d66-8bb0-718b5dd4c920)
     )
@@ -10588,7 +10588,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7ddc9c26-a291-41c6-8402-5929ef6e7674)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 52d5c4bf-fbd3-484b-8173-aa26398d3447)
     )
@@ -10630,7 +10630,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a7013691-f07e-4bc3-8a51-50b57e9aa752)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 24ea7f2e-4c8c-4b52-ae17-1252cc2e1e1c)
     )
@@ -10672,7 +10672,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 826fd266-6586-43b3-b265-3b13470b2faf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 1c7f7b5a-8dcf-48c0-bac8-5346ad674a20)
     )
@@ -10771,7 +10771,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f64d077c-6975-4a6e-8414-4e71bfb7c3ed)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 98c88874-bccd-48b0-839a-0b68c21b6b69)
     )
@@ -10801,7 +10801,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 97437c3a-d54c-4ce2-910c-4c0a779539b1)
-    (at 188.6336 68.7324 180)
+    (at 189.103 68.7324 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/8d493f35-f0bf-4f20-9b17-f76368089c1b")
@@ -10842,7 +10842,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3f4dd1ba-c486-4a1f-b411-1586569ea84f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp dc1bcb2b-a196-4f3b-9172-6eff7babec04)
     )
@@ -10884,7 +10884,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6f7dec93-68c3-4366-82f1-704c8cb92ea8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 27da8efe-1824-4e07-b81b-4b7cac3568d4)
     )
@@ -10926,7 +10926,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp de32c67d-1b15-4a87-aae8-71414655fbb6)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp e4de64fa-ef0c-4e7f-9e50-034556a57db6)
     )
@@ -10968,7 +10968,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1a06bb2d-c09b-4142-a9c6-dbf44ccff352)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 57676b3c-c6c3-4564-8ce5-4cdc68f8a758)
     )
@@ -11010,7 +11010,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 3bc1a7c6-35a2-43d4-8aba-a395fa38bada)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 39ad7c39-a091-4e84-9f55-8c38744483d6)
     )
@@ -11052,7 +11052,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 53055bc0-3555-4d41-a25c-0ff37ad035bb)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c9f633fe-c671-42d6-a7b9-fc25f4730c17)
     )
@@ -11117,7 +11117,7 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 60D8A465) (tstamp af422962-9132-46ef-93a7-6727350f02a1)
-    (at 237.871 72.898 -90)
+    (at 237.363 72.898 -90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3cc4805b-ed43-4fe4-aa0f-b285da566867")
@@ -11155,7 +11155,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp b06d52d2-24b7-40aa-94d9-56bea3eefbcf)
-    (at 237.871 68.7324)
+    (at 237.363 68.7324)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/606be292-5505-4c3c-828e-f9276faac2fd")
@@ -11196,7 +11196,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 936d701a-f240-48c7-b4ed-fa6a146d17a5)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp d69026f2-acdd-4cf8-bd99-085e49fe633b)
     )
@@ -11238,7 +11238,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5897f905-cba3-454d-9112-0e7bffbed021)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp a90bd55c-5194-4ddc-8bb8-7b38091d5ef4)
     )
@@ -11280,7 +11280,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 51244f0a-2b28-42db-a455-6075b3fad02b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 551d8521-e50d-4b85-9ed6-156eee674729)
     )
@@ -11322,7 +11322,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4de3f9d1-46e8-49a2-8d6f-7f2731007a4f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 21b7db59-6846-426a-bbe8-49dff07a529a)
     )
@@ -11364,7 +11364,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp ed1d75e7-cdfa-4af0-a0d6-d24ca36da79f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 09f8c7ce-47d3-4d52-9e5a-88bbf88ef546)
     )
@@ -11394,7 +11394,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp c0dbcb93-fa13-4681-b461-6e7261036e31)
-    (at 188.6336 77.0636 180)
+    (at 189.103 77.0636 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/d5981c25-073b-499a-ae04-6a8b4615f4af")
@@ -11435,7 +11435,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d8741511-63c3-458d-980a-f57267116bdf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8735b628-a52c-4050-9b0c-01678fb2545c)
     )
@@ -11477,7 +11477,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2f0eb8e8-1914-46b0-9cf8-f2c88f0abb20)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 8673da9a-4586-4672-a259-4aa92d47c4d6)
     )
@@ -11519,7 +11519,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 2fd25399-7c53-441a-99e8-178303bd1ea9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 1de7d1c0-50db-4680-a589-f556c5bb8f89)
     )
@@ -11561,7 +11561,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b5d5e3ba-62c8-4822-a116-a90976fa7d38)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp dd20659c-8365-4503-a677-e0e339e247b6)
     )
@@ -11603,7 +11603,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c64f4cb5-a8f5-43c7-9c95-d17414f75e4a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp cf42404c-0fb2-4747-8a2d-56f8676460a6)
     )
@@ -11645,7 +11645,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 43c85682-dfa8-4671-b085-1615425e4438)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 3401f4a6-3277-45b6-a957-d2e2eb59404c)
     )
@@ -11687,7 +11687,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 6865be5c-fd8c-4e9f-8365-ce0329dcfaac)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp c1a877bc-57ff-462a-9fc4-c3bf8dcf76b0)
     )
@@ -11833,7 +11833,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4c964880-aef0-4bde-b832-afd02b529644)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp bd9412bf-2565-4177-9b48-b04eed19cb8a)
     )
@@ -12034,7 +12034,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 29b945ce-5abc-4367-bdb6-7501f8a68db3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 89140026-a7d4-4899-9e85-d12b8c2f402c)
     )
@@ -12076,7 +12076,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 440211d7-6fce-449f-8eb9-b85a97799a03)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp b9745b35-f348-467f-b9a7-ac06f5808ac7)
     )
@@ -12118,7 +12118,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 68042f92-5525-463a-812c-130c19c21dc3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 36e32be8-d085-428c-840d-3091a7da92c1)
     )
@@ -12160,7 +12160,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp d7a597db-5d06-45fb-9077-116e85776c70)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 0abb7982-2522-4e75-b27d-fdc5037df75c)
     )
@@ -12202,7 +12202,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp c69a4f79-4be1-4be7-a919-c5f3f9f116e9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp 49583217-11d5-4404-8612-7357db226022)
     )
@@ -12273,7 +12273,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5c96134f-3cf3-45b8-8b98-5d74035b5eec)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp e6fdaf76-89f4-48e9-a2d5-4739baedcb81)
     )
@@ -12315,7 +12315,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 4b43d582-2e1d-489c-8599-597626f0714e)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 -90 unlocked) (layer "B.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 270 unlocked) (layer "B.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.13)) (justify mirror))
       (tstamp cd7c6040-8e2a-403d-81b1-d113b812671a)
     )
