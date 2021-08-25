@@ -1,5 +1,5 @@
 (footprint "D_SOD-123" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60D8A465)
+  (tedit 61269E03)
   (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c926f22f-8f26-4bf6-8f87-44026214730d)
@@ -18,8 +18,6 @@
   (fp_line (start -1.4 -0.911) (end 1.4 -0.911) (layer "F.Fab") (width 0.1) (tstamp 871432db-3587-4f0e-980d-5a053c581978))
   (fp_line (start 1.4 -0.911) (end 1.4 0.889) (layer "F.Fab") (width 0.1) (tstamp fdff7af5-cb60-4080-94b1-60a3a22170ef))
   (pad "1" smd roundrect (at -1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d11eb9c8-f78f-4ed4-bf09-b84121b86341))
-  (pad "1" thru_hole circle (at -1.651 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu "F.Mask") (tstamp e5473e2c-be8e-47b4-8d2d-562527e22368))
-  (pad "2" thru_hole circle (at 1.65 0) (size 0.8 0.8) (drill 0.4) (layers *.Cu "F.Mask") (tstamp 3047332f-32c8-43bf-97d2-a5e4f2257511))
   (pad "2" smd roundrect (at 1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 442e9183-113d-4696-bae9-494e503669e0))
   (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Diode_SMD.3dshapes/D_SOD-123.step"
     (offset (xyz 0 0 0))
