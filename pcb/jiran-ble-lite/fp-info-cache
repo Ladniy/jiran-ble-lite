@@ -1,4 +1,4 @@
-19652266354921127
+20226321136694094
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55516,6 +55516,1035 @@ solder jumper open
 0
 5
 3
+Keebio-Parts
+3_Pin_Jumper
+
+
+0
+9
+3
+Keebio-Parts
+4pin35mmAudio
+
+
+0
+6
+6
+Keebio-Parts
+AST1109MLTRQ
+Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
+Murata Buzzer Beeper
+0
+2
+2
+Keebio-Parts
+AT90USB1286_TQFP_14mm
+64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+64
+64
+Keebio-Parts
+ATMEGA32U4-AU
+
+
+0
+44
+44
+Keebio-Parts
+ArduinoProMicro
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-BackSide
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-Mini-USB
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-Mini-USB-No-Text
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-Mini-USB-ZigZag
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-TopSide
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-ZigZag
+
+
+0
+24
+24
+Keebio-Parts
+CUI_SJ-43614-SMT
+
+
+0
+4
+4
+Keebio-Parts
+C_0402
+Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
+capacitor 0402
+0
+2
+2
+Keebio-Parts
+C_0603
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+Keebio-Parts
+Cherry-MX-Low-Profile
+
+
+0
+2
+2
+Keebio-Parts
+Crystal_SMD_2520-4pin_2.5x2.0mm
+SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Keebio-Parts
+Crystal_SMD_3225-4pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Keebio-Parts
+D_0805
+
+
+0
+2
+2
+Keebio-Parts
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+Keebio-Parts
+D_SOD123
+
+
+0
+2
+2
+Keebio-Parts
+D_SOD123F
+
+
+0
+2
+2
+Keebio-Parts
+Diode
+
+
+0
+2
+2
+Keebio-Parts
+Diode-Hybrid-Back
+
+
+0
+6
+2
+Keebio-Parts
+Diode-dual
+
+
+0
+10
+2
+Keebio-Parts
+Diode-hybrid-3pad
+
+
+0
+6
+2
+Keebio-Parts
+Diode_Long
+
+
+0
+2
+2
+Keebio-Parts
+Elite-C
+
+
+0
+29
+29
+Keebio-Parts
+Elite-C-ZigZag
+
+
+0
+29
+29
+Keebio-Parts
+Elite-C-castellated-24pin
+
+
+0
+24
+24
+Keebio-Parts
+Elite-C-castellated-24pin-holes
+
+
+0
+48
+24
+Keebio-Parts
+Elite-C-castellated-29pin
+
+
+0
+29
+29
+Keebio-Parts
+Elite-C-castellated-29pin-holes
+
+
+0
+58
+29
+Keebio-Parts
+Epson_TSX-3225
+
+
+0
+4
+4
+Keebio-Parts
+Fuse_0805
+SMT, 2012, 0805
+SMT, 2012, 0805
+0
+2
+2
+Keebio-Parts
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Keebio-Parts
+Header-6-Pin-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keebio-Parts
+Header-12-Pin-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+12
+12
+Keebio-Parts
+Header-12-Pin-ZigZag-Square
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+12
+12
+Keebio-Parts
+ICSP-Header
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keebio-Parts
+ICSP-Header-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keebio-Parts
+JUMPER_SMD_2DUB
+
+
+0
+12
+2
+Keebio-Parts
+KLJ-1102
+
+
+0
+2
+2
+Keebio-Parts
+Kailh-PG1350-1.5u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1.25u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1.25u-LED-flip
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1u-No-Clickhole
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1u-NoLED
+
+
+0
+2
+2
+Keebio-Parts
+Kailh-PG1350-1u-reversible
+
+
+0
+5
+4
+Keebio-Parts
+Kailh-PG1350-1u-reversible-No-Clickhole
+
+
+0
+5
+4
+Keebio-Parts
+Kailh-PG1350-1u-reversible-flip
+
+
+0
+5
+4
+Keebio-Parts
+Kailh-PG1350-2.5u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-2u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-2u-NoLED
+
+
+0
+2
+2
+Keebio-Parts
+Kailh-PG1350-2u-Vert-NoLED
+
+
+0
+2
+2
+Keebio-Parts
+LED_3mm
+
+
+0
+2
+2
+Keebio-Parts
+LQFP-48_7x7mm_Pitch0.5mm
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Keebio-Parts
+Low-Profile-Choc-MX
+
+
+0
+5
+4
+Keebio-Parts
+MD_Diode
+
+
+0
+2
+2
+Keebio-Parts
+MX-Alps-Choc-1U
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps-Choc-1U-No-Clickhole
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps-Choc-1U-NoLED
+
+
+0
+6
+2
+Keebio-Parts
+MX-Alps-Choc-1U-NoLED-Alt
+
+
+0
+6
+2
+Keebio-Parts
+MX-Alps-Choc-2U
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps-Choc-2U-StabFlip
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps_DMask
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_FMask
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_FMask-2u
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_Switch_Cutout
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_Switch_Cutout-1u_1.25u
+
+
+0
+0
+0
+Keebio-Parts
+MX-Alps_Switch_Cutout-1u_1.25u-3u-wide
+
+
+0
+0
+0
+Keebio-Parts
+MX-Alps_Switch_Cutout-1u_2u
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_Switch_Cutout-3u-wide
+
+
+0
+0
+0
+Keebio-Parts
+MX-Quad
+MX/Alps footprint
+
+0
+8
+2
+Keebio-Parts
+MX_FMask
+
+
+0
+2
+1
+Keebio-Parts
+MX_FMask-2u
+
+
+0
+3
+1
+Keebio-Parts
+MX_FMask-2u-with-cutout
+
+
+0
+2
+1
+Keebio-Parts
+MX_FMask-with-cutout
+
+
+0
+2
+1
+Keebio-Parts
+MX_LED
+
+
+0
+2
+2
+Keebio-Parts
+MX_Stabilizer_Cutout
+
+
+0
+0
+0
+Keebio-Parts
+MX_Stabilizer_Cutout-2u
+
+
+0
+0
+0
+Keebio-Parts
+MX_Switch_Cutout
+
+
+0
+0
+0
+Keebio-Parts
+MX_Switch_Mod_Cutout
+
+
+0
+0
+0
+Keebio-Parts
+Mini-USB
+
+
+0
+7
+6
+Keebio-Parts
+MountingHole
+
+
+0
+1
+0
+Keebio-Parts
+QFN-44-1EP_7x7mm_Pitch0.5mm
+UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
+QFN 0.5
+0
+60
+45
+Keebio-Parts
+RGB-6028
+
+
+0
+4
+4
+Keebio-Parts
+RGB_3528_Blue_Notch
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+Keebio-Parts
+RGB_3528_Blue_Notch-MX
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+Keebio-Parts
+RGB_3528_Blue_Notch-MX-Flip
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+Keebio-Parts
+R_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+Keebio-Parts
+R_0603
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+Keebio-Parts
+R_0805
+SMT, 2012, 0805
+SMT, 2012, 0805
+0
+2
+2
+Keebio-Parts
+Resistor
+
+
+0
+2
+2
+Keebio-Parts
+Resistor-Compact
+
+
+0
+2
+2
+Keebio-Parts
+Resistor-Compact-1-side
+
+
+0
+2
+2
+Keebio-Parts
+Resistor-Hybrid
+
+
+0
+10
+2
+Keebio-Parts
+Resistor-Hybrid-Back
+
+
+0
+6
+2
+Keebio-Parts
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+Keebio-Parts
+RotaryEncoder_EC11
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Keebio-Parts
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Keebio-Parts
+SK6812-MINI-E
+
+
+0
+4
+4
+Keebio-Parts
+SM0805D
+
+
+0
+2
+2
+Keebio-Parts
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+Keebio-Parts
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Keebio-Parts
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+Keebio-Parts
+SOT-143B
+SOT143B
+
+0
+4
+4
+Keebio-Parts
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+Keebio-Parts
+SW_SPST_3x3
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Keebio-Parts
+SW_SPST_TL3342
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Keebio-Parts
+SW_Tactile_SPST_Angled_MJTP1117
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+4
+2
+Keebio-Parts
+SW_Tactile_SPST_Angled_MJTP1117-no-mount
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+2
+2
+Keebio-Parts
+SinglePad
+
+
+0
+1
+1
+Keebio-Parts
+SolderJumper
+
+
+0
+4
+3
+Keebio-Parts
+SolderJumperLeft
+
+
+0
+3
+3
+Keebio-Parts
+SolderJumperPair
+
+
+0
+6
+3
+Keebio-Parts
+SolderJumperRight
+
+
+0
+3
+3
+Keebio-Parts
+SolderJumperSet
+
+
+0
+12
+6
+Keebio-Parts
+SolderJumperSets
+
+
+0
+6
+2
+Keebio-Parts
+SolidCopper
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+2
+1
+Keebio-Parts
+TQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+44
+44
+Keebio-Parts
+TQFP-48_7x7mm_Pitch0.5mm
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Keebio-Parts
+TRRS-PJ-320A
+
+
+0
+4
+4
+Keebio-Parts
+TRRS-PJ-320A-dual
+
+
+0
+5
+4
+Keebio-Parts
+TRRS-PJ-320A-no-Fmask
+
+
+0
+8
+4
+Keebio-Parts
+TRRS-PJ-320D
+
+
+0
+4
+4
+Keebio-Parts
+TRRS-PJ-605
+
+
+0
+6
+6
+Keebio-Parts
+TRRS-PJ-606
+
+
+0
+6
+6
+Keebio-Parts
+TRRS_Jack
+
+
+0
+6
+6
+Keebio-Parts
+TRRS_Jack-one-sided
+
+
+0
+4
+4
+Keebio-Parts
+TRRS_Jumper
+
+
+0
+6
+6
+Keebio-Parts
+Teensy_2.0
+
+
+0
+31
+31
+Keebio-Parts
+Triple-Dual-1u-LED
+
+
+0
+21
+4
+Keebio-Parts
+Triple-Dual-1u-LED-flip
+
+
+0
+21
+4
+Keebio-Parts
+Triple-Dual-2u-LED
+
+
+0
+21
+4
+Keebio-Parts
+Triple-Dual-2u-LED-stab-flip
+
+
+0
+21
+4
+Keebio-Parts
+USB-C-12-Pin-MidMount
+
+
+0
+16
+13
+Keebio-Parts
+USB-Mini-B_ LCSC-C46398
+
+
+0
+9
+6
+Keebio-Parts
+USB-Mini-B_2leg
+
+
+0
+7
+6
+Keebio-Parts
+USB_miniB_HandSolder
+http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
+USB miniB hirose
+0
+9
+9
+Keebio-Parts
+VIA-0.6mm
+
+
+0
+1
+1
+Keebio-Parts
+WS2812B
+
+
+0
+4
+4
+Keebio-Parts
+breakaway-hole
+
+
+0
+0
+0
+Keebio-Parts
+breakaway-hole-big
+
+
+0
+0
+0
+Keebio-Parts
+breakaway-mousebites
+
+
+0
+0
+0
+Keebio-Parts
+solder_jumper
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -57994,6 +59023,48 @@ mounting hole 8.4mm m8
 0
 9
 1
+Mounting_Keyboard_Stabilizer
+Stabilizer_Cherry_MX_2u
+Cherry MX key stabilizer 2u 2.25u 2.5u 2.75u
+Cherry MX key stabilizer 2u 2.25u 2.5u 2.75u
+0
+0
+0
+Mounting_Keyboard_Stabilizer
+Stabilizer_Cherry_MX_3u
+Cherry MX key stabilizer 3u
+Cherry MX key stabilizer 3u
+0
+0
+0
+Mounting_Keyboard_Stabilizer
+Stabilizer_Cherry_MX_6.25u
+Cherry MX key stabilizer 6.25u
+Cherry MX key stabilizer 6.25u
+0
+0
+0
+Mounting_Keyboard_Stabilizer
+Stabilizer_Cherry_MX_6u
+Cherry MX key stabilizer 6u
+Cherry MX key stabilizer 6u
+0
+0
+0
+Mounting_Keyboard_Stabilizer
+Stabilizer_Cherry_MX_7u
+Cherry MX key stabilizer 7u
+Cherry MX key stabilizer 7u
+0
+0
+0
+Mounting_Keyboard_Stabilizer
+Stabilizer_Cherry_MX_8u
+Cherry MX key stabilizer 8u 9u 10u
+Cherry MX key stabilizer 8u 9u 10u
+0
+0
+0
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H5mm_9771050360
 Mounting Hardware, external M3, height 5, Wuerth electronics 9771050360 (https://katalog.we-online.com/em/datasheet/9771050360.pdf), generated with kicad-footprint-generator
@@ -77867,6 +78938,426 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.25u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.50u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.75u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.75u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.00u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.25u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.50u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.75u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.75u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_3.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_3.00u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_4.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 4.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_4.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 4.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_5.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 5.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.00u_Offset
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u Offset
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_7.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 7.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter_Rotated90
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter_Rotated180
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter_Rotated270
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.25u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.50u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.75u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.75u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.00u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.25u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.50u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.75u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.75u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_3.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 3.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_3.00u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 3.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_4.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 4.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_4.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 4.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_5.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 5.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.00u_Offset
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.00u Offset
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_7.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 7.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter_Rotated90
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter_Rotated180
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter_Rotated270
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -83523,6 +85014,69 @@ transformer flyback
 0
 10
 10
+Type-C
+12401598E4#2A
+
+
+0
+28
+28
+Type-C
+HRO-TYPE-C-31-M-12
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-13
+
+
+0
+16
+13
+Type-C
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+Type-C
+Wurth-632723300011
+
+
+0
+32
+27
+Type-C
+Wurth-632723300011-HandSoldering
+
+
+0
+30
+26
+Type-C
+Wurth-632723300011-MaximumExtensionMount
+
+
+0
+32
+27
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -84480,7 +86034,7 @@ D_SOD-123
 
 
 0
-2
+4
 2
 jiran-ble-lite
 Hole_Mount_M4
@@ -84543,7 +86097,7 @@ Switch_Mx_Hotswap_1u
 
 
 0
-2
+4
 2
 jiran-ble-lite
 USB-C-C168688
@@ -84561,6 +86115,832 @@ silk_back
 0
 jiran-ble-lite
 silk_front
+
+
+0
+0
+0
+keyboard_parts
+4P4C
+http://www.assmann.us/specs/A-2004-3-4-LP-N-R_REV00.pdf
+4P4C, RJ
+0
+6
+6
+keyboard_parts
+4pin35mmAudio
+
+
+0
+4
+4
+keyboard_parts
+0404_RGB_LED
+
+
+0
+4
+4
+keyboard_parts
+ALPS_PLATE_SPRING
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+4
+3
+keyboard_parts
+ALPS_PLATE_SPRING_CUTOUT
+
+
+0
+0
+0
+keyboard_parts
+ALPS_SKCM
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+2
+2
+keyboard_parts
+ALPS_SKCM_CUTOUT
+
+
+0
+0
+0
+keyboard_parts
+ALPS_SKCM_CUTOUT_STAB256
+
+
+0
+0
+0
+keyboard_parts
+ALPS_SKCM_CUTOUT_STAB406
+
+
+0
+0
+0
+keyboard_parts
+ALPS_SKCM_CUTOUT_STAB883
+
+
+0
+0
+0
+keyboard_parts
+ALPS_SKCM_LED
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+4
+4
+keyboard_parts
+ALPS_SKCM_reverse_pad
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+2
+2
+keyboard_parts
+AVR_ICSP_3x2
+Double rangee de contacts 2 x 4 pins
+CONN
+0
+6
+6
+keyboard_parts
+C_1608
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts
+C_3216
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts
+C_3225
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts
+C_3528
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts
+C_3528_pol
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts
+C_6032
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts
+DSUB9P
+
+
+0
+11
+10
+keyboard_parts
+D_1206
+Diode SMD 1206, reflow soldering http://datasheets.avx.com/schottky.pdf
+Diode 1206
+0
+2
+2
+keyboard_parts
+D_SC79
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts
+D_SOD123
+
+
+0
+2
+2
+keyboard_parts
+D_SOD123W_hand
+
+
+0
+2
+2
+keyboard_parts
+D_SOD123_axial
+
+
+0
+6
+2
+keyboard_parts
+D_SOD123_hand
+
+
+0
+2
+2
+keyboard_parts
+D_axial
+
+
+0
+2
+2
+keyboard_parts
+FA-238
+
+
+0
+4
+3
+keyboard_parts
+Feather_BLE
+
+
+0
+32
+28
+keyboard_parts
+HC-49_SMT
+
+
+0
+2
+2
+keyboard_parts
+HHKB_JP_HRS_DF14_15P
+http://www.mouser.com/ds/2/185/e53800017-12550.pdf
+HHKB JP, HRS, Hirose, DF14, 15P
+0
+17
+17
+keyboard_parts
+HHKB_PRO2_ZH13
+http://www.jst-mfg.com/product/pdf/eng/eZH.pdf
+HHKB pro2, JST, ZH
+0
+15
+15
+keyboard_parts
+HHKB_PRO2_ZH13_TH
+http://www.jst-mfg.com/product/pdf/eng/eZH.pdf
+JST ZH 13 HHKB pro2
+0
+13
+13
+keyboard_parts
+HHKB_PRO_PH15
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+JST PH 15 HHKB PRO
+0
+15
+15
+keyboard_parts
+HOLE_M2.6
+
+
+0
+1
+1
+keyboard_parts
+HOLE_M3
+
+
+0
+1
+1
+keyboard_parts
+HRS_DF14_20P
+http://www.mouser.com/ds/2/185/e53800017-12550.pdf
+HHKB JP, HRS, Hirose, DF14, 15P
+0
+22
+22
+keyboard_parts
+JST_PH2_SMT
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+JST, PH, Lipo, battery
+0
+4
+3
+keyboard_parts
+JST_PH2_SMT_TH
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+JST, PH, Lipo, battery
+0
+6
+3
+keyboard_parts
+JST_PH2_TH
+
+JST, PH2, Lipo
+0
+2
+2
+keyboard_parts
+Kailh_MX_Socket
+
+
+0
+2
+2
+keyboard_parts
+Kailh_MX_Socket_LED
+
+
+0
+4
+4
+keyboard_parts
+Kailh_MX_Socket_reversible
+
+
+0
+4
+2
+keyboard_parts
+LED_0805
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+keyboard_parts
+LED_2012_HSOL
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+keyboard_parts
+LED_3020_REFLOW
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+keyboard_parts
+LED_3025_DUAL
+
+
+0
+4
+4
+keyboard_parts
+LED_D10.0mm-RCGB
+LED, diameter 10.0mm, 2 pins, diameter 10.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-819EGW(Ver.14A).pdf
+LED diameter 10.0mm 2 pins diameter 10.0mm 3 pins
+0
+4
+4
+keyboard_parts
+LED_TH
+LED 3mm - Lead pitch 100mil (2,54mm)
+LED led 3mm 3MM 100mil 2,54mm
+0
+2
+2
+keyboard_parts
+LED_TH_BIVAR
+LED 3mm - Lead pitch 100mil (2,54mm)
+LED led 3mm 3MM 100mil 2,54mm
+0
+2
+2
+keyboard_parts
+LTC4054
+
+Lipo charger
+0
+5
+5
+keyboard_parts
+L_6x6MM
+
+
+0
+2
+2
+keyboard_parts
+L_7x7MM
+
+
+0
+2
+2
+keyboard_parts
+MINI_DIN_8
+
+
+0
+11
+9
+keyboard_parts
+MOS_FET_SOT23-3_HSOL
+SOT23
+
+0
+3
+3
+keyboard_parts
+MountingHole_4mm
+Mounting Hole 4mm, no annular
+mounting hole 4mm no annular
+0
+0
+0
+keyboard_parts
+MountingHole_M2
+Mounting Hole 4mm, no annular
+mounting hole 4mm no annular
+0
+1
+1
+keyboard_parts
+MountingHole_M2_edge
+Mounting Hole 4mm, no annular
+mounting hole 4mm no annular
+0
+1
+1
+keyboard_parts
+Mx_Alps_225
+MXALPS
+MXALPS
+0
+2
+2
+keyboard_parts
+Mx_Stab_200
+MXALPS
+MXALPS
+0
+0
+0
+keyboard_parts
+Mx_Stab_225
+MXALPS
+MXALPS
+0
+0
+0
+keyboard_parts
+Mx_Stab_275
+MXALPS
+MXALPS
+0
+0
+0
+keyboard_parts
+Mx_Stab_625
+MXALPS
+MXALPS
+0
+0
+0
+keyboard_parts
+NovelKeys_Kailh_Big_Series_Switch
+
+
+0
+2
+2
+keyboard_parts
+PIN_1
+
+CONN pin 1 circle
+0
+1
+1
+keyboard_parts
+PIN_1_SQUARE
+
+CONN pin 1 square
+0
+1
+1
+keyboard_parts
+PPTC_nano
+
+
+0
+2
+2
+keyboard_parts
+PTC_3225
+
+
+0
+2
+2
+keyboard_parts
+Poker_oval_hole
+
+
+0
+1
+0
+keyboard_parts
+Poker_side_edge_long
+
+
+0
+1
+0
+keyboard_parts
+Pro_Micro
+
+
+0
+24
+24
+keyboard_parts
+QFN-32-1EP_5x5mm_Pitch0.5mm
+UH Package; 32-Lead Plastic QFN (5mm x 5mm); (see Linear Technology QFN_32_05-08-1693.pdf)
+QFN 0.5
+0
+36
+33
+keyboard_parts
+QFN-44-1EP_7x7mm_Pitch0.5mm
+UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
+QFN 0.5
+0
+60
+44
+keyboard_parts
+QFP32
+
+
+0
+32
+32
+keyboard_parts
+QFP32_reflow
+http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf
+
+0
+32
+32
+keyboard_parts
+QFP44
+
+
+0
+44
+44
+keyboard_parts
+QFP44_reflow
+http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf
+
+0
+44
+44
+keyboard_parts
+RN42
+
+
+0
+32
+32
+keyboard_parts
+R_1608
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts
+R_1608_NOGUIDE
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts
+R_2012
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts
+SLP3-200-100-F
+
+
+0
+0
+0
+keyboard_parts
+SM_3216_POL
+
+
+0
+2
+2
+keyboard_parts
+SOLDER_JUMPER_2
+
+solder jumper bridge configuration
+0
+2
+2
+keyboard_parts
+SOLDER_JUMPER_2_WIRED
+
+solder jumper bridge configuration
+0
+3
+1
+keyboard_parts
+SOLDER_JUMPER_3
+
+solder jumper bridge configuration
+0
+3
+3
+keyboard_parts
+SOT23-3_HSOL
+SOT23
+
+0
+3
+3
+keyboard_parts
+SOT23-5_HSOL
+SOT23
+
+0
+5
+5
+keyboard_parts
+SOT23-6_HSOL
+SOT23
+
+0
+6
+6
+keyboard_parts
+SW_ALPS_SKRP
+
+
+0
+4
+2
+keyboard_parts
+SW_ALPS_SKSG
+
+
+0
+6
+4
+keyboard_parts
+SW_ALPS_SSAA
+
+
+0
+8
+8
+keyboard_parts
+SW_MINI_SLIDE
+
+
+0
+6
+6
+keyboard_parts
+SW_TACTILE_SMD
+
+
+0
+4
+2
+keyboard_parts
+SW_TACT_TH_HORIZ
+http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHH/SKHHLMA010.html
+ALPS SKHH tactile switch
+0
+4
+4
+keyboard_parts
+SW_TACT_TH_HORIZ_LOW
+http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHL/SKHLLAA010.html
+ALPS SKHLL low tactile switch
+0
+4
+4
+keyboard_parts
+Speaker_SMD
+
+
+0
+2
+2
+keyboard_parts
+USB_A
+
+
+0
+6
+5
+keyboard_parts
+USB_A_PLUG
+
+
+0
+8
+6
+keyboard_parts
+USB_C_JAE_DX07B024JJ3
+DX07B024XJ1
+DX07B024XJ1
+0
+30
+25
+keyboard_parts
+USB_C_MOLEX_1054500101
+DX07B024XJ1
+DX07B024XJ1
+0
+28
+25
+keyboard_parts
+USB_microB
+USB microB hirose ZX62R-B-5P
+USB micorB hirose
+0
+11
+6
+keyboard_parts
+USB_miniB
+http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
+USB miniB hirose
+0
+9
+9
+keyboard_parts
+USB_miniB_hirose_5S8
+USB miniB hirose UX60SC-MB-5S8
+USB miniB hirose through hole UX60SC-MB-5S8
+0
+9
+6
+keyboard_parts
+USB_miniB_hirose_5ST
+USB miniB hirose UX60SC_MB_5ST
+USB miniB hirose new
+0
+7
+6
+keyboard_parts
+USB_miniB_hirose_5ST_hand
+USB miniB hirose UX60SC_MB_5ST
+USB miniB hirose new
+0
+7
+6
+keyboard_parts
+USB_miniB_molex675031020
+http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
+USB miniB hirose
+0
+9
+9
+keyboard_parts
+WS2812b
+
+
+0
+4
+4
+keyboard_parts
+WT12_bluegiga
+
+BlueGiga, WT12, Bluetooth
+0
+31
+31
+keyboard_parts
+XTAL_HC_49_TH
+
+
+0
+2
+2
+keyboard_parts
+kaihl-low-profile-switch
+
+
+0
+4
+4
+keyboard_parts
+kaihl-pg1350
+
+
+0
+4
+4
+keyboard_parts
+kaihl-pg1350-socket
+
+
+0
+4
+4
+keyboard_parts
+kaihl-pg1350-socket-no-clickbar
+
+
+0
+4
+4
+keyboard_parts
+kaihl-pg1350-socket_noclickbar
+
+
+0
+4
+4
+keyboard_parts
+sw_te-1825232
+
+
+0
+5
+5
+keyboard_parts
+tmk2016
+
+
+0
+0
+0
+keyboard_parts
+tmk_logo
 
 
 0
@@ -84699,6 +87079,174 @@ pro_micro
 0
 24
 24
+random-keyboard-parts
+D_SOD-123-Pretty
+SOD-123
+SOD-123
+0
+2
+2
+random-keyboard-parts
+Generic-Mounthole
+
+
+0
+1
+1
+random-keyboard-parts
+JST-SR-3
+
+
+0
+5
+3
+random-keyboard-parts
+JST-SR-4
+
+
+0
+6
+4
+random-keyboard-parts
+Jumper-UserFriendly
+
+
+0
+2
+2
+random-keyboard-parts
+Jumper-UserFriendly-Small
+
+
+0
+2
+2
+random-keyboard-parts
+LED-6028
+
+
+0
+2
+2
+random-keyboard-parts
+LED_D3.0mm-NoSilk
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+random-keyboard-parts
+LED_D3.0mm-Pretty
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+random-keyboard-parts
+Molex-0548190519
+
+
+0
+7
+6
+random-keyboard-parts
+Molex-0548190589
+
+
+0
+9
+6
+random-keyboard-parts
+PJ-3200B-4A
+
+
+0
+4
+4
+random-keyboard-parts
+PJ-3200B-4A-Assembly
+
+
+0
+4
+4
+random-keyboard-parts
+PushButton_6x6mm_TH
+
+
+0
+4
+4
+random-keyboard-parts
+PushButton_6x6mm_TH_Pretty
+
+
+0
+4
+4
+random-keyboard-parts
+RGB-6028
+
+
+0
+4
+4
+random-keyboard-parts
+Reset_Pretty
+
+
+0
+6
+6
+random-keyboard-parts
+Reset_Pretty-Mask
+
+
+0
+6
+6
+random-keyboard-parts
+SKQG-1155865
+
+
+0
+4
+4
+random-keyboard-parts
+SKQGADE010
+
+
+0
+4
+4
+random-keyboard-parts
+SOT143B
+
+
+0
+4
+4
+random-keyboard-parts
+USB-A-Generic
+
+
+0
+6
+5
+random-keyboard-parts
+USON-TPDxE05U06
+
+
+0
+10
+10
+random-keyboard-parts
+breakaway-mousebites
+
+
+0
+0
+0
 used_footprints
 Cutout_Mx_14x14
 
