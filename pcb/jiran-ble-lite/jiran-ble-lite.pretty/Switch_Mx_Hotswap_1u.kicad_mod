@@ -1,5 +1,5 @@
 (footprint "Switch_Mx_Hotswap_1u" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C60CB7)
+  (tedit 60D8A4D1)
   (fp_text reference "REF**" (at 0 -8.128) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 57fde19f-6d6b-4731-b566-afdbb0d96c27)
@@ -32,8 +32,10 @@
   (pad "" np_thru_hole circle (at -5.08 0 228.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp c4955105-53a9-44fa-b0dc-7663daca78e6))
   (pad "" np_thru_hole circle (at 0 0 180) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp da44b7b2-a5c2-4bd8-a33c-ad7036184612))
   (pad "" np_thru_hole circle (at 5.08 0 228.0996) (size 1.75 1.75) (drill 1.75) (layers *.Cu *.Mask) (tstamp e90a3ace-7e1a-4e2e-a83d-dc2be17634e1))
+  (pad "1" thru_hole circle (at 7.0866 2.54) (size 0.8 0.8) (drill 0.4) (layers *.Cu "B.Mask") (tstamp 2f31fdd0-86f2-4321-a666-c57299224895))
   (pad "1" smd roundrect (at 7.085 2.54 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2) (tstamp 5aec9ce2-a1a5-48dd-a91a-85aff1a08de8))
   (pad "2" smd roundrect (at -5.842 5.08 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2) (tstamp 6527607f-8af0-4501-8ad0-117fadef361f))
+  (pad "2" thru_hole circle (at -5.842 5.08) (size 0.8 0.8) (drill 0.4) (layers *.Cu "B.Mask") (tstamp 9a9c10b3-74bf-4b37-97f3-945d27c1d727))
   (model "${KIPRJMOD}/jiran-ble-lite.3dshapes/Kailh_Socket_MX.step"
     (offset (xyz 0.6 -4.8 -3.5))
     (scale (xyz 1 1 1))
