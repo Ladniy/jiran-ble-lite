@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 7)
+    (start_pass_no 10)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -26,31 +26,46 @@
     )
   )
   (rule
-    (width 200.0)
+    (width 250.0)
     (clear 200.2)
     (clear 150.0 (type smd_to_turn_gap))
     (clear 50.0 (type smd_smd))
   )
-  (padstack "Via[0-1]_400:200_um"
+  (padstack "Via[0-1]_800:400_um"
     (shape
-      (circle F.Cu 400.0 0.0 0.0)
+      (circle F.Cu 800.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 400.0 0.0 0.0)
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
     )
     (attach off)
   )
   (via 
-    "Via[0-1]_400:200_um" "Via[0-1]_400:200_um" default
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
-    "Via[0-1]_400:200_um-kicad_default" "Via[0-1]_400:200_um" "kicad_default"
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
   )
   (via_rule
-    default "Via[0-1]_400:200_um"
+    default "Via[0-1]_600:300_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_400:200_um-kicad_default"
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
     "@:no_net_0" "@:no_net_1" "Net-(D1-Pad2)" /P0.23 "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)"
@@ -74,7 +89,7 @@
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 200.0)
+      (width 250.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -84,7 +99,7 @@
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
-      (width 200.0)
+      (width 250.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
