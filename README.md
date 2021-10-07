@@ -8,7 +8,8 @@ Wireless ergo-split keyboard, based on [Holyiot-18010 (nRF52840)](http://www.hol
 
 To Do List after prototype testing:
 
-[] Fix matrix pins for right half
-[] Increase mount hole diameter
+- [ ] Fix matrix pins for right half
+
+- [ ] Increase mount hole diameter
 
 More information here - [wiki](https://github.com/Ladniy/jiran-ble-lite/wiki/)
