@@ -75,7 +75,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/")
+      (outputdirectory "D:/Git/jiran-ble-lite/case/fr-4/plate/gerbers/")
     )
   )
 
