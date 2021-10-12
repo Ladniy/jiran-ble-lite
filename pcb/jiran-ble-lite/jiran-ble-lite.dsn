@@ -236,13 +236,6 @@
             203559 -131931  203640 -131826  203691 -131703  203708 -131572
             203708 -61214  203691 -61082.5  203640 -60960  203559 -60854.8
             203454 -60774.1  203331 -60723.3  203200 -60706  201295 -60706))
-    (keepout "" (polygon signal 0  66637.7 -91588.6  66484.5 -91652.1  66353 -91753  66252.1 -91884.5
-            66188.6 -92037.6  66167 -92202  66167 -101346  66188.6 -101510
-            66252.1 -101664  66353 -101795  66484.5 -101896  66637.7 -101959
-            66802 -101981  66966.3 -101959  67119.5 -101896  67251 -101795
-            67351.9 -101664  67415.4 -101510  67437 -101346  67437 -92202
-            67415.4 -92037.6  67351.9 -91884.5  67251 -91753  67119.5 -91652.1
-            66966.3 -91588.6  66802 -91567  66637.7 -91588.6))
     (keepout "" (polygon signal 0  359500 -91588.6  359347 -91652.1  359215 -91753  359114 -91884.5
             359051 -92037.6  359029 -92202  359029 -101346  359051 -101510
             359114 -101664  359215 -101795  359347 -101896  359500 -101959
@@ -250,14 +243,21 @@
             360214 -101664  360277 -101510  360299 -101346  360299 -92202
             360277 -92037.6  360214 -91884.5  360113 -91753  359981 -91652.1
             359828 -91588.6  359664 -91567  359500 -91588.6))
-    (keepout "" (polygon signal 0  211836 -52578  211666 -52597.1  211505 -52653.5  211361 -52744.2
-            211240 -52864.9  211149 -53009.4  211093 -53170.4  211074 -53340
-            211093 -53509.6  211149 -53670.6  211240 -53815.1  211361 -53935.8
-            211505 -54026.5  211666 -54082.9  211836 -54102  214630 -54102
-            214800 -54082.9  214961 -54026.5  215105 -53935.8  215226 -53815.1
-            215317 -53670.6  215373 -53509.6  215392 -53340  215373 -53170.4
-            215317 -53009.4  215226 -52864.9  215105 -52744.2  214961 -52653.5
-            214800 -52597.1  214630 -52578  211836 -52578))
+    (keepout "" (polygon signal 0  66637.7 -91588.6  66484.5 -91652.1  66353 -91753  66252.1 -91884.5
+            66188.6 -92037.6  66167 -92202  66167 -101346  66188.6 -101510
+            66252.1 -101664  66353 -101795  66484.5 -101896  66637.7 -101959
+            66802 -101981  66966.3 -101959  67119.5 -101896  67251 -101795
+            67351.9 -101664  67415.4 -101510  67437 -101346  67437 -92202
+            67415.4 -92037.6  67351.9 -91884.5  67251 -91753  67119.5 -91652.1
+            66966.3 -91588.6  66802 -91567  66637.7 -91588.6))
+    (keepout "" (polygon signal 0  211836 -52070  211666 -52089.1  211505 -52145.5  211361 -52236.2
+            211240 -52356.9  211149 -52501.4  211093 -52662.4  211074 -52832
+            211093 -53001.6  211149 -53162.6  211240 -53307.1  211361 -53427.8
+            211505 -53518.5  211666 -53574.9  211836 -53594  214630 -53594
+            214800 -53574.9  214961 -53518.5  215105 -53427.8  215226 -53307.1
+            215317 -53162.6  215373 -53001.6  215392 -52832  215373 -52662.4
+            215317 -52501.4  215226 -52356.9  215105 -52236.2  214961 -52145.5
+            214800 -52089.1  214630 -52070  211836 -52070))
     (keepout "" (polygon F.Cu 0  203962 -137668  200787 -137668  200787 -132080  203962 -132080
             203962 -137668))
     (keepout "" (polygon B.Cu 0  203962 -137668  200787 -137668  200787 -132080  203962 -132080
@@ -270,35 +270,25 @@
             225679 -60706))
     (keepout "" (polygon B.Cu 0  225679 -60706  222504 -60706  222504 -55118  225679 -55118
             225679 -60706))
-    (keepout "" (polygon F.Cu 0  225679 -137668  222504 -137668  222504 -132080  225679 -132080
-            225679 -137668))
-    (keepout "" (polygon B.Cu 0  225679 -137668  222504 -137668  222504 -132080  225679 -132080
-            225679 -137668))
     (keepout "" (polygon F.Cu 0  200787 -94361  197993 -94361  197993 -80899  200787 -80899
             200787 -94361))
     (keepout "" (polygon B.Cu 0  200787 -94361  197993 -94361  197993 -80899  200787 -80899
             200787 -94361))
     (keepout "" (polygon F.Cu 0  228473 -94361  225679 -94361  225679 -80899  228473 -80899
             228473 -94361))
-    (via "Via[0-1]_800:400_um" "Via[0-1]_600:300_um")
+    (keepout "" (polygon F.Cu 0  225679 -137668  222504 -137668  222504 -132080  225679 -132080
+            225679 -137668))
+    (keepout "" (polygon B.Cu 0  225679 -137668  222504 -137668  222504 -132080  225679 -132080
+            225679 -137668))
+    (via "Via[0-1]_800:400_um")
     (rule
       (width 300)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (clearance 100.1)
+      (clearance 100.1 (type default_smd))
+      (clearance 25 (type smd_smd))
     )
   )
   (placement
-    (component "jiran-ble-lite:USB-C-C168688"
-      (place J4 228854.000000 -72898.000000 back 90.000000 (PN USB_C_Receptacle_USB2.0))
-      (place J1 197612.000000 -72898.000000 back 270.000000 (PN USB_C_Receptacle_USB2.0))
-    )
-    (component "jiran-ble-lite:Switch_Mx_Hotswap_1u"
-      (place SW52 273296.200000 -111252.000000 front 180.000000 (PN SW_Push))
-    )
-    (component "jiran-ble-lite:Switch_Mx_Hotswap_1u::1"
-      (place SW47 254246.200000 -94488.000000 front 180.000000 (PN SW_Push))
-    )
     (component "jiran-ble-lite:Hole_Mount_M4"
       (place HM4 86487.000000 -109982.000000 front 0.000000 (PN CaseHole))
       (place HM6 263771.200000 -121920.000000 front 0.000000 (PN CaseHole))
@@ -308,6 +298,12 @@
       (place HM7 263771.200000 -64770.000000 front 0.000000 (PN CaseHole))
       (place HM8 339971.200000 -71882.000000 front 0.000000 (PN CaseHole))
       (place HM3 86487.000000 -71882.000000 front 0.000000 (PN CaseHole))
+    )
+    (component "jiran-ble-lite:Switch_Mx_Hotswap_1u"
+      (place SW52 273296.200000 -111252.000000 front 180.000000 (PN SW_Push))
+    )
+    (component "jiran-ble-lite:Switch_Mx_Hotswap_1u::1"
+      (place SW47 254246.200000 -94488.000000 front 180.000000 (PN SW_Push))
     )
     (component "jiran-ble-lite:Switch_Mx_Hotswap_1u::2"
       (place SW39 292346.200000 -68326.000000 front 180.000000 (PN SW_Push))
@@ -397,8 +393,8 @@
       (place SW16 134112.000000 -87376.000000 front 180.000000 (PN SW_Push))
     )
     (component "jiran-ble-lite:silk_front"
-      (place G1 212801.200000 -97840.800000 front 0.000000 (PN "Logo-Jiran-BLE"))
-      (place G2 213337.166000 -97790.000000 back 0.000000 (PN "Logo-Jiran-BLE"))
+      (place G1 212784.521000 -97586.800000 front 0.000000 (PN "Logo-Jiran-BLE"))
+      (place G2 213563.200000 -97586.800000 back 0.000000 (PN "Logo-Jiran-BLE"))
     )
     (component "jiran-ble-lite:Switch_Mx_Hotswap_1u::26"
       (place SW8 96012.000000 -80264.000000 front 180.000000 (PN SW_Push))
@@ -586,6 +582,9 @@
       (place D56 254254.000000 -137541.000000 back 0.000000 (PN 1N5819))
       (place D30 349504.000000 -68453.000000 back 0.000000 (PN 1N5819))
     )
+    (component "jiran-ble-lite:USB-C-C168688"
+      (place J4 228854.000000 -72898.000000 back 90.000000 (PN USB_C_Receptacle_USB2.0))
+    )
     (component "jiran-ble-lite:D_SOD-123::20"
       (place D20 96012.000000 -123317.000000 back 0.000000 (PN 1N5819))
     )
@@ -613,6 +612,9 @@
     )
     (component "jiran-ble-lite:D_SOD-123::27"
       (place D41 254254.000000 -80391.000000 back 0.000000 (PN 1N5819))
+    )
+    (component "jiran-ble-lite:USB-C-C168688::1"
+      (place J1 197612.000000 -72898.000000 back 270.000000 (PN USB_C_Receptacle_USB2.0))
     )
     (component "jiran-ble-lite:R_0603::2"
       (place R2 188087.000000 -68732.400000 back 0.000000 (PN 5.1k))
@@ -709,27 +711,9 @@
     )
   )
   (library
-    (image "jiran-ble-lite:USB-C-C168688"
-      (outline (path signal 120  -4525 3175  -4525 -3425))
-      (outline (path signal 120  -4525 3175  4525 3175))
-      (outline (path signal 120  4525 3175  4525 -3425))
-      (outline (path signal 120  -4525 -3425  4525 -3425))
-      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A1 3200 -3886.2)
-      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A1@1 -3200 -3886.2)
-      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A4 2400 -3886.2)
-      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A4@1 -2400 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A5 1250 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A6 250 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A7 -250 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A8 -1250 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B5 -1750 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B6 -750 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B7 750 -3886.2)
-      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B8 1758 -3886.2)
-      (pin Oval[A]Pad_1000x1762_um S1 5575.3 -2921)
-      (pin Oval[A]Pad_1000x2219_um S1@1 -5575.3 1117.6)
-      (pin Oval[A]Pad_1000x1762_um S1@2 -5575.4 -2921)
-      (pin Oval[A]Pad_1000x2219_um S1@3 5575.3 1104.9)
+    (image "jiran-ble-lite:Hole_Mount_M4"
+      (keepout "" (circle F.Cu 4400))
+      (keepout "" (circle B.Cu 4400))
     )
     (image "jiran-ble-lite:Switch_Mx_Hotswap_1u"
       (outline (path signal 150  5000 7000  7000 7000))
@@ -814,10 +798,6 @@
       (keepout "" (circle B.Cu 1750 -5080 0))
       (keepout "" (circle F.Cu 3000 3810 -2540))
       (keepout "" (circle B.Cu 3000 3810 -2540))
-    )
-    (image "jiran-ble-lite:Hole_Mount_M4"
-      (keepout "" (circle F.Cu 4200))
-      (keepout "" (circle B.Cu 4200))
     )
     (image "jiran-ble-lite:Switch_Mx_Hotswap_1u::2"
       (outline (path signal 150  9525 9525  9525 -9525))
@@ -3631,6 +3611,28 @@
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 1 -1650 0)
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 2 1650 0)
     )
+    (image "jiran-ble-lite:USB-C-C168688"
+      (outline (path signal 120  -4525 3175  4525 3175))
+      (outline (path signal 120  -4525 -3425  4525 -3425))
+      (outline (path signal 120  -4525 3175  -4525 -3425))
+      (outline (path signal 120  4525 3175  4525 -3425))
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A1 3200 -3886.2)
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A1@1 -3200 -3886.2)
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A4 -2400 -3886.2)
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A4@1 2400 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A5 1250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A6 250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A7 -250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A8 -1250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B5 -1750 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B6 -750 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B7 750 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B8 1758 -3886.2)
+      (pin Oval[A]Pad_1000x1762_um S1 -5575.4 -2921)
+      (pin Oval[A]Pad_1000x1762_um S1@1 5575.3 -2921)
+      (pin Oval[A]Pad_1000x2219_um S1@2 5575.3 1104.9)
+      (pin Oval[A]Pad_1000x2219_um S1@3 -5575.3 1117.6)
+    )
     (image "jiran-ble-lite:D_SOD-123::20"
       (outline (path signal 120  -2046 800  -1270 800))
       (outline (path signal 120  -2046 -800  -1270 -800))
@@ -3732,6 +3734,28 @@
       (outline (path signal 100  -1400 911  1400 911))
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 1 -1650 0)
       (pin RoundRect[T]Pad_900x1200_225.856_um_0.000000_0 2 1650 0)
+    )
+    (image "jiran-ble-lite:USB-C-C168688::1"
+      (outline (path signal 120  -4525 -3425  4525 -3425))
+      (outline (path signal 120  -4525 3175  4525 3175))
+      (outline (path signal 120  -4525 3175  -4525 -3425))
+      (outline (path signal 120  4525 3175  4525 -3425))
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A1 3200 -3886.2)
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A1@1 -3200 -3886.2)
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A4 2400 -3886.2)
+      (pin RoundRect[T]Pad_540x800_135.514_um_0.000000_0 A4@1 -2400 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A5 1250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A6 250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A7 -250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 A8 -1250 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B5 -1750 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B6 -750 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B7 750 -3886.2)
+      (pin RoundRect[T]Pad_300x800_75.285_um_0.000000_0 B8 1758 -3886.2)
+      (pin Oval[A]Pad_1000x1762_um S1 -5575.4 -2921)
+      (pin Oval[A]Pad_1000x2219_um S1@1 5575.3 1104.9)
+      (pin Oval[A]Pad_1000x1762_um S1@2 5575.3 -2921)
+      (pin Oval[A]Pad_1000x2219_um S1@3 -5575.3 1117.6)
     )
     (image "jiran-ble-lite:R_0603::2"
       (outline (path signal 100  800 -412.5  -800 -412.5))
@@ -4291,11 +4315,6 @@
       (shape (circle B.Cu 800))
       (attach off)
     )
-    (padstack "Via[0-1]_600:300_um"
-      (shape (circle F.Cu 600))
-      (shape (circle B.Cu 600))
-      (attach off)
-    )
   )
   (network
     (net @:no_net_0
@@ -4327,7 +4346,7 @@
       (pins SW7-1 SW7-1@1 D7-2)
     )
     (net /P0.21
-      (pins U1-19)
+      (pins D27-1 D25-1 D28-1 U1-19 D26-1)
     )
     (net "Net-(D8-Pad2)"
       (pins SW8-1 SW8-1@1 D8-2)
@@ -4347,8 +4366,8 @@
     (net "Net-(D13-Pad2)"
       (pins SW13-1 SW13-1@1 D13-2)
     )
-    (net /P0.19
-      (pins D27-1 D25-1 D28-1 U1-20 D26-1)
+    (net "unconnected-(J1-PadA8)"
+      (pins J1-A8)
     )
     (net "Net-(D14-Pad2)"
       (pins SW14-1 SW14-1@1 D14-2)
@@ -4452,8 +4471,8 @@
     (net "Net-(D42-Pad2)"
       (pins SW42-1 SW42-1@1 D42-2)
     )
-    (net "/jiran-ble-lite-right/P0.19"
-      (pins U3-20)
+    (net "unconnected-(J1-PadB8)"
+      (pins J1-B8)
     )
     (net "Net-(D43-Pad2)"
       (pins SW43-1 SW43-1@1 D43-2)
@@ -4507,9 +4526,9 @@
       (pins SW57-1 SW57-1@1 D57-2)
     )
     (net GND
-      (pins J4-A1 J4-A1@1 J4-S1 J4-S1@1 J4-S1@2 J4-S1@3 J1-A1 J1-A1@1 J1-S1 J1-S1@1
-        J1-S1@2 J1-S1@3 J5-1 J6-2 J6-2@1 J6-2@2 J3-2 J3-2@1 J3-2@2 J2-1 U4-2 SWT2-2
-        SWT2-2@1 U3-1 U3-25 U3-37 R4-2 R5-2 U2-2 R2-2 R6-2 R3-2 U1-1 U1-25 U1-37 SWT1-2
+      (pins J5-1 J6-2 J6-2@1 J6-2@2 J3-2 J3-2@1 J3-2@2 J2-1 U4-2 SWT2-2 SWT2-2@1 U3-1
+        U3-25 U3-37 R4-2 R5-2 J4-A1 J4-A1@1 J4-S1 J4-S1@1 J4-S1@2 J4-S1@3 U2-2 J1-A1
+        J1-A1@1 J1-S1 J1-S1@1 J1-S1@2 J1-S1@3 R2-2 R6-2 R3-2 U1-1 U1-25 U1-37 SWT1-2
         SWT1-2@1 R1-2)
     )
     (net /VBAT
@@ -4620,7 +4639,7 @@
       (pins U1-26)
     )
     (net /VBUS
-      (pins J1-A4 J1-A4@1 D29-2 Q1-1 U1-22 R1-1)
+      (pins D29-2 J1-A4 J1-A4@1 Q1-1 U1-22 R1-1)
     )
     (net "/jiran-ble-lite-right/P0.07"
       (pins U3-15 D33-1 D34-1 D32-1 D30-1 D35-1 D31-1)
@@ -4632,7 +4651,7 @@
       (pins U4-1 U4-3 Q2-2 D58-1)
     )
     (net "/jiran-ble-lite-right/VBUS"
-      (pins J4-A4 J4-A4@1 U3-22 R4-1 Q2-1 D58-2)
+      (pins U3-22 R4-1 Q2-1 J4-A4 J4-A4@1 D58-2)
     )
     (net /CC1
       (pins J1-A5 R2-1)
@@ -4686,7 +4705,7 @@
       (pins J1-B5 R3-1)
     )
     (net "/jiran-ble-lite-right/CC1"
-      (pins J4-A5 R5-1)
+      (pins R5-1 J4-A5)
     )
     (net "unconnected-(U3-Pad13)"
       (pins U3-13)
@@ -4707,10 +4726,10 @@
       (pins U4-4)
     )
     (net "/jiran-ble-lite-right/DATA+"
-      (pins J4-A6 J4-B6 U3-24)
+      (pins U3-24 J4-A6 J4-B6)
     )
     (net "/jiran-ble-lite-right/DATA-"
-      (pins J4-A7 J4-B7 U3-23)
+      (pins U3-23 J4-A7 J4-B7)
     )
     (net "/jiran-ble-lite-right/CC2"
       (pins J4-B5 R6-1)
@@ -4730,60 +4749,75 @@
     (net "/jiran-ble-lite-right/P0.12"
       (pins U3-17 D42-1 D46-1 D43-1 D45-1 D44-1 D47-1)
     )
+    (net "unconnected-(J4-PadA8)"
+      (pins J4-A8)
+    )
+    (net "unconnected-(J4-PadB8)"
+      (pins J4-B8)
+    )
+    (net "unconnected-(U1-Pad20)"
+      (pins U1-20)
+    )
+    (net "unconnected-(U3-Pad20)"
+      (pins U3-20)
+    )
     (class kicad_default
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
       (rule
         (width 300)
-        (clearance 200.1)
+        (clearance 100.1)
       )
     )
   )
   (wiring
-    (wire (path F.Cu 1000  234696 -114461  234786 -114461  237236 -112011)(net GND)(type protect))
-    (wire (path F.Cu 1000  234696 -114461  232246 -112011)(net GND)(type protect))
-    (wire (path F.Cu 1000  234696 -119631  234696 -114461)(net GND)(type protect))
-    (wire (path F.Cu 1000  191860 -114588  194310 -112138)(net GND)(type protect))
-    (wire (path F.Cu 1000  191770 -114588  191860 -114588)(net GND)(type protect))
+    (wire (path B.Cu 250  234264 -73152  232744 -73152  232740 -73148)(net "/jiran-ble-lite-right/DATA+")(type protect))
+    (wire (path F.Cu 250  234290 -73126.6  234264 -73152)(net "/jiran-ble-lite-right/DATA+")(type protect))
+    (wire (path F.Cu 250  234290 -71577.2  234290 -73126.6)(net "/jiran-ble-lite-right/DATA+")(type protect))
+    (wire (path B.Cu 250  234037 -71577.2  234290 -71577.2)(net "/jiran-ble-lite-right/DATA+")(type protect))
+    (wire (path B.Cu 250  233466 -72148  234037 -71577.2)(net "/jiran-ble-lite-right/DATA+")(type protect))
+    (wire (path B.Cu 250  232740 -72148  233466 -72148)(net "/jiran-ble-lite-right/DATA+")(type protect))
+    (wire (path B.Cu 250  233578 -73651.5  232740 -73651.5)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  233853 -73926.5  233578 -73651.5)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  234585 -73926.5  233853 -73926.5)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  235039 -73473  234585 -73926.5)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  235039 -72831  235039 -73473)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  234585 -72377.5  235039 -72831)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  233673 -72648  233943 -72377.5  234585 -72377.5)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path B.Cu 250  232740 -72648  233673 -72648)(net "/jiran-ble-lite-right/DATA-")(type protect))
+    (wire (path F.Cu 250  192176 -72648  192176 -74371.2)(net /DATA+)(type protect))
+    (wire (path B.Cu 250  192320 -74371.2  192176 -74371.2)(net /DATA+)(type protect))
+    (wire (path B.Cu 250  193043 -73648  192320 -74371.2)(net /DATA+)(type protect))
+    (wire (path B.Cu 250  193726 -73648  193043 -73648)(net /DATA+)(type protect))
+    (wire (path B.Cu 250  192837 -73148  193726 -73148)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  191855 -73422.5  192562 -73422.5)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  191402 -72969  191855 -73422.5)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  192562 -73422.5  192837 -73147.5)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  191855 -71873.5  191402 -72327  191402 -72969)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  192497 -71873.5  191855 -71873.5)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  192772 -72148  192497 -71873.5)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  193726 -72148  192772 -72148)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  192837 -73147.5  192837 -73148)(net "/DATA-")(type protect))
+    (wire (path B.Cu 250  193726 -72648  192176 -72648)(net /DATA+)(type protect))
+    (wire (path F.Cu 1000  191770 -119758  191770 -114678  194310 -112138)(net GND)(type protect))
     (wire (path F.Cu 1000  191770 -114588  189320 -112138)(net GND)(type protect))
     (wire (path F.Cu 1000  191770 -119758  191770 -114588)(net GND)(type protect))
-    (wire (path F.Cu 1000  191770 -61598  194310 -64138)(net /VBAT)(type protect))
-    (wire (path F.Cu 1000  191770 -61598  189230 -64138)(net /VBAT)(type protect))
-    (wire (path F.Cu 1000  191770 -56518  191770 -61598)(net /VBAT)(type protect))
+    (wire (path F.Cu 1000  234696 -114551  237236 -112011)(net GND)(type protect))
+    (wire (path F.Cu 1000  234696 -119631  234696 -114551)(net GND)(type protect))
+    (wire (path F.Cu 1000  234696 -119631  234696 -114461  232246 -112011)(net GND)(type protect))
+    (wire (path B.Cu 1000  234696 -61471  237236 -64011)(net "/jiran-ble-lite-right/VBAT")(type protect))
+    (wire (path B.Cu 1000  234696 -56391  234696 -61471  232156 -64011)(net "/jiran-ble-lite-right/VBAT")(type protect))
+    (wire (path B.Cu 1000  191770 -61598  194310 -64138)(net /VBAT)(type protect))
+    (wire (path B.Cu 1000  191770 -56518  191770 -61598  189230 -64138)(net /VBAT)(type protect))
     (wire (path F.Cu 1000  234696 -61471  237236 -64011)(net "/jiran-ble-lite-right/VBAT")(type protect))
-    (wire (path F.Cu 1000  234696 -61471  232156 -64011)(net "/jiran-ble-lite-right/VBAT")(type protect))
-    (wire (path F.Cu 1000  234696 -56391  234696 -61471)(net "/jiran-ble-lite-right/VBAT")(type protect))
-    (wire (path F.Cu 200  234569 -74549  234569 -72898)(net "/jiran-ble-lite-right/DATA-")(type protect))
-    (wire (path B.Cu 200  234568 -74549  234569 -74549)(net "/jiran-ble-lite-right/DATA-")(type protect))
-    (wire (path B.Cu 200  233667 -73648  234568 -74549)(net "/jiran-ble-lite-right/DATA-")(type protect))
-    (wire (path B.Cu 200  232740 -73648  233667 -73648)(net "/jiran-ble-lite-right/DATA-")(type protect))
-    (wire (path B.Cu 200  234203 -73547.5  233803 -73148)(net "/jiran-ble-lite-right/DATA+")(type protect))
-    (wire (path B.Cu 200  234838 -73547.5  234203 -73547.5)(net "/jiran-ble-lite-right/DATA+")(type protect))
-    (wire (path B.Cu 200  235219 -73167.2  234838 -73547.5)(net "/jiran-ble-lite-right/DATA+")(type protect))
-    (wire (path B.Cu 200  232740 -72148  234738 -72148)(net "/jiran-ble-lite-right/DATA+")(type protect))
-    (wire (path B.Cu 200  233803 -73148  232740 -73148)(net "/jiran-ble-lite-right/DATA+")(type protect))
-    (wire (path B.Cu 200  234738 -72148  235219 -72628.8  235219 -73167.2)(net "/jiran-ble-lite-right/DATA+")(type protect))
-    (wire (path B.Cu 200  234319 -72648  234569 -72898)(net "/jiran-ble-lite-right/DATA-")(type protect))
-    (wire (path B.Cu 200  232740 -72648  234319 -72648)(net "/jiran-ble-lite-right/DATA-")(type protect))
-    (wire (path F.Cu 200  192151 -72898  192151 -74422)(net /DATA+)(type protect))
-    (wire (path B.Cu 200  192279 -74422  192151 -74422)(net /DATA+)(type protect))
-    (wire (path B.Cu 200  193053 -73648  192279 -74422)(net /DATA+)(type protect))
-    (wire (path B.Cu 200  193726 -73648  193053 -73648)(net /DATA+)(type protect))
-    (wire (path B.Cu 200  191882 -73547.5  192517 -73547.5)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  191501 -73167.2  191882 -73547.5)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  191501 -72628.8  191501 -73167.2)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  192517 -73547.5  192917 -73148)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  191951 -72179.8  191501 -72628.8)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  193294 -72179.8  191951 -72179.8)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  193326 -72148  193294 -72179.8)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  193726 -72148  193326 -72148)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  192917 -73148  193726 -73148)(net "/DATA-")(type protect))
-    (wire (path B.Cu 200  192401 -72648  192151 -72898)(net /DATA+)(type protect))
-    (wire (path B.Cu 200  193726 -72648  192401 -72648)(net /DATA+)(type protect))
-    (via "Via[0-1]_600:300_um"  234569 -74549 (net "/jiran-ble-lite-right/DATA-")(type protect))
-    (via "Via[0-1]_600:300_um"  234569 -72898 (net "/jiran-ble-lite-right/DATA-")(type protect))
-    (via "Via[0-1]_600:300_um"  192151 -74422 (net /DATA+)(type protect))
-    (via "Via[0-1]_600:300_um"  192151 -72898 (net /DATA+)(type protect))
+    (wire (path F.Cu 1000  234696 -56391  234696 -61471  232156 -64011)(net "/jiran-ble-lite-right/VBAT")(type protect))
+    (wire (path F.Cu 1000  191770 -61598  194310 -64138)(net /VBAT)(type protect))
+    (wire (path F.Cu 1000  191770 -56518  191770 -61598  189230 -64138)(net /VBAT)(type protect))
+    (via "Via[0-1]_800:400_um"  234290 -71577.2 (net "/jiran-ble-lite-right/DATA+")
+      (type protect))
+    (via "Via[0-1]_800:400_um"  234264 -73152 (net "/jiran-ble-lite-right/DATA+")(type protect))
+    (via "Via[0-1]_800:400_um"  192176 -74371.2 (net /DATA+)(type protect))
+    (via "Via[0-1]_800:400_um"  192176 -72648 (net /DATA+)(type protect))
   )
 )
