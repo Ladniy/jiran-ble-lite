@@ -26,6 +26,8 @@ To Do List after prototype testing:
 
 - [ ] Take live photos
 
+- [ ] Design double side PCB (late future, probably impossible thing)
+
 - [x] Fix matrix pins for right half
 
 - [x] Increase mount hole diameter
