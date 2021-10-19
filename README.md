@@ -20,13 +20,15 @@ To Do List after prototype testing:
 
 - [ ] Design slim case
 
-- [ ] Design pinky-less case
+- [x] Design pinky-less case
 
 - [ ] Design 3D print case
 
 - [ ] Take live photos
 
 - [ ] Design double side PCB (late future, probably impossible thing)
+
+- [ ] Complete software (keymap, config)
 
 - [x] Fix matrix pins for right half
 
