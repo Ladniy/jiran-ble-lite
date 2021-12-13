@@ -346,7 +346,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "jiran-ble-lite"
+    ]
   },
   "meta": {
     "filename": "jiran-ble-lite.kicad_pro",
