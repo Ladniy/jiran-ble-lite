@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "jiran-ble-lite")(type "KiCad")(uri "${KIPRJMOD}/jiran-ble-lite.symbols/jiran-ble-lite.kicad_sym")(options "")(descr ""))
+)
