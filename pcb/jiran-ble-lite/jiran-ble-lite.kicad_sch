@@ -2021,7 +2021,7 @@
   (symbol (lib_id "power:GND") (at 127.635 28.575 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 95ff57ff-ff0b-4a88-9462-08714c33caae)
-    (property "Reference" "#PWR?" (id 0) (at 127.635 22.225 0)
+    (property "Reference" "#PWR0106" (id 0) (at 127.635 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 127.635 24.765 0))
@@ -2053,7 +2053,7 @@
   (symbol (lib_id "power:GND") (at 142.875 28.575 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid feae5332-af70-4f59-9e3c-7e5044bc2ca9)
-    (property "Reference" "#PWR?" (id 0) (at 142.875 22.225 0)
+    (property "Reference" "#PWR0103" (id 0) (at 142.875 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 142.875 24.765 0))
@@ -2101,7 +2101,7 @@
   (symbol (lib_id "power:GND") (at 158.115 28.575 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid adb7dc0d-259d-4b07-a535-72812260eddd)
-    (property "Reference" "#PWR?" (id 0) (at 158.115 22.225 0)
+    (property "Reference" "#PWR0104" (id 0) (at 158.115 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 158.115 24.765 0))
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "power:GND") (at 173.355 28.575 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cbf82fa2-f1c9-4ce3-b2cb-1b2d9f6707cc)
-    (property "Reference" "#PWR?" (id 0) (at 173.355 22.225 0)
+    (property "Reference" "#PWR0105" (id 0) (at 173.355 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 173.355 24.765 0))
@@ -2149,7 +2149,7 @@
   (symbol (lib_id "power:GND") (at 188.595 28.575 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 93685656-5cc0-4111-b24f-a6f32cd51afa)
-    (property "Reference" "#PWR?" (id 0) (at 188.595 22.225 0)
+    (property "Reference" "#PWR0102" (id 0) (at 188.595 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 188.595 24.765 0))
@@ -2181,7 +2181,7 @@
   (symbol (lib_id "power:GND") (at 203.835 28.575 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 38280396-7158-46fd-8dde-db5e292f8519)
-    (property "Reference" "#PWR?" (id 0) (at 203.835 22.225 0)
+    (property "Reference" "#PWR0101" (id 0) (at 203.835 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 203.835 24.765 0))
@@ -2898,7 +2898,7 @@
     (uuid dc86d0da-0f20-467e-a7e3-62aa396e175e)
     (property "Reference" "SWT1" (id 0) (at 252.095 97.155 0))
     (property "Value" "SW_Push" (id 1) (at 252.095 99.695 0))
-    (property "Footprint" "jiran-ble-lite:K2-1187SQ" (id 2) (at 252.095 99.06 0)
+    (property "Footprint" "jiran-ble-lite:EVQP7C01k" (id 2) (at 252.095 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 252.095 99.06 0)
@@ -2988,7 +2988,7 @@
     (uuid c8e97717-e267-4264-a0dd-ee53378dfc0d)
     (property "Reference" "J1" (id 0) (at 132.207 98.298 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 132.207 100.838 0))
-    (property "Footprint" "jiran-ble-lite:USB-C-C168688" (id 2) (at 133.35 120.65 0)
+    (property "Footprint" "jiran-ble-lite:USB-C-PCB" (id 2) (at 133.35 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 133.35 120.65 0)
@@ -3018,7 +3018,7 @@
     (uuid 9bb03cbf-b0fd-4d1b-942b-1b255fa93554)
     (property "Reference" "U1" (id 0) (at 59.69 26.035 0))
     (property "Value" "HOLYIOT-18010-NRF52840_Simple" (id 1) (at 59.69 28.575 0))
-    (property "Footprint" "jiran-ble-lite:Holyiot-18010-nRF52840" (id 2) (at 59.69 23.495 0)
+    (property "Footprint" "jiran-ble-lite:Holyiot-18010-nRF52840_all" (id 2) (at 59.69 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 59.69 23.495 0)
@@ -3177,41 +3177,41 @@
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/65dc55f3-bd77-4623-b488-b5447746e6b8"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1444ab85-d8fa-4fb8-87a9-b9b34962e983"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1c48ee09-6330-4488-9153-2f5ae7f7c26f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1d851ec5-84ca-41af-a399-cbbf2141c94f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/204780a5-9744-4d55-8d62-65a4386f6df0"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/38280396-7158-46fd-8dde-db5e292f8519"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/93685656-5cc0-4111-b24f-a6f32cd51afa"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/95ff57ff-ff0b-4a88-9462-08714c33caae"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a2e2d21a-c717-44eb-a558-b6358c808793"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/adb7dc0d-259d-4b07-a535-72812260eddd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/cbf82fa2-f1c9-4ce3-b2cb-1b2d9f6707cc"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e03ba4de-d970-42d3-8542-b1cf67d02ead"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/feae5332-af70-4f59-9e3c-7e5044bc2ca9"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/adb7dc0d-259d-4b07-a535-72812260eddd"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cbf82fa2-f1c9-4ce3-b2cb-1b2d9f6707cc"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/95ff57ff-ff0b-4a88-9462-08714c33caae"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1444ab85-d8fa-4fb8-87a9-b9b34962e983"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/a2e2d21a-c717-44eb-a558-b6358c808793"
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1d851ec5-84ca-41af-a399-cbbf2141c94f"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/e03ba4de-d970-42d3-8542-b1cf67d02ead"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/1c48ee09-6330-4488-9153-2f5ae7f7c26f"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/204780a5-9744-4d55-8d62-65a4386f6df0"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
     (path "/a51270e8-63ab-4e9a-817b-700cfc5301e8"
       (reference "D29") (unit 1) (value "1N5819") (footprint "jiran-ble-lite:D_SOD-123")
@@ -3244,7 +3244,7 @@
       (reference "HM9") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")
     )
     (path "/c8e97717-e267-4264-a0dd-ee53378dfc0d"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "jiran-ble-lite:USB-C-C168688")
+      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "jiran-ble-lite:USB-C-PCB")
     )
     (path "/00000000-0000-0000-0000-00005e8fc792"
       (reference "J2") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
@@ -3253,7 +3253,7 @@
       (reference "J3") (unit 1) (value "BATT") (footprint "jiran-ble-lite:Battery_Holder_18650_Nickel")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/23b22736-8f3b-4bc2-a13d-b1ffa0e2502e"
-      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "jiran-ble-lite:USB-C-C168688")
+      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "jiran-ble-lite:USB-C-PCB")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/64dfdb84-f736-4145-80fb-fc6cbb5310ef"
       (reference "J5") (unit 1) (value "SWD") (footprint "jiran-ble-lite:Connector_THT_1x4_2.54")
@@ -3460,19 +3460,19 @@
       (reference "SW58") (unit 1) (value "SW_DPDT") (footprint "jiran-ble-lite:MSK-12C02")
     )
     (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e"
-      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:K2-1187SQ")
+      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:EVQP7C01k")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/53a02d53-3480-4404-a842-6dcc96fb424f"
-      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:K2-1187SQ")
+      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:EVQP7C01k")
     )
     (path "/9bb03cbf-b0fd-4d1b-942b-1b255fa93554"
-      (reference "U1") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840")
+      (reference "U1") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840_all")
     )
     (path "/fd846b4f-553c-4d89-997f-fee3d90f690e"
       (reference "U2") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble-lite:SOT-23-5")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f4faa0c6-97d4-4fbe-b559-d9c3ce37c240"
-      (reference "U3") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840")
+      (reference "U3") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840_all")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/5f817de1-4c89-4fcb-9648-31feb103db50"
       (reference "U4") (unit 1) (value "AP2112K-3.3") (footprint "jiran-ble-lite:SOT-23-5")
