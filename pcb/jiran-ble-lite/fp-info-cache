@@ -1,4 +1,4 @@
-20231270211445696
+20234554396219462
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86037,6 +86037,13 @@ D_SOD-123
 2
 2
 jiran-ble-lite
+EVQP7C01k
+
+
+0
+4
+2
+jiran-ble-lite
 Hole_Mount_M2
 
 
@@ -86127,6 +86134,13 @@ USB-C-C168688
 0
 16
 11
+jiran-ble-lite
+USB-C-PCB
+
+
+0
+24
+24
 jiran-ble-lite
 silk_back
 
