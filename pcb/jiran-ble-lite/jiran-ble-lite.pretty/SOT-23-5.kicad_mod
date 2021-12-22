@@ -1,5 +1,6 @@
-(footprint "SOT-23-5" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C60BEE)
+(footprint "SOT-23-5" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61C3A0A3)
   (fp_text reference "REF**" (at 0 -2.54) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cd359ea2-c952-4731-9aae-dc2211018860)
@@ -10,7 +11,7 @@
   )
   (fp_line (start -1.5 -1.45) (end -0.625 -1.45) (layer "F.SilkS") (width 0.12) (tstamp 36db8495-894b-4d63-9797-01a308962eeb))
   (fp_line (start -1.8 -0.675) (end -1.8 -1.15) (layer "F.SilkS") (width 0.12) (tstamp af44d05a-92ca-45d2-851b-0ca08ba2536c))
-  (fp_arc (start -1.5 -1.15) (end -1.5 -1.45) (angle -90) (layer "F.SilkS") (width 0.12) (tstamp 7e61d434-98b8-4833-bf7e-92bb088656c0))
+  (fp_arc (start -1.8 -1.15) (mid -1.712132 -1.362132) (end -1.5 -1.45) (layer "F.SilkS") (width 0.12) (tstamp 7e61d434-98b8-4833-bf7e-92bb088656c0))
   (fp_line (start 0.9 1.55) (end -0.9 1.55) (layer "F.Fab") (width 0.1) (tstamp 22ed467f-d7e0-4479-be4f-f2af128a8154))
   (fp_line (start 0.9 -1.55) (end 0.9 1.55) (layer "F.Fab") (width 0.1) (tstamp 370858bd-d47c-42ca-99bc-5a3494410984))
   (fp_line (start -0.9 -0.9) (end -0.25 -1.55) (layer "F.Fab") (width 0.1) (tstamp 3afe1023-8dc7-492f-9b64-7e62f4ed0c4d))
@@ -21,7 +22,7 @@
   (pad "3" smd roundrect (at -1.1 0.95) (size 1.06 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp dcdd9e2e-7cda-4b68-8c37-4cb38d9ca2a7))
   (pad "4" smd roundrect (at 1.1 0.95) (size 1.06 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 30a17799-0347-4c87-8557-2d038978807e))
   (pad "5" smd roundrect (at 1.1 -0.95) (size 1.06 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eddb7f56-4e29-4afe-b2ef-d6121f8ebda6))
-  (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

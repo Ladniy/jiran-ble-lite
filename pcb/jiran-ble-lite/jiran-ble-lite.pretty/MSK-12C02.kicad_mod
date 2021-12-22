@@ -1,6 +1,6 @@
 (footprint "MSK-12C02" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C214CA)
+  (tedit 61C3A111)
   (fp_text reference "REF**" (at 0 -3.81) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a6e4dc7e-c27b-4fe9-83b2-8f01c8cdd019)
@@ -36,7 +36,7 @@
   (pad "1" smd roundrect (at 2.25 1.76 180) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9782fe58-d5f3-4dde-a369-7c7e2522e5a3))
   (pad "2" smd roundrect (at -0.75 1.76 180) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp daf18c9b-fef1-4339-9587-1fafbcf2bf29))
   (pad "3" smd roundrect (at -2.25 1.76 180) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7df8ac03-3c16-4473-b8fd-2912a7bade11))
-  (model "C:/Program Files/KiCad/5.99/share/kicad/3dmodels/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.step"
+  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.step"
     (offset (xyz 0 -0.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
