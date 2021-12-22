@@ -1108,7 +1108,6 @@
     )
   )
 
-
   (junction (at 158.115 30.48) (diameter 0.9144) (color 0 0 0 0)
     (uuid 03caada9-9e22-4e2d-9035-b15433dfbb17)
   )
@@ -3290,7 +3289,7 @@
     (uuid dc86d0da-0f20-467e-a7e3-62aa396e175e)
     (property "Reference" "SWT1" (id 0) (at 252.095 97.155 0))
     (property "Value" "SW_Push" (id 1) (at 252.095 99.695 0))
-    (property "Footprint" "jiran-ble-lite:EVQP7C01k" (id 2) (at 252.095 99.06 0)
+    (property "Footprint" "jiran-ble-lite:K2-1187SQ" (id 2) (at 252.095 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 252.095 99.06 0)
@@ -3303,7 +3302,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 67.31 123.19 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e69b07a3-4aa9-4526-83c3-255afb9ea971)
-    (property "Reference" "#FLG?" (id 0) (at 67.31 125.095 0)
+    (property "Reference" "#FLG0101" (id 0) (at 67.31 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 67.31 127 0))
@@ -3393,11 +3392,11 @@
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/fe0ebc4b-b254-49e7-9ecc-5006f9fb4640"
       (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/391f5e80-7233-45da-aa61-44d45964bf7a"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/e69b07a3-4aa9-4526-83c3-255afb9ea971"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/391f5e80-7233-45da-aa61-44d45964bf7a"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e991365"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
@@ -3751,10 +3750,10 @@
       (reference "SW58") (unit 1) (value "SW_DPDT") (footprint "jiran-ble-lite:MSK-12C02")
     )
     (path "/dc86d0da-0f20-467e-a7e3-62aa396e175e"
-      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:EVQP7C01k")
+      (reference "SWT1") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:K2-1187SQ")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/53a02d53-3480-4404-a842-6dcc96fb424f"
-      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:EVQP7C01k")
+      (reference "SWT2") (unit 1) (value "SW_Push") (footprint "jiran-ble-lite:K2-1187SQ")
     )
     (path "/9bb03cbf-b0fd-4d1b-942b-1b255fa93554"
       (reference "U1") (unit 1) (value "HOLYIOT-18010-NRF52840_Simple") (footprint "jiran-ble-lite:Holyiot-18010-nRF52840_all")
