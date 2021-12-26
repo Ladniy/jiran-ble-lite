@@ -6354,7 +6354,7 @@
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/f4faa0c6-97d4-4fbe-b559-d9c3ce37c240")
-    (fp_text reference "U3" (at 0 14.85 90 unlocked) (layer "B.SilkS")
+    (fp_text reference "U3" (at 0 -0.004 90 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp f67f3eb8-4f81-49e3-b2b7-2f620cf92995)
     )
@@ -9409,7 +9409,7 @@
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/23b22736-8f3b-4bc2-a13d-b1ffa0e2502e")
-    (fp_text reference "J4" (at 0 0.9 90) (layer "B.SilkS")
+    (fp_text reference "J4" (at 0 -5.4905 90) (layer "B.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.15)) (justify mirror))
       (tstamp 6fa78911-ca23-4ae1-913e-11b7599f0e99)
     )
@@ -9531,7 +9531,7 @@
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/c8e97717-e267-4264-a0dd-ee53378dfc0d")
-    (fp_text reference "J1" (at 0 0.9 270) (layer "B.SilkS")
+    (fp_text reference "J1" (at 0 -5.4432 270) (layer "B.SilkS") hide
       (effects (font (size 0.787402 0.787402) (thickness 0.15)) (justify mirror))
       (tstamp 6f1f8608-d16c-47e7-b711-9a9823962396)
     )
@@ -9766,7 +9766,7 @@
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/9bb03cbf-b0fd-4d1b-942b-1b255fa93554")
-    (fp_text reference "U1" (at 0 14.85 270 unlocked) (layer "B.SilkS")
+    (fp_text reference "U1" (at 0 0 270 unlocked) (layer "B.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7ff34d67-9963-4a29-8a7c-048f5151ea76)
     )
