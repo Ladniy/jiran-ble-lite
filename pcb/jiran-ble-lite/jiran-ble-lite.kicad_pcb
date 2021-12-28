@@ -6643,7 +6643,7 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 61C3A067) (tstamp 3bfdae64-5c5f-4f33-a410-e3ab61bfb632)
-    (at 192.394 72.895 90)
+    (at 191.516 72.898 90)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/a51270e8-63ab-4e9a-817b-700cfc5301e8")
@@ -6732,7 +6732,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 42eb3834-c056-4d87-82d9-9fa15bf283a9)
-    (at 234.061 77.0128)
+    (at 234.95 77.0128)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/c3010776-461e-43b7-8b26-8604ed4af801")
@@ -9684,7 +9684,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp 97437c3a-d54c-4ce2-910c-4c0a779539b1)
-    (at 192.394 68.7294 180)
+    (at 191.516 68.7324 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/8d493f35-f0bf-4f20-9b17-f76368089c1b")
@@ -9748,7 +9748,7 @@
 
   (footprint "jiran-ble-lite:D_SOD-123" (layer "B.Cu")
     (tedit 61C3A067) (tstamp af422962-9132-46ef-93a7-6727350f02a1)
-    (at 234.061 72.898 -90)
+    (at 234.95 72.898 -90)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/3cc4805b-ed43-4fe4-aa0f-b285da566867")
@@ -9782,7 +9782,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp b06d52d2-24b7-40aa-94d9-56bea3eefbcf)
-    (at 234.061 68.7324)
+    (at 234.95 68.7324)
     (property "Sheetfile" "jiran-ble-lite-right.kicad_sch")
     (property "Sheetname" "jiran-ble-lite-right")
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/606be292-5505-4c3c-828e-f9276faac2fd")
@@ -9811,7 +9811,7 @@
 
   (footprint "jiran-ble-lite:R_0603" (layer "B.Cu")
     (tedit 60D82DBE) (tstamp c0dbcb93-fa13-4681-b461-6e7261036e31)
-    (at 192.394 77.0606 180)
+    (at 191.516 77.0636 180)
     (property "Sheetfile" "jiran-ble-lite.kicad_sch")
     (property "Sheetname" "")
     (path "/d5981c25-073b-499a-ae04-6a8b4615f4af")
@@ -10373,5 +10373,20 @@
   (gr_text "VDD" (at 181.8132 104.4448) (layer "B.SilkS") (tstamp f765318f-0682-4a88-878d-570763f94a1f)
     (effects (font (size 1.3 1.3) (thickness 0.2)) (justify mirror))
   )
+
+  (segment (start 191.77 119.758) (end 191.77 114.588) (width 1) (layer "F.Cu") (net 65) (tstamp 05edafe1-f908-4903-9399-0ead22b0474d))
+  (segment (start 234.696 114.461) (end 232.246 112.011) (width 1) (layer "F.Cu") (net 65) (tstamp 061bd03d-63ff-49c5-a8f8-772592357712))
+  (segment (start 234.786 114.461) (end 237.236 112.011) (width 1) (layer "F.Cu") (net 65) (tstamp 16c5b0b3-b463-41f0-be2e-d7e3964eee61))
+  (segment (start 191.77 114.588) (end 191.86 114.588) (width 1) (layer "F.Cu") (net 65) (tstamp 43fac594-bbb6-45de-a50e-dbc83bf043a1))
+  (segment (start 234.696 114.461) (end 234.786 114.461) (width 1) (layer "F.Cu") (net 65) (tstamp 69ace02a-57da-4703-83ed-dfbd71d53ff4))
+  (segment (start 191.86 114.588) (end 194.31 112.138) (width 1) (layer "F.Cu") (net 65) (tstamp b7fbea85-c68e-4eec-a494-832d073e2240))
+  (segment (start 234.696 119.631) (end 234.696 114.461) (width 1) (layer "F.Cu") (net 65) (tstamp f4c1987e-1abd-4604-acec-54db97a4dd27))
+  (segment (start 191.77 114.588) (end 189.32 112.138) (width 1) (layer "F.Cu") (net 65) (tstamp fd5a058c-7eff-42f2-ac9d-29a5dc58b753))
+  (segment (start 191.77 61.598) (end 194.31 64.138) (width 1) (layer "F.Cu") (net 66) (tstamp 1f282544-d75d-4a65-af5d-58434b8daae0))
+  (segment (start 191.77 61.598) (end 189.23 64.138) (width 1) (layer "F.Cu") (net 66) (tstamp 328f5153-a668-419e-bce8-98211751ba12))
+  (segment (start 191.77 56.518) (end 191.77 61.598) (width 1) (layer "F.Cu") (net 66) (tstamp de260f9c-dbff-4a26-b216-7a72f2c9b539))
+  (segment (start 234.696 61.471) (end 237.236 64.011) (width 1) (layer "F.Cu") (net 70) (tstamp 3b643e64-39b3-4a4e-9a8b-753b8fd3b415))
+  (segment (start 234.696 56.391) (end 234.696 61.471) (width 1) (layer "F.Cu") (net 70) (tstamp 4c16daaf-6d68-4441-821e-d90674763a95))
+  (segment (start 234.696 61.471) (end 232.156 64.011) (width 1) (layer "F.Cu") (net 70) (tstamp a0a27cb6-6823-48c8-85ac-bd0821248c58))
 
 )
