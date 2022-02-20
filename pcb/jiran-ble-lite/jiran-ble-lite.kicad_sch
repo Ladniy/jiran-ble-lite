@@ -4640,7 +4640,7 @@
       (reference "G1") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:silk_front")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/91cfb789-8cf5-4230-8a37-2eac215447d9"
-      (reference "G2") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:silk_front")
+      (reference "G2") (unit 1) (value "Logo-Jiran-BLE") (footprint "jiran-ble-lite:silk_back")
     )
     (path "/00000000-0000-0000-0000-00005dc03d38"
       (reference "HM1") (unit 1) (value "CaseHole") (footprint "jiran-ble-lite:Hole_Mount_M4")

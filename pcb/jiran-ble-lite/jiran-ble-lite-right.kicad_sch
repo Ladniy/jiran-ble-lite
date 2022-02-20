@@ -3873,7 +3873,7 @@
     (property "Value" "Logo-Jiran-BLE" (id 1) (at 257.175 29.4004 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "jiran-ble-lite:silk_front" (id 2) (at 242.57 35.56 0)
+    (property "Footprint" "jiran-ble-lite:silk_back" (id 2) (at 242.57 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 242.57 35.56 0)
