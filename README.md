@@ -1,6 +1,6 @@
 # Jiran BLE Lite
 
-<img src="https://imgur.com/9t2MPb4"/>
+![Title Image](https://imgur.com/9t2MPb4)
 
 Wireless ergo-split keyboard, based on [Holyiot-18010 (nRF52840)](http://www.holyiot.com/tp/2019042516322180424.pdf) module.
 
