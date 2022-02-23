@@ -387,7 +387,7 @@
       "idf": "",
       "netlist": "jiran-ble-lite.net",
       "specctra_dsn": "jiran-ble-lite.dsn",
-      "step": "jiran-ble-lite.step",
+      "step": "../../../../Users/Ladniy/Desktop/jiran-ble-lite.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
