@@ -4824,10 +4824,10 @@
       (reference "R5") (unit 1) (value "5.1k") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/d39326da-39da-41b7-914c-c371a88fc9aa"
-      (reference "R6") (unit 1) (value "810K") (footprint "jiran-ble-lite:SOT-23")
+      (reference "R6") (unit 1) (value "810K") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/17373fa7-a694-4fb4-95e2-52e655c89107"
-      (reference "R7") (unit 1) (value "2M") (footprint "jiran-ble-lite:SOT-23")
+      (reference "R7") (unit 1) (value "2M") (footprint "jiran-ble-lite:R_0603")
     )
     (path "/8197a7b2-2430-45c9-bff7-4e2ecd863d89/0629ecf6-5cca-432c-ab17-36f92ee80d72"
       (reference "R8") (unit 1) (value "100k") (footprint "jiran-ble-lite:R_0603")
