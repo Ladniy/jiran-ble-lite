@@ -18,3 +18,11 @@ Check out [wiki-page](https://github.com/Ladniy/jiran-ble-lite/wiki) for more in
 This project is licensed under a [CERN-OHL-P v2.0](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2).
 
 Feel free to use, share, modify or even sell Jiran BLE Lite!
+
+## Credits
+
+Many thanks to:
+
+* [joric](https://github.com/joric) - hardware support;
+* [krikun98](https://github.com/krikun98) - firmware and hardware support;
+* [kgusakov](https://github.com/kgusakov) - firmware support;
